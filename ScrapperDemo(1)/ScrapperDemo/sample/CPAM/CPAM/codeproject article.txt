@@ -1,0 +1,652 @@
+<h2>Introduction</h2>
+
+<p>This article describes a method for scraping data off of the CodeProject <b><i>My Articles</i></b> page. There is currently no CodeProject API for retrieving this data, so this is the only way to get the info.  Unfortunately, the format of this page could change at any time, and may break this code, so it's up to you to stay on top of this issue.  This should be quite easy since I've done all the hard work for you - all you have to do is maintain it.</p>
+
+
+<h2>The ArticleData Class</h2>
+
+<p>The <code>ArticleData</code> class contains the data for each article scraped off the web page.  The most interesting aspect of this class is that it's derived from <code>IComparable</code> so that the generic list that contains the <code>ArticleData</code> objects can sort the list on any of the scraped values. There are several ways to sort a generic list, and I used the one that kept the referring code the cleanest. What I'm trying to say is that you should pick the way you want to do it. No method is more correct than any other, and is more a factor of programmer style and preference than anything else.</p>
+
+<h3>The Way I Did It</h3>
+
+<p>I chose to derive the AriticleData class from IComparable, and write the functions necessary to perform the sorting.  This keeps the referencing code free of needless clutter, thus making the code easier to read.  This is the way I like to do things.  In my humble opinion, there is no point in bothering the programmer with needless minutia.  Instead of posting the entire class in this article, I'll simply show you two of the sorting functions:</p>
+
+<pre>
+public class ArticleData : IComparable&lt;ArticleData&gt;
+{
+	// DATA MEMBERS
+
+	// PROPERTIES
+
+	#region Comparison delegates
+	/// &lt;summary&gt;
+	/// Title comparison for sort function
+	/// &lt;/summary&gt;
+	public static Comparison&lt;ArticleData&gt; TitleCompare = delegate(ArticleData p1, ArticleData p2)
+	{
+		return (p1.SortAscending) ? p1.m_title.CompareTo(p2.m_title) : p2.m_title.CompareTo(p1.m_title);
+	};
+	/// &lt;summary&gt;
+	/// Page views comparison for sort function
+	/// &lt;/summary&gt;
+	public static Comparison&lt;ArticleData&gt; PageViewsCompare = delegate(ArticleData p1, ArticleData p2)
+	{
+		return (p1.SortAscending) ? p1.m_pageViews.CompareTo(p2.m_pageViews) : p2.m_pageViews.CompareTo(p1.m_pageViews);
+	};
+
+
+	// there are more comparison delegates here
+
+	/// &lt;summary&gt;
+	/// Default comparison (compares article ID) for sort function
+	/// &lt;/summary&gt;
+	public int CompareTo(ArticleData other)
+	{
+		return ArticleID.CompareTo(other.ArticleID);
+	}
+	#endregion Comparison delegates
+</pre>
+
+
+<h2>The ArticleUpdate class</h2>
+
+<p>This class is derived from the <code>ArticleData</code> class, and at first blush, it appears as if it's an exact duplicate of the <code>ArticleData</code> class, but that's not the case.  To make the code truly useful, you need a way to identify changes since your last data scrape.  For the purposes of this demo, that's what this class enables. I recognize that you might have different reasons for scraping the <b>My Articles</b> page, so you should be prepared to write your own class that performs the functionality your application requires. It's my guess that your implementation will be more extensive than my own.</p>
+
+<p>The class has its own sort delegates.  They're similar enough that I decided not to actually show them in this article because I think it would be redundant.  The truly interesting methods n this class are:</p>
+
+<h3>ApplyChanges</h3>
+
+<p>This method is called from the scraper manager object (covered in the next section) when an article is scraped of the web page. If the article exists in the list of existing articles, we call this method to change the data to its existing values.  If ANYTHING has changed for the article, this method returns <code>true</code>.</p>
+
+<pre>public bool ApplyChanges(ArticleUpdate item, DateTime timeOfUpdate, bool newArticle)
+{
+	bool changed = false;
+
+	// make them all the same
+	this.m_title			= m_latestTitle;
+	this.m_link			= m_latestLink;
+	this.m_lastUpdated		= m_latestLastUpdated;
+	this.m_description		= m_latestDescription;
+	this.m_pageViews		= m_latestPageViews;
+	this.m_rating			= m_latestRating;
+	this.m_votes			= m_latestVotes;
+	this.m_popularity		= m_latestPopularity;
+	this.m_bookmarks		= m_latestBookmarks;
+
+	// set new info
+	this.m_latestTitle		= item.m_latestTitle;
+	this.m_latestLink		= item.m_latestLink;
+	this.m_latestDescription	= item.m_latestDescription;
+	this.m_latestPageViews		= item.m_latestPageViews;
+	this.m_latestRating		= item.m_latestRating;
+	this.m_latestVotes		= item.m_latestVotes;
+	this.m_latestPopularity		= item.m_latestPopularity;
+	this.m_latestBookmarks		= item.m_latestBookmarks;
+
+	// make a note of the last update time stamp
+	this.m_timeUpdated		= timeOfUpdate;
+	this.m_newArticle		= newArticle;
+
+	// see if anything changed since the last update
+	changed = (this.m_title		!= m_latestTitle	||
+		   this.m_link		!= m_latestLink		||
+		   this.m_lastUpdated	!= m_latestLastUpdated	||
+		   this.m_description	!= m_latestDescription	||
+		   this.m_pageViews	!= m_latestPageViews	||
+		   this.m_rating	!= m_latestRating	||
+		   this.m_votes		!= m_latestVotes	||
+		   this.m_popularity	!= m_latestPopularity	||
+		   this.m_bookmarks	!= m_latestBookmarks	||
+		   this.m_newArticle	== true);
+
+	m_changed = changed;
+
+	return changed;
+}
+</pre>
+
+<h3>PropertyChanged</h3>
+
+<p>The <code>PropertyChanged</code> method allows you to see if a specific property has changed. Simply provide the property name, and handle the return value (<code>true</code> if the property's value changed).</p>
+
+<pre>public bool PropertyChanged(string property)
+{
+	string originalProperty = property;
+	property = property.ToLower();
+	switch (property)
+	{
+		case "title"		: return (Title != LatestTitle);
+		case "link"		: return (Link != LatestLink);
+		case "description"	: return (Description != LatestDescription);
+		case "pageviews"	: return (PageViews != LatestPageViews);
+		case "rating"		: return (Rating != LatestRating);
+		case "votes"		: return (Votes != LatestVotes);
+		case "popularity"	: return (Popularity != LatestPopularity);
+		case "bookmarks"	: return (Bookmarks != LatestBookmarks);
+		case "lastupdated"	: return (LastUpdated != LatestLastUpdated);
+	}
+	// if we get here, the property is invalid
+	throw new Exception(string.Format("Unknown article property - '{0}'", originalProperty));
+}
+</pre>
+
+<h3>HowChanged</h3>
+
+<p>This method accepts a property name, and returns a <code>ChangeType</code> enumerator indicating if the new value is equal to, greater than, or less than the last value that was scraped.</p>
+
+<pre>public ChangeType HowChanged(string property)
+{
+	ChangeType changeType = ChangeType.None;
+
+	string originalProperty = property;
+	property = property.ToLower();
+
+	switch (property)
+	{
+		case "title": 
+			break;
+
+		case "link": 
+			break;
+
+		case "description": 
+			break;
+
+		case "pageviews": 
+			{
+				if (PageViews != LatestPageViews)
+				{
+					changeType = ChangeType.Up;
+				}
+			}
+			break;
+
+		case "rating": 
+			{
+				if (Rating &gt; LatestRating)
+				{
+					changeType = ChangeType.Down;
+				}
+				else
+				{
+					if (Rating &lt; LatestRating)
+					{
+						changeType = ChangeType.Up;
+					}
+				}
+			}
+			break;
+
+		case "votes": 
+			{
+				if (Votes != LatestVotes)
+				{
+					changeType = ChangeType.Up;
+				}
+			}
+			break;
+
+		case "popularity": 
+			{
+				if (Popularity &gt; LatestPopularity)
+				{
+					changeType = ChangeType.Down;
+				}
+				else
+				{
+					if (Popularity &lt; LatestPopularity)
+					{
+						changeType = ChangeType.Up;
+					}
+				}
+			}
+			break;
+
+		case "bookmarks": 
+			{
+				if (Bookmarks &gt; LatestBookmarks)
+				{
+					changeType = ChangeType.Down;
+				}
+				else
+				{
+					if (Bookmarks &lt; LatestBookmarks)
+					{
+						changeType = ChangeType.Up;
+					}
+				}
+			}
+			break;
+
+		case "lastupdated": 
+			break;
+
+		default : throw new Exception(
+				string.Format("Unknown article property - '{0}'", 
+						originalProperty));
+	}
+
+	return changeType;
+}
+</pre>
+
+<h2>The ArticleScraper Class</h2>
+
+<p>To make things easy on myself, I put all of the scraping code into this class. The web page is requested, and then parsed to within an inch of its life. For purposes of this article, I placed no value in determining the category/sub-category under which the article is posted.</p>
+
+<p>The <code>RetrieveArticles</code> method is responsible for making the page request,a nd managing the parsing chores, which are themselves broken up into manageable chunks. During testing of the scraping code, I went to the <b>My Articles</b> page in a web browser, and saved the source code to a file.  This allowed me to test without having to repeatedly hammer CodeProject during initial development of the parsing code. I decided to leave the code in the class to allow other programmers the same luxury.  Here are the important bits (the text file specified in the code is provided with this articles download file):</p>
+
+<pre>	if (this.ArticleSource == ArticleSource.CodeProject)
+	{
+		// this code actually hits the codeproject website
+		string url = string.Format("{0}{1}{2}", 
+					   "http://www.codeproject.com/script/",
+					   "Articles/MemberArticles.aspx?amid=", 
+					   this.UserID);
+		Uri uri = new Uri(url);
+		WebClient webClient = new WebClient();
+		string response = "";
+		try
+		{
+			// added proxy support for those that need it - many thanks to Pete 
+			// O'Hanlon for pointing this out.
+			webClient.Proxy = WebRequest.DefaultWebProxy;
+			webClient.Proxy.Credentials = CredentialCache.DefaultCredentials;
+			// get the web page
+			response = webClient.DownloadString(uri);
+		}
+		catch (Exception ex)
+		{
+			throw ex;
+		}
+		pageSource = response;
+	}
+	else
+	{
+		// this code loads a sample page source from a local text file
+		StringBuilder builder = new StringBuilder("");
+		string filename = System.IO.Path.Combine(Application.StartupPath, 
+							"MemberArticles.txt");
+		StreamReader reader = null;
+		try
+		{
+			reader = File.OpenText(filename);
+			string input = null;
+			while ((input = reader.ReadLine()) != null)
+			{
+				builder.Append(input);
+			}
+		}
+		catch (Exception ex)
+		{
+			throw ex;
+		}
+		finally
+		{
+			reader.Close();
+		}
+
+		pageSource = builder.ToString();
+	}
+</pre>
+
+<p><b>Note</b> - The line in  the code above that builds the <code>url</code> string is formatted to prevent the containing &lt;pre&gt; tag from potentially forcing this articles page to require horizontal scrolling.</p>
+ 
+<p>After getting the web page, the <code>pageSource</code> variable should contain something.  If it does, we hit the following code (and we're still in the <code>RetrieveArticles</code> method):</p>
+
+<pre>	int articleNumber = 0;
+	bool found = true;
+
+	while (found)
+	{
+		// establish our trigger points
+		string articleStart = string.Format("&lt;span id=\"ctl00_MC_AR_ctl{0}_MAS", 
+					string.Format("{0:00}", articleNumber));
+		// we use the beginning of the next article as the 
+		// end of the current one
+		string articleEnd   = string.Format("&lt;span id=\"ctl00_MC_AR_ctl{0}_MAS", 
+					string.Format("{0:00}", articleNumber + 1));
+
+		// get the index of the start of the next article
+		int startIndex = pageSource.IndexOf(articleStart);
+
+		if (startIndex &gt;= 0)
+		{
+			// delete everything that came before the starting index
+			pageSource = pageSource.Substring(startIndex);
+			startIndex = 0;
+
+			// find the end of our articles data
+			int endIndex = pageSource.IndexOf(articleEnd);
+
+			// If we don't have an endIndex, then we've arrived 
+			// at the final article in our list. 
+			if (endIndex == -1)
+			{
+				endIndex = pageSource.IndexOf("&lt;table");
+				if (endIndex == -1)
+				{
+					endIndex = pageSource.Length - 1;
+				}
+			}
+
+			// get the substring
+			string data = pageSource.Substring(0, endIndex);
+
+			// if we have data, process it
+			if (data != "")
+			{
+				ProcessArticle(data, articleNumber);
+			}
+			else
+			{
+				found = false;
+			}
+			articleNumber++;
+		}
+		else
+		{
+			found = false;
+		}
+	} // while (found)
+
+	CalculateAverages();
+</pre>
+
+<p>I guess I could have used LINQ to scrounge around in the XML, but when you get right down to it, we can't count on the HTML being valid, so it's simply more reliable to parse the text this way. I know, Chris, et al., work hard at making sure everything is just so, but they are merely human, and we know we can't count on humans to do it right every single time.</p>
+
+<h3>Processing an Article</h3>
+
+<p>By "process", I mean parsing out the HTML and digging the actual data out of the article's div.  While fairly simple, it is admittedly tedious.  We start out by getting the article's URL, which is a straightforward operation:</p>
+
+<pre>private string GetArticleLink(string data)
+{
+	string result = data;
+	// find the beginning of the desired text
+	int hrefIndex = result.IndexOf("href=\"") + 6;
+	//find the end of the desired text
+	int endIndex = result.IndexOf("\"&gt;", hrefIndex);
+	// snag it
+	result = result.Substring(hrefIndex, endIndex - hrefIndex).Trim();
+	// return it
+	return result;
+}
+</pre>
+
+<p>Next, we clean the data, starting off by removing all of the HTML tags.  A change was made to the source code to make the removal of HTML tags a little smarter.  If the article title and/or description contain more than one pointy bracket, this method will be almost guaranteed to return only a portion of the actual text of the item in question.  If you like, you can google for (and use) one of the many exhaustive HTML parsers available on the net.  IMHO, it's not worth the effort considering this class' primary usage and consistently decent HTML we get from CodeProject.</p>
+
+<pre>private string RemoveHtmlTags(string data)
+{
+	int ltCount = CountChar(data, '&lt;');
+	int gtCount = CountChar(data, '&gt;');
+
+	// If the number of left and right pointy bracks are the same, we stand a 
+	// reasonable chance that what we think are html tags really ARE html tags.
+	if (ltCount == gtCount)
+	{
+		data = ForwardStrip(data);
+	}
+	else
+	{
+		// Otherwise, we have an errant pointy bracket, which we can almost 
+		// always take care of depending on the order in which we search for 
+		// tags.
+		if (gtCount &gt; ltCount)
+		{
+			data = BackwardStrip(ForwardStrip(data));
+		}
+		else
+		{
+			data = ForwardStrip(BackwardStrip(data));
+		}
+	}
+	return data;
+}
+
+
+private int CountChar(string data, char value)
+{
+	int count = 0;
+	for (int i = 0; i &lt; data.Length; i++)
+	{
+		if (data[i] == value)
+		{
+			count++;
+		}
+	}
+	return count;
+}
+
+private string ForwardStrip(string data)
+{
+	bool	found	= true;
+	do
+	{
+		int tagStart = data.IndexOf("&lt;");
+		int tagEnd = data.IndexOf("&gt;");
+		if (tagEnd &gt;= 0)
+		{
+			tagEnd += 1;
+		}
+		found = (tagStart &gt;= 0 && tagEnd &gt;= 0 && tagEnd-tagStart &gt; 1);
+		if (found)
+		{
+			string tag = data.Substring(tagStart, tagEnd - tagStart);
+			data = data.Replace(tag, "");
+		}
+	} while (found);
+	return data;
+}
+
+private string BackwardStrip(string data)
+{
+	bool	found	= true;
+	do
+	{
+		int tagStart = data.LastIndexOf("&lt;");
+		int tagEnd = data.LastIndexOf("&gt;");
+		if (tagEnd &gt;= 0)
+		{
+			tagEnd += 1;
+		}
+		found = (tagStart &gt;= 0 && tagEnd &gt;= 0 && tagEnd-tagStart &gt; 1);
+		if (found)
+		{
+			string tag = data.Substring(tagStart, tagEnd - tagStart);
+			data = data.Replace(tag, "");
+		}
+	} while (found);
+	return data;
+}
+
+</pre>
+
+<p>Then, we remove all the extra stuff left behind:</p>
+
+<pre>
+private string CleanData(string data)
+{
+	// get rid of the HTML tags
+	data = RemoveHtmlTags(data);
+
+	// get rid of the crap that's left behind
+	data = data.Replace("\t", "^").Replace("&nbsp;", "");
+	data = data.Replace("\n","").Replace("\r", "");
+	data = data.Replace(" / 5", "");
+	while (data.IndexOf("  ") &gt;= 0)
+	{
+		data = data.Replace("  ", " ");
+	}
+	while (data.IndexOf("^ ^") &gt;= 0)
+	{
+		data = data.Replace("^ ^", "^");
+	}
+	while (data.IndexOf("^^") &gt;= 0)
+	{
+		data = data.Replace("^^", "^");
+	}
+	data = data.Substring(1);
+	data = data.Substring(0, data.Length - 1);
+	return data;
+}
+</pre>
+
+<p>After this, we're left with a pure list of data that describes the article, delimited with caret characters.  All that's left is to create an <code>ArticleUpdate</code> item and store it in our generic list.</p>
+
+<pre>
+private void ProcessArticle(string data, int articleNumber)
+{
+	string link	= GetArticleLink(data);
+	data = CleanData(data);
+	string[] parts = data.Split('^');
+	string title = parts[0];
+	string description = parts[7];
+	string lastUpdated = GetDataField("Last Update", parts);
+	string pageViews = GetDataField("Page Views", parts).Replace(",", "");
+	string rating = GetDataField("Rating", parts);
+	string votes = GetDataField("Votes", parts).Replace(",", "");
+	string popularity = GetDataField("Popularity", parts);
+	string bookmarks = GetDataField("Bookmark Count", parts);
+
+	// create the AticleData item and add it to the list
+	DateTime lastUpdatedDate;
+	ArticleUpdate article = new ArticleUpdate();
+	article.LatestLink = string.Format("http://www.codeproject.com{0}", link);
+	article.LatestTitle = title;
+	article.LatestDescription = description;
+	if (DateTime.TryParse(lastUpdated, out lastUpdatedDate))
+	{
+		article.LatestLastUpdated = lastUpdatedDate;
+	}
+	else
+	{
+		article.LatestLastUpdated = new DateTime(1990, 1, 1);
+	}
+	article.LatestPageViews		= Convert.ToInt32(pageViews);
+	article.LatestRating		= Convert.ToDecimal(rating);
+	article.LatestVotes		= Convert.ToInt32(votes);
+	article.LatestPopularity	= Convert.ToDecimal(popularity);
+	article.LatestBookmarks		= Convert.ToInt32(bookmarks);
+
+	AddOrChangeArticle(article);
+}
+
+private void AddOrChangeArticle(ArticleUpdate article)
+{
+	bool found = false;
+	DateTime now = DateTime.Now;
+
+	// apply changes
+	for (int i = 0; i &lt; m_articles.Count; i++)
+	{
+		ArticleUpdate item = m_articles[i];
+		if (item.LatestTitle.ToLower() == article.LatestTitle.ToLower())
+		{
+			found = true;
+			item.ApplyChanges(article, now, false);
+			break;
+		}
+	}
+
+	// if the article was not found, it must be new (or the title has changed), 
+	// so we'll add it
+	if (!found)
+	{
+		article.ApplyChanges(article, now, true);
+		m_articles.Add(article);
+	}
+
+	// remove all articles that weren't updated this time around - we need to 
+	// traverse the list in reverse order so we don't lose track of our index
+	for (int i = m_articles.Count - 1; i == 0; i--)
+	{
+		ArticleUpdate item = m_articles[i];
+		if (item.TimeUpdated != now)
+		{
+			m_articles.RemoveAt(i);
+		}
+	}
+}
+</pre>
+
+
+<h2>The Sample Application</h2>
+
+<p>The sample application is admittedly a rudimentary affair, and is honestly intended to show only one possible way to use the scraping code.  I decided to use a <code>WebBowser</code> control, but about halfway through the app, I began to regret that decision.  However, I was afraid I'd become bored with the whole thing, and determined to soldier on.>/p>
+
+<p>You'll see that I didn't go to heroic lengths to pretty things up.  For instance, I used PNG files for the graphics instead of GIF files.  This means the transparency in the PNG files isn't handled correctly on systems running IE6 or earlier.</p>
+
+<p>The application allows you to select the data on which to sort, and in what direction (ascending or descending).  The default is the date last updated in descending order so that the newest articles appear first. </p>
+
+<p>The <code>WebBrowser</code> control displays the articles in a table, and uses icons to indicate changed data and certain  statistical information regarding articles.  The article titles are hyperlinks to the actual article's page, and that page is displayed within the <code>WebBrowser</code> control. To go back to the article display, you have to click the Sort button because I didn't implement any of the forward/back functionality you find in a normal web browser.</p>
+
+<p>The icons used are as follows:</p>
+
+<p><img src="cpam/new.png" width="32" height="32" alt="new.png" /> - Indicates a new article. All articles will display as new when you initially start the application.</p>
+
+<p><img src="cpam/bestrating.png" width="32" height="32" alt="bestrating.png" /> - Indicates the article with the best rating.</p>
+
+<p><img src="cpam/worstrating.png" width="32" height="32" alt="worstrating.png" /> - Indicates the article with the worst rating.</p>
+
+<p><img src="cpam/mostvotes.png" width="32" height="32" alt="mostvotes.png" /> - Indicates the article with the most votes.</p>
+
+<p><img src="cpam/mostviews.png" width="32" height="32" alt="mostviews.png" /> - Indicates the article with the most page views.</p>
+
+<p><img src="cpam/mostpopular.png" width="32" height="32" alt="mostpopular.png" /> - Indicates the most popular article.</p>
+
+<p><img src="cpam/mostbookmarks.png" width="32" height="32" alt="mostbookmarks.png" /> - Indicates the article with the most bookmarks.</p>
+
+<p><img src="cpam/up.png" width="32" height="32" alt="up.png" /> - Indicates that the associated field increased in value.</p>
+
+<p><img src="cpam/down.png" width="32" height="32" alt="down.png" /> - Indicates that the associated field decreased in value.</p>
+
+<p>Other controls on the form include the following.</p>
+
+
+<h3>Show New Info Only</h3>
+
+<p>This checkbox allows you to filter the list of articles so that only new articles, and articles that have new data are displayed.</p>
+
+<h3>Show Icons</h3>
+
+<p>This checkbox allows you to turn the display of icons on and off.</p>
+
+<h3>Automatic Refresh</h3>
+
+<p>This checkbox allows you to turn the automatic refrsh on and off. Once every hour, a <code>BackgroundWorker</code> object is used to refresh the article data.</p>
+
+<h3>Button - Refresh From CodeProject</h3>
+
+<p>This button allows you to manually refresh the article data (and this button is available even if auto-refresh is turned on).</p>
+
+<p>Lastly, you can specify the user ID of the user for whom you would like to retrieve data. After specifying the new ID, hit the <b><i>Refresh</i></b> button.
+
+
+<h2>Closing</h2>
+
+<p>This code is only intended to be used to retrieve your own articles - the scraper class accepts the user ID as a parameter, and that ID is currently set to my own.  Make sure you change that before you start looking for your own articles.</p>
+
+<p>I've tried to make this as maintainable as possible without forcing the programmer to do conceptual back-flips, but there's no way I can acommodate everyone's reading comprehension levels, so what I guess I'm saying is - you're pretty much on your own.  I can't guarantee that I will be able to maintain this article in a timely fashion, but that shouldn't matter.  We're all programmers here, and the stuff I've presented isn't rocket science. Besides, you have plenty of examples in the provided classes to modify and/or extend their functionality.  Have fun.</p>
+
+<p>Remember also, that the png files and css file need to be in the same folder as the executable, or it won't find them.</p>
+
+
+<h2>History</h2>
+
+<p><b>10/14/2008</b>: Addressed the following:</p>
+&nbsp;&nbsp;&nbsp;<ul><li>Added support for retrieving the web page via a proxy (thanks Pete O'Hanlon!).</li>
+&nbsp;&nbsp;&nbsp;<li>Added code to throw any exception encountered during the web page retrieval process (thanks <b>again</b>Pete O'Hanlon!).</li>
+&nbsp;&nbsp;&nbsp;<li>Added a slightly more thorough HTML parse to handle errant &lt; and &gt; in the title or description of the article (thanks ChandraRam!).</li>
+&nbsp;&nbsp;&nbsp;<li>Embedded the icons as resources in the exe file.</li>
+&nbsp;&nbsp;&nbsp;<li>Added a new statistic item at the top of the form - "Articles Displayed".</li>
+&nbsp;&nbsp;&nbsp;<li>Enclosed the stuff at the top ofthe form in group boxes to make it look more organized.</li></ul>
+
+<p><b>10/13/2008</b>: Addressed the following:</p>
+&nbsp;&nbsp;&nbsp;<ul><li>Added the forgotten mostvotes.png image.</li>
+&nbsp;&nbsp;&nbsp;<li>Modified code to use the mostvotes image.</li>
+&nbsp;&nbsp;&nbsp;<li>Added a textbox to the form to allow you to specify the userID.</li>
+&nbsp;&nbsp;&nbsp;<li>Fixed the form resizing issues.</li>
+&nbsp;&nbsp;&nbsp;<li>The zip file now includes the debug folder with the images and css file.</li></ul>
+
+<p><b>10/13/2008</b>: Original article posted.</p>
+

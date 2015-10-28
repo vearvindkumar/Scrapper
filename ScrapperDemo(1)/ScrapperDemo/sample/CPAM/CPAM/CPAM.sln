@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPArticleScraper", "CPArticleScraper\CPArticleScraper.csproj", "{3DEBEB9E-B3F0-45C9-B148-98096AFB843A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPAM", "CPAM\CPAM.csproj", "{D1978A0B-2385-4293-A3D3-61CA89D29B3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DEBEB9E-B3F0-45C9-B148-98096AFB843A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DEBEB9E-B3F0-45C9-B148-98096AFB843A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DEBEB9E-B3F0-45C9-B148-98096AFB843A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DEBEB9E-B3F0-45C9-B148-98096AFB843A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1978A0B-2385-4293-A3D3-61CA89D29B3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1978A0B-2385-4293-A3D3-61CA89D29B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1978A0B-2385-4293-A3D3-61CA89D29B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1978A0B-2385-4293-A3D3-61CA89D29B3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+D:\_Исходники\__Codeproject\Parzing\Weaver site parsing\obj\x86\Debug\Weaver_site_parsing.Form1.resources
+D:\_Исходники\__Codeproject\Parzing\Weaver site parsing\obj\x86\Debug\Weaver_site_parsing.Properties.Resources.resources
+D:\_Исходники\__Codeproject\Parzing\Weaver site parsing\obj\x86\Debug\Weaver site parsing.csproj.GenerateResource.Cache
+D:\_Исходники\__Codeproject\Parzing\Weaver site parsing\bin\Debug\Weaver site parsing.exe
+D:\_Исходники\__Codeproject\Parzing\Weaver site parsing\bin\Debug\Weaver site parsing.pdb
+D:\_Исходники\__Codeproject\Parzing\Weaver site parsing\obj\x86\Debug\Weaver site parsing.exe
+D:\_Исходники\__Codeproject\Parzing\Weaver site parsing\obj\x86\Debug\Weaver site parsing.pdb
+D:\_Исходники\__Codeproject\Parzing\Weaver site parsing\obj\x86\Debug\Weaver site parsing.csprojResolveAssemblyReference.cache
+D:\_Исходники\__Codeproject\Parzing\Weaver site parsing\bin\Debug\HtmlAgilityPack.pdb
+D:\_Исходники\__Codeproject\Parzing\Weaver site parsing\bin\Debug\HtmlAgilityPack.xml
+D:\Working Folder\Working\ScrapperDemo\sample\Weaver_site_parsing\Weaver site parsing\obj\x86\Debug\Weaver site parsing.exe
+D:\Working Folder\Working\ScrapperDemo\sample\Weaver_site_parsing\Weaver site parsing\obj\x86\Debug\Weaver site parsing.pdb
+D:\Working Folder\Working\ScrapperDemo\sample\Weaver_site_parsing\Weaver site parsing\bin\Debug\Weaver site parsing.exe
+D:\Working Folder\Working\ScrapperDemo\sample\Weaver_site_parsing\Weaver site parsing\bin\Debug\Weaver site parsing.pdb
+D:\Working Folder\Working\ScrapperDemo\sample\Weaver_site_parsing\Weaver site parsing\bin\Debug\HtmlAgilityPack.pdb
+D:\Working Folder\Working\ScrapperDemo\sample\Weaver_site_parsing\Weaver site parsing\bin\Debug\HtmlAgilityPack.xml
+D:\Working Folder\Working\ScrapperDemo\sample\Weaver_site_parsing\Weaver site parsing\obj\x86\Debug\Weaver site parsing.csprojResolveAssemblyReference.cache
+D:\Working Folder\Working\ScrapperDemo\sample\Weaver_site_parsing\Weaver site parsing\obj\x86\Debug\Weaver_site_parsing.Form1.resources
+D:\Working Folder\Working\ScrapperDemo\sample\Weaver_site_parsing\Weaver site parsing\obj\x86\Debug\Weaver_site_parsing.Properties.Resources.resources
+D:\Working Folder\Working\ScrapperDemo\sample\Weaver_site_parsing\Weaver site parsing\obj\x86\Debug\Weaver site parsing.csproj.GenerateResource.Cache

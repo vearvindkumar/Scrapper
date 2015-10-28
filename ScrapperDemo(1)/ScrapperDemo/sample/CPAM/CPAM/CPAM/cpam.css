@@ -1,0 +1,62 @@
+﻿body
+{
+	font-family:arial;
+	font-size:10pt;	
+}
+.articleTable
+{
+	width:100%;
+	border:0;
+	background-color:Black;
+	font-family:arial;
+	font-size:10pt;
+}
+.darkRowChanged
+{
+	background-color:#B1E3FF;
+}
+.lightRowChanged
+{
+	background-color:#E5F6FF;
+}
+.darkRow
+{
+	background-color:#EEE;
+}
+.lightRow
+{
+	background-color:white;
+}
+.descText
+{
+	font-size:9pt;
+}
+.titleText
+{
+	font-weight:bold;
+	font-style:italic;
+}
+.headerRow
+{
+	background-color:#999;
+	height:20px;
+	line-height:20px;
+}
+.dataRow
+{
+	height:60px;
+}
+.spacerHorz
+{
+	padding:0;
+	margin:0;
+	width:5px;
+	float:left;
+}
+.spacerVert
+{
+	padding:0;
+	margin:0;
+	height:5px;
+	clear:both;
+}

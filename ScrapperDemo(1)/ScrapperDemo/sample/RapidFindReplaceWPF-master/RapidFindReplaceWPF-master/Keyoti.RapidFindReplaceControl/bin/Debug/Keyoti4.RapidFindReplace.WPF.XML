@@ -1,0 +1,2689 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Keyoti4.RapidFindReplace.WPF</name>
+    </assembly>
+    <members>
+        <member name="T:Keyoti.RapidFindReplace.WPF.ActionCommand">
+            <summary>
+            Simple command that allows us to use delegates to control our actions
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.ActionCommand.execute">
+            <summary>
+            Action to execute when this command is run
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.ActionCommand.executeParam">
+            <summary>
+            The action to execute when a param is passed
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.ActionCommand.executeStringParam">
+            <summary>
+            The action to execute when a param is passed
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.ActionCommand.canExecute">
+            <summary>
+            Func to determine whether we can execute or not
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.ActionCommand.#ctor(System.Action,System.Func{System.Boolean})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Keyoti.RapidFindReplace.WPF.ActionCommand"/> class.
+            </summary>
+            <param name="executeAction">The action to execute when the command is executed.</param>
+            <param name="canExecuteFunc">A predicate to determine whether we can run.</param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.ActionCommand.#ctor(System.Action{System.Object},System.Func{System.Boolean})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Keyoti.RapidFindReplace.WPF.ActionCommand"/> class.
+            </summary>
+            <param name="executeAction">The action to execute when the command is executed.</param>
+            <param name="canExecuteFunc">A predicate to determine whether we can run.</param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.ActionCommand.#ctor(System.Action{System.String},System.Func{System.Boolean})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Keyoti.RapidFindReplace.WPF.ActionCommand"/> class.
+            </summary>
+            <param name="executeAction">The action to execute when the command is executed.</param>
+            <param name="canExecuteFunc">A predicate to determine whether we can run.</param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.ActionCommand.System#Windows#Input#ICommand#CanExecute(System.Object)">
+            <summary>
+            Defines the method that determines whether the command can execute in its current state.
+            </summary>
+            <param name="parameter">Data used by the command.  If the command does not require data to be passed, this object can be set to null.</param>
+            <returns>
+            true if this command can be executed; otherwise, false.
+            </returns>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.ActionCommand.System#Windows#Input#ICommand#Execute(System.Object)">
+            <summary>
+            Defines the method to be called when the command is invoked.
+            </summary>
+            <param name="parameter">Data used by the command.  If the command does not require data to be passed, this object can be set to null.</param>
+        </member>
+        <member name="E:Keyoti.RapidFindReplace.WPF.ActionCommand.System#Windows#Input#ICommand#CanExecuteChanged">
+            <summary>
+            Occurs when changes occur that affect whether or not the command should execute.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.Converters.BooleanCollapsedVisibilityConverter">
+            <summary>
+            Changes boolean to visibility, where true==Visible and false==Collapsed
+            </summary>     
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.Converters.BooleanCollapsedVisibilityConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Changes boolean to visibility, where true==Visible and false==Collapsed 
+            </summary>     
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.Converters.BooleanCollapsedVisibilityConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Converts visibility to boolean, Visible==true
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.Converters.BooleanOrConverter">
+            <summary>
+            ORs multiple booleans.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.Converters.BooleanOrConverter.Convert(System.Object[],System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Converts array of values to a single boolean by ORing them.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.Converters.BooleanOrConverter.ConvertBack(System.Object,System.Type[],System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Not implemented
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.Converters.BooleanAndConverter">
+            <summary>
+            ANDs multiple booleans.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.Converters.BooleanAndConverter.Convert(System.Object[],System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Converts array of values to a single boolean by ANDing them.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.Converters.BooleanAndConverter.ConvertBack(System.Object,System.Type[],System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Not implemented
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.ConverterInstances">
+            <summary>
+            Convenience instances of converters.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.ConverterInstances.QueryConverter">
+            <summary>
+            A QueryConverter instance
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.ConverterInstances.CamelCaseConverter">
+            <summary>
+            A CamelCaseConverter instance
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.Converters.FindReplaceTabIndexConverter">
+            <summary>
+            Converter to support Office style tabs.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.Converters.FindReplaceTabIndexConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Changes IsReplaceOpen to 1 for true and 0 for false
+            </summary>     
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.Converters.FindReplaceTabIndexConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Converts 1 to true and 0 to false.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.Converters.QueryConverter">
+            <summary>
+            Changes Query object to a string. 
+            </summary>     
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.Converters.QueryConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Converts a Query object to a string.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.Converters.QueryConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Changes plain text to a Query object. 
+            </summary>  
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightAdorner">
+            <summary>
+            Default highlight adorner.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightAdorner.isInViewport">
+            <summary>
+            Whether the adorner was in the viewport (is visible).
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightAdorner.run">
+            <summary>
+            The Run the highlight is in
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightAdorner.start">
+            <summary>
+            The start of the highlight
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightAdorner.length">
+            <summary>
+            The length of the index.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightAdorner.yPos">
+            <summary>
+            The Y coordinate of the top of this highlight.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightAdorner.renderBrush">
+            <summary>
+            Brush used to render the adorner.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightAdorner.iterativeRenderBrush">
+            <summary>
+            Brush used to render the adorner.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightAdorner.normalRenderBrush">
+            <summary>
+            Brush used to render the adorner.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightAdorner.renderPen">
+            <summary>
+            Pen used to draw the adorner.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightAdorner.iterativeRenderPen">
+            <summary>
+            Pen used to draw the adorner.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightAdorner.normalRenderPen">
+            <summary>
+            Pen used to draw the adorner.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightAdorner.horizontalScrollBarHeight">
+            <summary>
+            The height of the horizontal scroll bar.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightAdorner.#ctor(System.Windows.UIElement,System.Windows.Documents.Run,System.Int32,System.Int32,System.Double,System.Windows.Media.Brush,System.Windows.Media.Pen,System.Windows.Media.Brush,System.Windows.Media.Pen)">
+            <summary>
+            New instance.
+            </summary>
+            <param name="adornedElement">The element that will be adorned.</param>
+            <param name="run">The Run to highlight</param>
+            <param name="start">The start index of the highlight</param>
+            <param name="length">The length of the highlight</param>
+            <param name="horizontalScrollBarHeight">Height of the horizontal scrollbar</param>
+            <param name="bodyHighlightAdornerBrush">Brush to paint highlight with</param>
+            <param name="bodyHighlightAdornerPen">Pen to paint highlight border with, specifying a pen can slow down painting when highlights span multiple lines.</param>
+            <param name="bodyIterativeHighlightAdornerBrush">Brush to paint iterative highlight with</param>
+            <param name="bodyIterativeHighlightAdornerPen">Pen to draw iterative highlight border with</param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightAdorner.#ctor(System.Windows.UIElement)">
+            <summary>
+            New instance.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightAdorner.Unregister">
+            <summary>
+            Cleans up event handlers
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightAdorner.OnRenderImpossible">
+            <summary>
+            Fires render impossible event
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightAdorner.OnRender(System.Windows.Media.DrawingContext)">
+            <summary>
+            Renders the adorner.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightAdorner.AdjustRectanglesToView(System.Windows.Rect@,System.Windows.Rect@,System.Double)">
+            <summary>
+            Adjust character rectangles to fit in the viewport.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightAdorner.DrawMultiLine(System.Windows.Media.DrawingContext,System.Windows.Media.Brush,System.Windows.Media.Pen,System.Windows.Rect@,System.Windows.Rect@,System.Windows.Rect[])">
+            <summary>
+            Draws the highlight over multiple lines.  This is optimized when there is no <c>renderPen</c>
+            </summary>
+        </member>
+        <member name="E:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightAdorner.RenderImpossible">
+            <summary>
+            Event fired when the adorner could not be rendered.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightAdorner.IsInViewport">
+            <summary>
+            Whether the adorner was in the viewport (is visible).
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightAdorner.Y">
+            <summary>
+            The Y coordinate of the top of this highlight.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.FlowDocumentScrollViewerHighlightAdorner.Unregister">
+            <summary>
+            Cleans up event handlers
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightHandler">
+            <summary>
+            Default highlight handler for UIElements, used unless a more suitable handler class is registered.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightHandler.track">
+            <summary>
+            Scrollbar track, if it exists in the UIElement that is being highlighted.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightHandler.DoesHandle(System.Windows.DependencyObject)">
+            <summary>
+            Whether this HighlightHandler can handle the DependencyObject.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightHandler.highlights">
+            <summary>
+            Collection of Highlight objects being handled.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightHandler.OnNewSearchNeeded">
+            <summary>
+            Raises the NewSearchNeeded event.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightHandler.OnNewSearchNeeded(System.Collections.Generic.List{System.Windows.Documents.Run})">
+            <summary>
+            Raises the NewSearchNeeded event.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightHandler.#ctor(System.Windows.DependencyObject,System.Windows.Media.Brush,System.Windows.Media.Pen,System.Windows.Media.Brush,System.Windows.Media.Pen)">
+            <summary>
+            New instance.
+            </summary>
+            <param name="elementToHighlight">The element being highlighted.</param>
+            <param name="bodyHighlightAdornerBrush">Brush to paint highlight with</param>
+            <param name="bodyHighlightAdornerPen">Pen to paint highlight border with, specifying a pen can slow down painting when highlights span multiple lines.</param>
+            <param name="bodyIterativeHighlightAdornerBrush">Brush to paint iterative highlight with</param>
+            <param name="bodyIterativeHighlightAdornerPen">Pen to draw iterative highlight border with</param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightHandler.ClearHighlighting">
+            <summary>
+            Clears all the highlighting.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightHandler.RemoveAdorner(Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightAdorner)">
+            <summary>
+            Removes an adorner when it is no longer used.
+            </summary>
+            <param name="adorner"></param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightHandler.AddHighlight(System.Windows.Documents.Run,System.Int32,System.Int32)">
+            <summary>
+            Overrides should call RegisterHighlight to ensure proper registration of the Highlight.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightHandler.RegisterHighlight(Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.Highlight)">
+            <summary>
+            Registers a Highlight
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightHandler.highlightComparer">
+            <summary>
+            Highlight position comparer, used for binary searching.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightHandler.IsRegistered(Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.Highlight)">
+            <summary>
+            Determines whether a Highlight is registered.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightHandler.RemoveHighlight(Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.Highlight)">
+            <summary>
+            Removes an existing underline
+            </summary>        
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightHandler.RemoveHighlight(System.Int32,System.Int32)">
+            <summary>
+            Removes a highlight specified by it's character index.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightHandler.FindHighlightAt(System.Int32,System.Int32,System.Int32@,System.Boolean)">
+            <summary>
+            Returns a highlight at specified position.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightHandler.MoveHighlight(Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.Highlight,System.Int32,System.Int32)">
+            <summary>
+            Moves the underline due to user operations (typing)
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightHandler.Shutdown">
+            <summary>
+            Shutdown the handler when no longer needed.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightHandler.ResetIterator">
+            <summary>
+            Resets the match iterator
+            </summary>
+        </member>
+        <member name="E:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightHandler.ElementToHighlightGotFocus">
+            <summary>
+            Fired when the UIElement gets focus.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightHandler.AdornerLayer">
+            <summary>
+            AdornerLayer hosting the highlight.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightHandler.HitCount">
+            <summary>
+            Number of hits that this object is handling.
+            </summary>
+        </member>
+        <member name="E:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightHandler.NewSearchNeeded">
+            <summary>
+            Fired when a new search is needed, typically because an option or the text has changed.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightHandler.ElementToHighlight">
+            <summary>
+            The element to highlight.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightHandler.BodyHighlightAdornerBrush">
+            <summary>
+            Brush used for highlights.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightHandler.BodyHighlightAdornerPen">
+            <summary>
+            Pen used to draw highlight border.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightHandler.BodyIterativeHighlightAdornerBrush">
+            <summary>
+            Brush used for iterative highlights.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightHandler.BodyIterativeHighlightAdornerPen">
+            <summary>
+            Pen used to draw highlight border, for iterative highlights.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightHandler.CurrentMatch">
+            <summary>
+            When the user iterates over matches, this property returns the current match that is highlighted.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightHandler.NewSearchNeededEventHandler">
+            <summary>
+            NewSearchNeeded event handler.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.FlowDocumentScrollViewerHighlightHandler.AddHighlight(System.Windows.Documents.Run,System.Int32,System.Int32)">
+            <summary>
+            Overrides should call RegisterHighlight to ensure proper registration of the Highlight.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.FindHandlers.RunCollectionContainer">
+            <summary>
+            Container for a collection of Run instances.
+            </summary>
+            <remarks>Use this to search a collection of strings wrapped in Run objects.  The Run objects do not need to be rooted in a visual document.</remarks>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.RunCollectionContainer.#ctor(System.Collections.Generic.List{System.Windows.Documents.Run})">
+            <summary>
+            New instance.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.FindHandlers.RunCollectionContainer.IterationStartIndex">
+            <summary>
+            Which character index to start iterating matches from (see remarks).
+            </summary>
+            <remarks>This is similar to the caret position in a text box.  The first match returned will be after this position, and at the end of the text the iterator will wrap to the start and continue back to this index.</remarks>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.FindHandlers.RunCollectionContainer.RunCollection">
+            <summary>
+            Collection of Run objects to search.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.FindHandlers.RunReaders.FlowDocumentScrollViewerRunReader">
+            <summary>
+            IRunReader for FlowDocumentScrollViewer.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.FindHandlers.IRunReader">
+            <summary>
+            A run reader will provide an enumerator of Run objects from it's document content.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.IRunReader.GetEnumerator">
+            <summary>
+            Enumerator of Run objects.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.RunReaders.FlowDocumentScrollViewerRunReader.DoesHandle(System.Object)">
+            <summary>
+            Whether this reader can read Runs from <c>runContainer</c>.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.RunReaders.FlowDocumentScrollViewerRunReader.#ctor(System.Windows.Controls.FlowDocumentScrollViewer)">
+            <summary>
+            New instance.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.RunReaders.FlowDocumentScrollViewerRunReader.GetEnumerator">
+            <summary>
+            Gets an enumerator that will enumerate the Runs in the element being read.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.FindHandlers.RunReaders.RunCollectionRunReader">
+            <summary>
+            IRunReader for a collection of Run objects.  The Run objects do not need to be rooted in a visual element.
+            </summary>
+            <remarks>This can be used to do Find operations on strings, by wrapping the strings in Run objects.</remarks>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.RunReaders.RunCollectionRunReader.DoesHandle(System.Object)">
+            <summary>
+            Whether this reader can read Runs from <c>runContainer</c>.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.RunReaders.RunCollectionRunReader.#ctor(Keyoti.RapidFindReplace.WPF.FindHandlers.RunCollectionContainer)">
+            <summary>
+            New instance.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.RunReaders.RunCollectionRunReader.GetEnumerator">
+            <summary>
+            Gets an enumerator that will enumerate the Runs in the element being read.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.FocusMonitor">
+            <summary>
+            Monitors control focus
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl">
+            <summary>
+            Popup control that hosts RapidFindReplaceControl.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.RaisePropertyChanged(System.String)">
+            <summary>
+            Raises the property changed event.
+            </summary>
+            <param name="propertyName">Name of the property.</param>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.BodyHighlightAdornerBrushProperty">
+            <summary>
+            Body highlight brush to use
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.BodyIterativeHighlightAdornerBrushProperty">
+            <summary>
+            Brush to use when painting iterative highlights.  Iterative highlighting occurs when the user presses next/previous buttons.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.BodyHighlightAdornerPenProperty">
+            <summary>
+            Pen to use to draw border around body highlights.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.CurrentMatchProperty">
+            <summary>
+            The current match that the user has iterated to using the next/previous buttons.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.NumberOfHitsProperty">
+            <summary>
+            Number of hits found.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.IsQueryValidProperty">
+            <summary>
+            Whether the user's query is valid or not.
+            </summary>
+            <remarks>A query can be invalid for example if regular expressions are used but the expression is invalid.</remarks>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.FindScopeProperty">
+            <summary>
+            Control and it's children to find within.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.QueryProperty">
+            <summary>
+            The query to search for.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.QueryHistoryCapacityProperty">
+            <summary>
+            Number of query history items to hold and display.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.AsYouTypeFindMinimumCharactersProperty">
+            <summary>
+            Number of query characters that must be entered before as you type find operations are performed.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.NoHitsBorderBrushColorProperty">
+            <summary>
+            Border brush around textbox to use when no hits are found (eg. red).
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.WatermarkTextProperty">
+            <summary>
+            Watermark text to use in the find textbox.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.FindButtonIconProperty">
+            <summary>
+            Icon Brush to use to paint Find button.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.OptionsButtonIconProperty">
+            <summary>
+            Icon Brush to use to paint option dropdown button.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.OptionsButtonCheckedIconProperty">
+            <summary>
+            Icon Brush to use to paint option dropdown button when it is in the checked state.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.IsReplaceOpenProperty">
+            <summary>
+            Whether the replace part of the dialog is open.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.IsOptionsDropDownOpenProperty">
+            <summary>
+            Whether the options dropdown is open.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.QueryHistoryProperty">
+            <summary>
+            The history of queries entered by the user.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.PlacementTargetProperty">
+            <summary>
+            If set, the Placement target that the popup will use. 
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.IsOpenProperty">
+            <summary>
+            Whether the popup is open. 
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.StaysOpenProperty">
+            <summary>
+            Whether this popup will stay open when the form is deactivated.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.DockingPositionProperty">
+            <summary>
+            Where to dock the popup.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.#ctor">
+            <summary>
+            New.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.OnApplyTemplate">
+            <summary>
+            Called when the control template has been applied.
+            </summary>
+        </member>
+        <member name="E:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.PropertyChanged">
+            <summary>
+            Occurs when a property value changes.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.PART_Popup">
+            <summary>
+            The popup template item, containing the find controls.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.PART_RapidFindReplaceControl">
+            <summary>
+            The RapidFindReplaceControl in this popup.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.PART_CloseButton">
+            <summary>
+            Close button
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.PART_Thumb">
+            <summary>
+            Resize thumb.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.PART_MoveThumb">
+            <summary>
+            Header style thumb used to move the popup.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.BodyHighlightAdornerBrush">
+            <summary>
+            Body highlight brush to use
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.BodyIterativeHighlightAdornerBrush">
+            <summary>
+            Brush to use when painting iterative highlights.  Iterative highlighting occurs when the user presses next/previous buttons.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.BodyHighlightAdornerPen">
+            <summary>
+            Pen to use to draw border around body highlights.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.CurrentMatch">
+            <summary>
+            The current match that the user has iterated to using the next/previous buttons.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.NumberOfHits">
+            <summary>
+            Number of hits found.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.IsQueryValid">
+            <summary>
+            Whether the user's query is valid or not.
+            </summary>
+            <remarks>A query can be invalid for example if regular expressions are used but the expression is invalid.</remarks>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.FindScope">
+            <summary>
+            Control and it's children to find within.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.Query">
+            <summary>
+            The query to search for.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.QueryHistoryCapacity">
+            <summary>
+            Number of query history items to hold and display.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.AsYouTypeFindMinimumCharacters">
+            <summary>
+            Number of query characters that must be entered before as you type find operations are performed.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.NoHitsBorderBrushColor">
+            <summary>
+            Border brush around textbox to use when no hits are found (eg. red).
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.WatermarkText">
+            <summary>
+            Watermark text to use in the find textbox.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.FindButtonIcon">
+            <summary>
+            Icon Brush to use to paint Find button.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.OptionsButtonIcon">
+            <summary>
+            Icon Brush to use to paint option dropdown button.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.OptionsButtonCheckedIcon">
+            <summary>
+            Icon Brush to use to paint option dropdown button when it is in the checked state.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.IsReplaceOpen">
+            <summary>
+            Whether the replace part of the dialog is open.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.IsOptionsDropDownOpen">
+            <summary>
+            Whether the options dropdown is open.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.QueryHistory">
+            <summary>
+            The history of queries entered by the user.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.PlacementTarget">
+            <summary>
+            Target to place the popup against, if set.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.IsOpen">
+            <summary>
+            Whether the popup is open.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.StaysOpen">
+            <summary>
+            Whether this popup will stay open when the form is deactivated.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplacePopupControl.DockingPosition">
+            <summary>
+            Where to dock the popup.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.Converters.CamelCaseConverter">
+            <summary>
+            Changes camel case to sentence case. 
+            </summary>     
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.Converters.CamelCaseConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Changes camel case to sentence case. 
+            </summary>     
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.Converters.CamelCaseConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Not implemented.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.FindHandlers.FindHandlerRegistry">
+            <summary>
+            Registry against which HighlightHandler instances and RunReader instances are registered.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.FindHandlerRegistry.RegisterHighlightHandler(System.Type)">
+            <summary>
+            Registers a HighlightHandler so that it can be used to highlight a UIElement.
+            </summary>
+            <param name="highlightHandlerType">The Type to register.</param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.FindHandlerRegistry.RegisterRunReader(System.Type)">
+            <summary>
+            Registers RunReader (IRunReader) type so that it can be used to read Run objects from a UIElement.
+            </summary>
+            <param name="iRunReaderType">The Type to register.</param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.FindHandlerRegistry.CreateHighlightHandlerFor(System.Windows.DependencyObject,System.Windows.Media.Brush,System.Windows.Media.Pen,System.Windows.Media.Brush,System.Windows.Media.Pen)">
+            <summary>
+            Creates and returns a registered HighlightHandler for the <c>uiElement</c>.
+            </summary>
+            <param name="uiElement">The DependencyObject that the HighlightHandler will work on</param>
+            <param name="bodyHighlightAdornerBrush">Brush for highlights</param>
+            <param name="bodyHighlightAdornerPen">Pen for highlights</param>
+            <param name="bodyIterativeHighlightAdornerBrush">Iterative highlight Brush</param>
+            <param name="bodyIterativeHighlightAdornerPen">Iterative highlight Pen</param>
+            <returns></returns>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.FindHandlerRegistry.CreateIRunReaderHandlerFor(System.Object)">
+            <summary>
+            Creates and returns a registered IRunReader for the <c>runContainer</c>.
+            </summary>
+            <param name="runContainer">An object that contains Run objects.</param>
+            <returns>IRunReader that can enumerate Run objects.</returns>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.FlowDocumentScrollViewerHighlight">
+            <summary>
+            Hit Highlight for FlowDocumentScrollViewer
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.Highlight">
+            <summary>
+            Hit Highlight base class.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.Highlight.runStartIndex">
+            <summary>
+            The absolute start of the Run where the Highlight is.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.Highlight.MoveTo(System.Int32,System.Int32)">
+            <summary>
+            Move highlight to a different part of the current run.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.Highlight.MoveTo(System.Windows.Documents.Run,System.Int32,System.Int32)">
+            <summary>
+            Move the highlight to a new run.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.Highlight.run">
+            <summary>
+            The Run the Highlight is in.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.Highlight.#ctor(System.Int32,System.Int32,Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightAdorner,System.Windows.Documents.Run)">
+            <summary>
+            New instance, with Run relative to zero index (ie no other Runs in container).
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.Highlight.#ctor(System.Int32,System.Int32,Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightAdorner,System.Windows.Documents.Run,System.Int32)">
+            <summary>
+            New instance
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.Highlight.Select">
+            <summary>
+            Selects the highlight as the current highlight when iterating through hits, bringing the control to focus.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.Highlight.Deselect">
+            <summary>
+            Deselects the highlight.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.Highlight.ReplaceText(System.String)">
+            <summary>
+            Default implementation of ReplaceText, changes the hit instance in the Run to the <c>replacement</c>
+            </summary>
+            <param name="replacement"></param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.Highlight.IsBeforeOrAt(Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.Highlight)">
+            <summary>
+            Whether this Highlight is before or at the same position of <c>highlight</c>.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.Highlight.AbsoluteStart">
+            <summary>
+            The start index of the Highlight, as measured from the start of the Document.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.Highlight.AbsoluteEnd">
+            <summary>
+            The end index of the Highlight, as measured from the start of the Document.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.Highlight.HighlightedElement">
+            <summary>
+            The UIElement that this highlight is inside
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.Highlight.BodyAdorner">
+            <summary>
+            The adorner
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.Highlight.Run">
+            <summary>
+            The Run where the highlight occurs.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.Highlight.Text">
+            <summary>
+            The highlighted text.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.Highlight.Hidden">
+            <summary>
+            Whether the underline is hidden
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.Highlight.Start">
+            <summary>
+            Start
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.Highlight.End">
+            <summary>
+            End
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.Highlight.IsReplaceable">
+            <summary>
+            Whether ReplaceText can be called or not.  When false this is because the control where the highlight exist is readonly or disabled.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.FlowDocumentScrollViewerHighlight.#ctor(System.Int32,System.Int32,Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightAdorner,System.Windows.Documents.Run)">
+            <summary>
+            New instance.
+            </summary>
+            <param name="start">Where the highlight starts in <c>run</c></param>
+            <param name="end">Where the highlight ends in <c>run</c></param>
+            <param name="adorner">Adorner instance that will actually highlight</param>
+            <param name="run">The Run where the highlight is</param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.FlowDocumentScrollViewerHighlight.Select">
+            <summary>
+            Selects the highlight as the current highlight when iterating through hits, bringing the control to focus.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.FlowDocumentScrollViewerHighlight.Deselect">
+            <summary>
+            Deselects the highlight.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.TextBoxHighlight">
+            <summary>
+            Hit Highlight for TextBox
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.TextBoxHighlight.#ctor(System.Int32,System.Int32,Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightAdorner,System.Windows.Documents.Run)">
+            <summary>
+            New instance.
+            </summary>
+            <param name="start">Where the highlight starts in <c>run</c></param>
+            <param name="end">Where the highlight ends in <c>run</c></param>
+            <param name="adorner">Adorner instance that will actually highlight</param>
+            <param name="run">The Run where the highlight is</param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.TextBoxHighlight.Select">
+            <summary>
+            Selects the highlight as the current highlight when iterating through hits, bringing the control to focus.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.TextBoxHighlight.ReplaceText(System.String)">
+            <summary>
+            Replaces the text of the hit.
+            </summary>
+            <param name="replacement">The replacement string.</param>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.TextBoxHighlight.IsReplaceable">
+            <summary>
+            Whether ReplaceText can be called or not.  When false this is because the control where the highlight exist is readonly or disabled.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.RichTextBoxHighlight">
+            <summary>
+            Hit Highlight for RichTextBox
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.RichTextBoxHighlight.#ctor(System.Int32,System.Int32,Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightAdorner,System.Windows.Documents.Run,System.Int32)">
+            <summary>
+            New instance.
+            </summary>
+            <param name="start">Where the highlight starts in <c>run</c></param>
+            <param name="end">Where the highlight ends in <c>run</c></param>
+            <param name="adorner">Adorner instance that will actually highlight</param>
+            <param name="run">The Run where the highlight is</param>
+            <param name="runStartIndex">The character index of the run in the RichTextBox's Document.</param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.RichTextBoxHighlight.MoveTo(System.Windows.Documents.Run,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Move the highlight to a new Run.
+            </summary>
+            <param name="run">The run the highlight will go in</param>
+            <param name="start">The position of the highlight relative to the Run</param>
+            <param name="end">The end position of the highlight relative to the Run</param>
+            <param name="absStart">The start position of the Run relative to the plain text of the document.</param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.RichTextBoxHighlight.Select">
+            <summary>
+            Selects the highlight as the current highlight when iterating through hits, bringing the control to focus.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.RichTextBoxHighlight.Deselect">
+            <summary>
+            Deselects the highlight.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.RichTextBoxHighlight.IsBeforeOrAt(Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.Highlight)">
+            <summary>
+            Whether this Highlight is before or at the same position of <c>highlight</c>.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.RichTextBoxHighlight.ReplaceText(System.String)">
+            <summary>
+            Replaces the text of the hit.
+            </summary>
+            <param name="replacement">The replacement string.</param>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.RichTextBoxHighlight.IsReplaceable">
+            <summary>
+            Whether ReplaceText can be called or not.  When false this is because the control where the highlight exist is readonly or disabled.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.NewSearchNeededEventArgs">
+            <summary>
+            Event args for NewSearchNeededEvent
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.NewSearchNeededEventArgs.Empty(Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightHandler)">
+            <summary>
+            Empty args.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.NewSearchNeededEventArgs.#ctor(System.Collections.Generic.List{System.Windows.Documents.Run},Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightHandler)">
+            <summary>
+            New instance.
+            </summary>
+            <param name="r">List of Run objects that need to be searched.</param>
+            <param name="hh">Highlight handler to send hits to.</param>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.NewSearchNeededEventArgs.Runs">
+            <summary>
+            List of Run objects that need to be searched.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.NewSearchNeededEventArgs.HighlightHandler">
+            <summary>
+            Highlight handler to send hits to.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightHandlers.Reset">
+            <summary>
+            Resets the state back to having no highlight handlers
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.RichTextBoxHelper">
+            <summary>
+            Convert TextPointers into plain text positions etc
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.RichTextBoxHelper.#ctor(System.Windows.Controls.RichTextBox)">
+            <summary>Creates a new proxy with a TextBoxBase</summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.RichTextBoxHelper.GetPointerAtIndex(System.Int32,System.Int32)">
+            <summary>
+            Gets TextPointers at two close indexes.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.RichTextBoxHelper.GetCharIndexFromPos(System.Windows.Point)">
+            <summary>
+            Gets the character index of a Point
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.RichTextBoxHelper.GetPosFromCharIndex(System.Int32)">
+            <summary>
+            Gets the Point of a char index.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.RichTextBoxHelper.GetPosFromCharIndex2(System.Int32)">
+            <summary>
+            Gets a character rectangle around an char at index.
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.RichTextBoxHelper.Text">
+            <summary>The text in the RichTextBox</summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.RichTextBoxHelper.SymbolText">
+            <summary></summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.TextBoxBaseHighlightAdorner">
+            <summary>
+            Highlight adorner for TextBoxBase.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.TextBoxBaseHighlightAdorner.#ctor(System.Windows.Controls.Primitives.TextBoxBase,System.Windows.Documents.Run,System.Int32,System.Int32,System.Double,System.Windows.Media.Brush,System.Windows.Media.Pen,System.Windows.Media.Brush,System.Windows.Media.Pen)">
+            <summary>
+            New instance.
+            </summary>
+            <param name="tbb">The textbox to highlight</param>
+            <param name="run">The Run to highlight</param>
+            <param name="start">The start index of the highlight</param>
+            <param name="length">The length of the highlight</param>
+            <param name="horizontalScrollBarHeight">Height of the horizontal scrollbar</param>
+            <param name="bodyHighlightAdornerBrush">Brush to paint highlight with</param>
+            <param name="bodyHighlightAdornerPen">Pen to paint highlight border with, specifying a pen can slow down painting when highlights span multiple lines.</param>
+            <param name="bodyIterativeHighlightAdornerBrush">Brush to paint iterative highlight with</param>
+            <param name="bodyIterativeHighlightAdornerPen">Pen to draw iterative highlight border with</param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.TextBoxBaseHighlightAdorner.Unregister">
+            <summary>
+            Cleans up event handlers
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.TextBoxBaseHighlightAdorner.scroller_ScrollChanged(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles scroll events.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.ScrollBarHighlightAdorner">
+            <summary>
+            Adorner for scroll bar highlights
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.ScrollBarHighlightAdorner.#ctor(Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.ScrollBarHighlightHandler,Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightAdorner)">
+            <summary>
+            New instance
+            </summary>
+            <param name="handler">Handler for this highlight adorner.</param>
+            <param name="bodyHighlight">The corresponding highlight adorner in the body of the text.</param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.ScrollBarHighlightAdorner.OnRender(System.Windows.Media.DrawingContext)">
+            <summary>
+            Renders the highlight in the scroll bar.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.ScrollBarHighlightHandler">
+            <summary>
+            Highlight handler for scroll bar highlights.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.ScrollBarHighlightHandler.#ctor(System.Windows.UIElement)">
+            <summary>
+            New instance.
+            </summary>
+            <param name="targetElement">Any UIElement that has a ScrollViewer in it.</param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.ScrollBarHighlightHandler.CreateScrollBarHighlightAdorner(Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightAdorner)">
+            <summary>
+            Creates an adorner of type ScrollBarHighlightAdorner.
+            </summary>
+            <param name="highlightAdorner"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.ScrollBarHighlightHandler.IsHighlightInViewPort(Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightAdorner)">
+            <summary>
+            Whether the Y coordinate in the argument is visible in the scroll viewer's viewport.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.ScrollBarHighlightHandler.GetAdornerPosition(Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.HighlightAdorner)">
+            <summary>
+            Gets the position of <c>bodyHighlight</c>.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.ScrollBarHighlightHandler.RenderBrush">
+            <summary>
+            Brush used to render the highlight.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.ScrollBarHighlightHandler.IsUsable">
+            <summary>
+            Whether there is a valid scroll bar adorner layer to use.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.ScrollBarHighlightHandler.ScrollViewer">
+            <summary>
+            The ScrollViewer that is being highlighted.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.ScrollBarHighlightHandler.HorizontalScrollBarHeight">
+            <summary>
+            Height of the horizontal scroll bar.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.TextBoxHighlightAdorner">
+            <summary>
+            Highlight adorner for TextBox.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.TextBoxHighlightAdorner.#ctor(System.Windows.Controls.TextBox,System.Int32,System.Int32,System.Double,System.Windows.Media.Brush,System.Windows.Media.Pen,System.Windows.Media.Brush,System.Windows.Media.Pen)">
+            <summary>
+            New instance.
+            </summary>
+            <param name="adornedElement">The TextBox to highlight</param>
+            <param name="start">Start index of the highlight</param>
+            <param name="length">Length of the highlight</param>
+            <param name="horizontalScrollBarHeight">Height of the horizontal scrollbar</param>
+            <param name="bodyHighlightAdornerBrush">Brush to paint highlight with</param>
+            <param name="bodyHighlightAdornerPen">Pen to paint highlight border with, specifying a pen can slow down painting when highlights span multiple lines.</param>
+            <param name="bodyIterativeHighlightAdornerBrush">Brush to paint iterative highlight with</param>
+            <param name="bodyIterativeHighlightAdornerPen">Pen to draw iterative highlight border with</param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.TextBoxHighlightAdorner.OnRender(System.Windows.Media.DrawingContext)">
+            <summary>
+            Paints the highlight.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.TextBoxHighlightHandler.IdentifyChange(System.String,System.String)">
+            <summary> Returns the start and end indices in the current text of the changed text.</summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.FindHandlers.RunReaders.DocumentViewerBaseRunReader">
+            <summary>
+            IRunReader for DocumentViewer subclasses.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.RunReaders.DocumentViewerBaseRunReader.DoesHandle(System.Object)">
+            <summary>
+            Whether this reader can read Runs from <c>runContainer</c>.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.RunReaders.DocumentViewerBaseRunReader.#ctor(System.Windows.Controls.Primitives.DocumentViewerBase)">
+            <summary>
+            New instance
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.RunReaders.DocumentViewerBaseRunReader.GetEnumerator">
+            <summary>
+            Gets an enumerator that will enumerate the Runs in the element being read.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.FindHandlers.RunReaders.FlowDocumentRunReader">
+            <summary>
+            IRunReader for FlowDocuments.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.RunReaders.FlowDocumentRunReader.DoesHandle(System.Object)">
+            <summary>
+            Whether this reader can read Runs from <c>runContainer</c>.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.RunReaders.FlowDocumentRunReader.#ctor(System.Windows.Documents.FlowDocument)">
+            <summary>
+            New instance.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.RunReaders.FlowDocumentRunReader.GetEnumerator">
+            <summary>
+            Gets an enumerator that will enumerate the Runs in the element being read.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.FindHandlers.RunReaders.IContentHostRunReader">
+            <summary>
+            IRunReader for classes implementing IContentHost.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.RunReaders.IContentHostRunReader.DoesHandle(System.Object)">
+            <summary>
+            Whether this reader can read Runs from <c>runContainer</c>.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.RunReaders.IContentHostRunReader.#ctor(System.Windows.IContentHost)">
+            <summary>
+            New instance.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.RunReaders.IContentHostRunReader.GetEnumerator">
+            <summary>
+            Gets an enumerator that will enumerate the Runs in the element being read.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.FindHandlers.RunReaders.RichTextBoxRunReader">
+            <summary>
+            IRunReader for RichTextBox.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.RunReaders.RichTextBoxRunReader.DoesHandle(System.Object)">
+            <summary>
+            Whether this reader can read Runs from <c>runContainer</c>.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.RunReaders.RichTextBoxRunReader.#ctor(System.Windows.Controls.RichTextBox)">
+            <summary>
+            New instance.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.RunReaders.RichTextBoxRunReader.GetEnumerator">
+            <summary>
+            Gets an enumerator that will enumerate the Runs in the element being read.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.FindHandlers.RunReaders.TextBoxRunReader">
+            <summary>
+            IRunReader for RichTextBox.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.RunReaders.TextBoxRunReader.DoesHandle(System.Object)">
+            <summary>
+            Whether this reader can read Runs from <c>runContainer</c>.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.RunReaders.TextBoxRunReader.#ctor(System.Windows.Controls.TextBox)">
+            <summary>
+            New instance.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.FindHandlers.RunReaders.TextBoxRunReader.GetEnumerator">
+            <summary>
+            Gets an enumerator that will enumerate the Runs in the element being read.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl">
+            <summary>
+            Find/Replace control.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.FinishedSearchingEvent">
+            <summary>
+            RoutedEvent indicating that the search has finished.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.RaisePropertyChanged(System.String)">
+            <summary>
+            Raises the property changed event.
+            </summary>
+            <param name="propertyName">Name of the property.</param>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.IsFindableProperty">
+            <summary>
+            Attached property used to indicate if an element is findable, or if it should be ignored.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.GetIsFindable(System.Windows.UIElement)">
+            <summary>
+            Attached property used to indicate if an element is findable, or if it should be ignored.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.SetIsFindable(System.Windows.UIElement,System.Nullable{System.Boolean})">
+            <summary>
+            Attached property used to indicate if an element is findable, or if it should be ignored.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.CurrentMatchProperty">
+            <summary>
+            The current match that the user has iterated to using the next/previous buttons.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.IsQueryValidProperty">
+            <summary>
+            Whether the user's query is valid or not.
+            </summary>
+            <remarks>A query can be invalid for example if regular expressions are used but the expression is invalid.</remarks>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.BodyHighlightAdornerBrushProperty">
+            <summary>
+            Body highlight brush to use
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.BodyIterativeHighlightAdornerBrushProperty">
+            <summary>
+            Brush to use when painting iterative highlights.  Iterative highlighting occurs when the user presses next/previous buttons.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.BodyHighlightAdornerPenProperty">
+            <summary>
+            Pen to use to draw border around body highlights.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.FindScopeProperty">
+            <summary>
+            Control and it's children to find within.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.QueryProperty">
+            <summary>
+            The query to search for.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.NumberOfHitsProperty">
+            <summary>
+            Number of hits found.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.QueryHistoryCapacityProperty">
+            <summary>
+            Number of query history items to hold and display.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.AsYouTypeFindMinimumCharactersProperty">
+            <summary>
+            Number of query characters that must be entered before as you type find operations are performed.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.NoHitsBorderBrushColorProperty">
+            <summary>
+            Border brush around textbox to use when no hits are found (eg. red).
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.WatermarkTextProperty">
+            <summary>
+            Watermark text to use in the find textbox.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.FindButtonIconProperty">
+            <summary>
+            Icon Brush to use to paint Find button.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.OptionsButtonIconProperty">
+            <summary>
+            Icon Brush to use to paint option dropdown button.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.OptionsButtonCheckedIconProperty">
+            <summary>
+            Icon Brush to use to paint option dropdown button when it is in the checked state.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.IsReplaceOpenProperty">
+            <summary>
+            Whether the replace part of the dialog is open.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.IsOptionsDropDownOpenProperty">
+            <summary>
+            Whether the options dropdown is open.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.QueryHistoryProperty">
+            <summary>
+            The history of queries entered by the user.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.OnApplyTemplate">
+            <summary>
+            Called when the control template is applied.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.#ctor">
+            <summary>
+            New.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.QueryContainer">
+            <summary>
+            The find query.
+            </summary>
+        </member>
+        <member name="E:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.FinishedSearching">
+            <summary>
+            RoutedEvent indicating that the search has finished.
+            </summary>
+        </member>
+        <member name="E:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.PropertyChanged">
+            <summary>
+            Occurs when a property value changes.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.PART_OptionsPopup">
+            <summary>
+            The popup used for the options dropdown
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.ViewModel">
+            <summary>
+            The view model that performs the find.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.FindOptions">
+            <summary>
+            User options.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.CurrentMatch">
+            <summary>
+            The current match that the user has iterated to using the next/previous buttons.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.IsQueryValid">
+            <summary>
+            Whether the user's query is valid or not.
+            </summary>
+            <remarks>A query can be invalid for example if regular expressions are used but the expression is invalid.</remarks>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.BodyHighlightAdornerBrush">
+            <summary>
+            Body highlight brush to use
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.BodyIterativeHighlightAdornerBrush">
+            <summary>
+            Brush to use when painting iterative highlights.  Iterative highlighting occurs when the user presses next/previous buttons.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.BodyHighlightAdornerPen">
+            <summary>
+            Pen to use to draw border around body highlights.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.FindScope">
+            <summary>
+            Control and it's children to find within.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.Query">
+            <summary>
+            The query to search for.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.NumberOfHits">
+            <summary>
+            Number of hits found.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.QueryHistoryCapacity">
+            <summary>
+            Number of query history items to hold and display.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.AsYouTypeFindMinimumCharacters">
+            <summary>
+            Number of query characters that must be entered before as you type find operations are performed.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.NoHitsBorderBrushColor">
+            <summary>
+            Border brush around textbox to use when no hits are found (eg. red).
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.WatermarkText">
+            <summary>
+            Watermark text to use in the find textbox.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.FindButtonIcon">
+            <summary>
+            Icon Brush to use to paint Find button.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.OptionsButtonIcon">
+            <summary>
+            Icon Brush to use to paint option dropdown button.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.OptionsButtonCheckedIcon">
+            <summary>
+            Icon Brush to use to paint option dropdown button when it is in the checked state.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.IsReplaceOpen">
+            <summary>
+            Whether the replace part of the dialog is open.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.IsOptionsDropDownOpen">
+            <summary>
+            Whether the options dropdown is open.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.QueryHistory">
+            <summary>
+            The history of queries entered by the user.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.AvailableFindOptions">
+            <summary>
+            Find options that are available to the user.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.PART_ReplaceTextBox">
+            <summary>
+            The replace textbox.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.PART_FindTextBox">
+            <summary>
+            The find textbox.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.PART_FindButton">
+            <summary>
+            The find button.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.PART_PreviousMatchButton">
+            <summary>
+            The previous match button.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.PART_NextMatchButton">
+            <summary>
+            The next match button.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.PART_ReplaceButton">
+            <summary>
+            The replace button.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.PART_ReplaceAllButton">
+            <summary>
+            The replace all button.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.PART_OptionsButton">
+            <summary>
+            The options dropdown button.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.PART_OptionsList">
+            <summary>
+            The options ListView.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControl.PART_HistoryList">
+            <summary>
+            The history ListView.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.IFindText">
+            <summary>
+            Interface for classes that can do find operations.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.IFindText.FindText(System.Windows.DependencyObject)">
+            <summary>
+            Find text and highlight it.
+            </summary>
+            <param name="element">The DependencyObject (usually as UIElement) that should be searched.</param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.IFindText.FindTextIn(System.Collections.Generic.List{System.Windows.Documents.Run},Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.AddHighlight,Keyoti.RapidFindReplace.WPF.Query)">
+            <summary>
+            Find text and highlight it.
+            </summary>
+            <param name="runs">Collection of text Run objects that should be searched.</param>
+            <param name="addHighlightDelegate">Method to call when highlights are found and need to be highlighted.</param>
+            <param name="searchText">The query to search for.</param>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.IFindText.FindScope">
+            <summary>
+            What to search in.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.IFindText.FindIterativelyFrom">
+            <summary>
+            What to search with in.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel">
+            <summary>
+            View model that performs actual searches.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.FindOptionsProperty">
+            <summary>
+            The find options OptionsViewModel.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.QueryHistoryProperty">
+            <summary>
+            The history of queries entered by the user.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.CurrentMatchProperty">
+            <summary>
+            The current match that the user has iterated to using the next/previous buttons.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.QueryHistoryCapacityProperty">
+            <summary>
+            Number of query history items to hold and display.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.QueryProperty">
+            <summary>
+            The query to search for.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.FindScopeProperty">
+            <summary>
+            Control and it's children to find within.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.NumberOfHitsProperty">
+            <summary>
+            Number of hits found.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.AddQueryToHistory(System.String)">
+            <summary>
+            Adds a query to history.
+            </summary>
+            <param name="query"></param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.#ctor">
+            <summary>
+            New
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.ReplaceMatch(System.String)">
+            <summary>
+            Replace the current match with <c>replacement</c>
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.ReplaceAllMatches(System.String)">
+            <summary>
+            Replace all matches with <c>replacement</c>
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.SelectNextMatch">
+            <summary>
+            Selects the next match.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.SelectPreviousMatch">
+            <summary>
+            Selects the previous match.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.HitCount">
+            <summary>
+            Gets the current hit count.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.simulateSlow">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.ResetHighlights">
+            <summary>
+            Removes highlights and resets the highlight iterator.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.FindText(System.Windows.DependencyObject)">
+            <summary>
+            Finds the current query in <c>searchIn</c>.
+            </summary>
+            <param name="searchIn">A DependencyObject that can be searched (handler is registered with FindHandlerRegistry).</param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.WillSearchInElement(System.Windows.UIElement,System.Boolean,System.Boolean@,System.Nullable{System.Boolean})">
+            <summary>
+            Determines whether <c>element</c> will be searched.
+            </summary>
+            <param name="element">The element to decide whether to search</param>
+            <param name="isFindable">The value of the attached property 'IsFindable', if set on <c>element</c></param>
+            <param name="parentUIElementIsFindable">Whether <c>element</c>'s parent object was findable, usually if <c>element</c> has not been set explicitly to IsFindable=false, 
+            then we want to search the element if its parent was also findable.  If however IsFindable is explicitly set true, then we will search it regardless of its parent.</param>
+            <param name="searchChildren">Whether children should be searched.</param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.FindText(System.Windows.DependencyObject,System.Boolean)">
+            <summary>
+            Recursively searches <c>searchIn</c> for the Query.
+            </summary>
+            <param name="searchIn">DependencyObject to search inside.</param>
+            <param name="parentUIElementIsFindable">Whether the parent UI element has been determined as 'findable'.  If the parent is findable then <c>searchIn</c> is finable too unless explicitly marked otherwise with IsFindable="false".</param>
+            <returns>Whether searchIn or any of it's children where marked as either 'findable' or not (IsFindable="true" or IsFindable="false").</returns>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.FindTextIn(Keyoti.RapidFindReplace.WPF.FindHandlers.IRunReader,Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.AddHighlight,Keyoti.RapidFindReplace.WPF.Query)">
+            <summary>
+            Finds the <c>searchText</c> query in Runs returned by <c>runReader</c>.
+            </summary>
+            <param name="runReader">IRunReader that will return an enumeration of Runs to search in</param>
+            <param name="addHighlightDelegate">Delegate to call when hits are found</param>
+            <param name="searchText">The query to search for</param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.FindTextIn(System.Collections.Generic.List{System.Windows.Documents.Run},Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.AddHighlight,Keyoti.RapidFindReplace.WPF.Query)">
+            <summary>
+            Finds the <c>searchText</c> query in Runs.
+            </summary>
+            <param name="runs">Collection of runs to look in</param>
+            <param name="addHighlightDelegate">Delegate to call when hits are found</param>
+            <param name="searchText">The query to search for</param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.ScanQueuedRuns(Keyoti.RapidFindReplace.WPF.RunQueue,System.String,Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.AddHighlight)">
+            <summary>
+            
+            </summary>
+            <param name="runQueue"></param>
+            <param name="searchText"></param>
+            <param name="addHighlightDelegate"></param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.ScanQueuedRuns(Keyoti.RapidFindReplace.WPF.RunQueue,Keyoti.RapidFindReplace.WPF.Query,Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.AddHighlight)">
+            <summary>
+            Scans a queue of runs and highlights matches.
+            </summary>
+            <param name="runQueue">Run queue</param>
+            <param name="query">Query</param>
+            <param name="addHighlightDelegate">Delegate to call when a hit is found</param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.GetNextMatch_FOR_TESTING(System.String,System.Int32,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="searchText"></param>
+            <param name="currentIndex"></param>
+            <param name="text"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.GetNextMatch(Keyoti.RapidFindReplace.WPF.TextMatching.TextMatchers,System.Int32)">
+            <summary>
+            Returns the next match for <c>searchText</c> in <c>text</c> starting at <c>currentIndex</c>.  
+            </summary>
+            <remarks>Some options are mutually exclusive (eg. find whole words only and match prefix), find whole words takes precedence.</remarks>
+            <param name="currentIndex">Where to start looking from</param>
+            <param name="matchers">Matchers to use in search for next hit.</param>
+            <returns>Where current query occurs or -1 if it doesn't.</returns>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.MaximumHitsToHighlight">
+            <summary>
+            The number of highlights at which the highlighter will give up looking for new highlights
+            </summary>
+        </member>
+        <member name="E:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.FinishedSearching">
+            <summary>
+            Fired when the search has finished.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.FindIterativelyFrom">
+            <summary>
+            Which control to iteratively find matches from.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.FindOptions">
+            <summary>
+            The options for Find operations.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.QueryHistory">
+            <summary>
+            The history of queries entered by the user.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.CurrentMatch">
+            <summary>
+            The current match that the user has iterated to using the next/previous buttons.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.QueryHistoryCapacity">
+            <summary>
+            Number of query history items to hold and display.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.Query">
+            <summary>
+            The query to search for.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.FindScope">
+            <summary>
+            Control and it's children to find within.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.NumberOfHits">
+            <summary>
+            Number of hits found.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.FindTextCommand">
+            <summary>
+            Executes the find.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.SelectNextMatchCommand">
+            <summary>
+            Selects the next match.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.SelectPreviousMatchCommand">
+            <summary>
+            Selects the previous match.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.ReplaceMatchCommand">
+            <summary>
+            Selects the next match.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.ReplaceAllMatchesCommand">
+            <summary>
+            Selects the previous match.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.BodyHighlightAdornerBrush">
+            <summary>
+            Body highlight brush to use
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.BodyHighlightAdornerPen">
+            <summary>
+            Pen to use to draw border around body highlights.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.BodyIterativeHighlightAdornerBrush">
+            <summary>
+            Brush to use when painting iterative highlights.  Iterative highlighting occurs when the user presses next/previous buttons.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.BodyIterativeHighlightAdornerPen">
+            <summary>
+            Pen to use when drawing iterative highlights.  Iterative highlighting occurs when the user presses next/previous buttons.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.RapidFindReplaceControlViewModel.AddHighlight">
+            <summary>
+            The add highlight delegate, called when hits are found.  
+            </summary>
+            <param name="run">The Run where hit was found</param>
+            <param name="index">Character index of hit</param>
+            <param name="length">Length of hit</param>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.ObservableBackwardsRingBuffer`1">
+            <summary>
+            A generic ring-buffer, that presents its item collection as last-in at the index 0 (start), and older items at subsequent indexes (end).
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.ObservableBackwardsRingBuffer`1.#ctor(System.Int32)">
+            <summary>
+            New
+            </summary>
+            <param name="capacity"></param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.ObservableBackwardsRingBuffer`1.AddItem(`0)">
+            <summary>
+            Adds an item to the ring-buffer
+            </summary>
+            <param name="item"></param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.ObservableBackwardsRingBuffer`1.RemoveStartItem">
+            <summary>
+            Removes item at index 0.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.ObservableBackwardsRingBuffer`1.GetEnumerator">
+            <summary>
+            Gets an enumerator
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.ObservableBackwardsRingBuffer`1.Resize(System.Int32)">
+            <summary>
+            Resizes the ring buffer.
+            </summary>
+            <param name="newSize">The new size.</param>
+        </member>
+        <member name="E:Keyoti.RapidFindReplace.WPF.ObservableBackwardsRingBuffer`1.CollectionChanged">
+            <summary>
+            Event when the collection changes.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.ObservableBackwardsRingBuffer`1.Count">
+            <summary>
+            Number of items in the collection
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.ObservableBackwardsRingBuffer`1.Capacity">
+            <summary>
+            Capacity
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.OptionPropertyAttribute">
+            <summary>
+            Property member attribute used to declare which properties of the OptionsViewModel class are 
+            used option settings.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.OptionPropertyAttribute.#ctor(System.String)">
+            <summary>
+            New instance
+            </summary>
+            <param name="description"></param>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.OptionPropertyAttribute.Description">
+            <summary>
+            The description of the option property.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.OptionProperty">
+            <summary>
+            A user option property.
+            </summary>
+        </member>
+        <member name="E:Keyoti.RapidFindReplace.WPF.OptionProperty.PropertyChanged">
+            <summary>
+            Fired when the property changed.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.OptionProperty.OptionDependencyProperty">
+            <summary>
+            DependencyProperty for the option.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.OptionProperty.FindOptions">
+            <summary>
+            Parent OptionsViewModel that this option belongs to. 
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.OptionProperty.Description">
+            <summary>
+            Option description.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.OptionProperty.Value">
+            <summary>
+            Option value.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.OptionProperty.OptionName">
+            <summary>
+            Option name.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.OptionProperty.OptionType">
+            <summary>
+            Option type.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.OptionPropertyMetaData">
+            <summary>
+            Meta data used for option properties.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.OptionPropertyMetaData.#ctor(System.Object,System.String,System.Boolean)">
+            <summary>
+            New
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.OptionPropertyMetaData.#ctor(System.Object,System.String,System.Boolean,System.Windows.PropertyChangedCallback)">
+            <summary>
+            New
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.OptionPropertyMetaData.Description">
+            <summary>
+            Description of the property.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.OptionPropertyMetaData.VisibleToUser">
+            <summary>
+            Whether the option is visible to the user in the options dropdown.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.OptionsViewModel">
+            <summary>
+            The options view model
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.OptionsViewModel.#ctor">
+            <summary>
+            New
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.OptionsViewModel.IgnoredElementTypesProperty">
+            <summary>
+            Collection of types that should not be searched.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.OptionsViewModel.ExclusiveFindElementTypesProperty">
+            <summary>
+            Collection of types that should only be searched.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.OptionsViewModel.MatchCaseProperty">
+            <summary>
+            Whether to only find hits where the case matches.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.OptionsViewModel.FindWholeWordsOnlyProperty">
+            <summary>
+            Whether to only find hits which match an entire word.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.OptionsViewModel.UseWildcardsProperty">
+            <summary>
+            Whether to treat * and ? as wildcards (also supports classes [], groups () and repetitions {}).
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.OptionsViewModel.UseRegularExpressionsProperty">
+            <summary>
+            Whether to use regular expressions as queries.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.OptionsViewModel.FindAsYouTypeProperty">
+            <summary>
+            Whether to highlight hits as you type.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.OptionsViewModel.MatchPrefixProperty">
+            <summary>
+            Whether to only find hits that match the start of a word.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.OptionsViewModel.MatchSuffixProperty">
+            <summary>
+            Whether to only find hits that match the end of a word.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.OptionsViewModel.IgnorePunctuationCharactersProperty">
+            <summary>
+            Whether to ignore punctuation characters in the text and query.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.OptionsViewModel.IgnoreWhitespaceCharactersProperty">
+            <summary>
+            Whether to ignore whitespace characters in the text and query.
+            </summary>
+        </member>
+        <member name="E:Keyoti.RapidFindReplace.WPF.OptionsViewModel.PropertyChanged">
+            <summary>
+            Fired when an option property has changed.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.OptionsViewModel.IgnoredElementTypes">
+            <summary>
+            Collection of types that should not be searched.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.OptionsViewModel.ExclusiveFindElementTypes">
+            <summary>
+            Collection of types that should only be searched.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.OptionsViewModel.MatchCase">
+            <summary>
+            Whether to only find hits where the case matches.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.OptionsViewModel.FindWholeWordsOnly">
+            <summary>
+            Whether to only find hits which match an entire word.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.OptionsViewModel.UseWildcards">
+            <summary>
+            Whether to treat * and ? as wildcards (also supports classes [], groups () and repetitions {}).
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.OptionsViewModel.UseRegularExpressions">
+            <summary>
+            Whether to use regular expressions as queries.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.OptionsViewModel.FindAsYouType">
+            <summary>
+            Whether to highlight hits as you type.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.OptionsViewModel.MatchPrefix">
+            <summary>
+            Whether to only find hits that match the start of a word.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.OptionsViewModel.MatchSuffix">
+            <summary>
+            Whether to only find hits that match the end of a word.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.OptionsViewModel.IgnorePunctuationCharacters">
+            <summary>
+            Whether to ignore punctuation characters in the text and query.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.OptionsViewModel.IgnoreWhitespaceCharacters">
+            <summary>
+            Whether to ignore whitespace characters in the text and query.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.PinnedPopup">
+            <summary>
+            Popup control used to hold RapidFindReplaceControl.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.PinnedPopup.DEBUG_DO_NOT_CLOSE_ON_DEACTIVATE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.PinnedPopup.DockingPositionProperty">
+            <summary>
+            Where to dock this popup.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.PinnedPopup.RaisePropertyChanged(System.String)">
+            <summary>
+            Raises the property changed event.
+            </summary>
+            <param name="propertyName">Name of the property.</param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.PinnedPopup.#ctor">
+            <summary>
+            New
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.PinnedPopup.DockingPosition">
+            <summary>
+            Where to dock this popup.
+            </summary>
+        </member>
+        <member name="E:Keyoti.RapidFindReplace.WPF.PinnedPopup.PropertyChanged">
+            <summary>
+            Occurs when a property value changes.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.PinnedPopup.DockRightOffsetX">
+            <summary>
+            The width of the placement target minus the width of this control, so that the popup can easily be aligned to the right edge of the placement target.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.PinnedPopup.DockPosition">
+            <summary>
+            Where to dock the popup.  Leave at None to supply custom offsets.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.PinnedPopup.DockPosition.None">
+            <summary>
+            No dock
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.PinnedPopup.DockPosition.TopLeft">
+            <summary>
+            Top left
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.PinnedPopup.DockPosition.TopCenter">
+            <summary>
+            Top center
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.PinnedPopup.DockPosition.TopRight">
+            <summary>
+            Top right
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.PinnedPopup.DockPosition.MiddleLeft">
+            <summary>
+            Middle left
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.PinnedPopup.DockPosition.MiddleCenter">
+            <summary>
+            Middle center
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.PinnedPopup.DockPosition.MiddleRight">
+            <summary>
+            Middle right
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.PinnedPopup.DockPosition.BottomLeft">
+            <summary>
+            Bottom left
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.PinnedPopup.DockPosition.BottomCenter">
+            <summary>
+            Bottom center
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.PinnedPopup.DockPosition.BottomRight">
+            <summary>
+            Bottom right
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.QueryValidationRule">
+            <summary>
+            Query validation.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.QueryValidationRule.Validate(System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Validates the query.
+            </summary>
+            <param name="value"></param>
+            <param name="cultureInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.QueryValidationRule.Query">
+            <summary>
+            The query to validate
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.Query">
+            <summary>
+            A find query.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.Query.RaisePropertyChanged(System.String)">
+            <summary>
+            Raises the property changed event.
+            </summary>
+            <param name="propertyName">Name of the property.</param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.Query.#ctor(System.String)">
+            <summary>
+            New.
+            </summary>
+            <param name="queryText">The text of the query.</param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.Query.GetTextMatchers(System.String,Keyoti.RapidFindReplace.WPF.OptionsViewModel)">
+            <summary>
+            Gets the chosen text matchers for the query options.
+            </summary>
+            <param name="textToSearch">Text being searched.</param>
+            <param name="findOptions">The chosen options.</param>
+            <returns>Collection of matchers.</returns>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.Query.ProcessReplacementSyntax(System.String,Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.Highlight)">
+            <summary>
+            Uses any enabled text matchers to process any relevant find syntax (eg. \1 style groupings in regex).
+            </summary>
+        </member>
+        <member name="E:Keyoti.RapidFindReplace.WPF.Query.PropertyChanged">
+            <summary>
+            Occurs when a property value changes.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.Query.QueryText">
+            <summary>
+            The query text
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.Query.ReasonInvalid">
+            <summary>
+            Any reason why the query is invalid, if it is otherwise empty.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.Query.Valid">
+            <summary>
+            Whether the query is valid, relative to the find options specified.
+            </summary>
+            <remarks>Eg. the query '[*' would be invalid if regular expressions are enabled.</remarks>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.QueuedRun">
+            <summary>
+            Wrapper for a Run that is in a Queue.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.QueuedRun.#ctor(System.Windows.Documents.Run)">
+            <summary>
+            New
+            </summary>
+            <param name="run">Run to wrap before putting it in a Queue</param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.QueuedRun.RegisterHit(System.Int32)">
+            <summary>
+            Registers a hit against the run.
+            </summary>
+            <param name="lengthOfCharsUsed"></param>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.QueuedRun.HitAvailableText">
+            <summary>
+            Text that has not already been searched.  Text that has been searched will appear as newline chars.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.QueuedRun.Text">
+            <summary>
+            Text to search, whether it has been searched already or not.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.QueuedRun.Run">
+            <summary>
+            The Run to search.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.QueuedRun.Length">
+            <summary>
+            The length of the text.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.RunQueue">
+            <summary>
+            Queue of Run objects to search.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.RunQueue.#ctor(System.Int32)">
+            <summary>
+            New.
+            </summary>
+            <param name="size">Capacity of the queue.</param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.RunQueue.Enqueue(System.Windows.Documents.Run)">
+            <summary>
+            Add a Run to the queue.
+            </summary>
+            <param name="run"></param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.RunQueue.GetRunLength(System.Int32)">
+            <summary>
+            Peek a the character length of any Run in the queue.
+            </summary>
+            <param name="ptr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.RunQueue.RemoveRunHoldingPosition(System.Int32,System.Int32@,System.Int32@)">
+            <summary>
+            Removes a Run in the queue.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.RunQueue.HitPosition(System.Int32,System.Int32,System.Int32@,System.Int32@)">
+            <summary>
+            Gets the Run for a hit (measured relative to the queue start).
+            </summary>
+            <param name="ptr">Hit start relative to queue start</param>
+            <param name="hitLength">Hit length</param>
+            <param name="ptrOffset">Hit start relative to Run start</param>
+            <param name="gobbledChars">Number of characters hit in the Run, if a hit spans multiple Runs then <c>gobbledChars</c>&lt;<c>hitLength</c>.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.RunQueue.Clone">
+            <summary>
+            Clones this.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.RunQueue.Clear">
+            <summary>
+            Clear the queue.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.RunQueue.Dequeue">
+            <summary>
+            Remove bottom queued run.
+            </summary>
+            <returns>The botttom queued run.</returns>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RunQueue.Count">
+            <summary>
+            Number of items in the queue.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RunQueue.Size">
+            <summary>
+            Capacity of the queue.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.RunQueue.Item(System.Int32)">
+            <summary>
+            Peek at an item in the queue.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.TextMatching.AbstractIgnoreHandler">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.TextMatching.IIgnoreCharacterHandler.TranslateToIgnored(System.String,System.Int32,System.Int32@)">
+            <summary>
+            Removes ignored characters, so that the return value can be searched.  Keeps a record of number of characters removed and their positions.
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.TextMatching.AbstractIgnoreHandler.ignoredIndexes">
+            <summary>
+            List of character indexes that have been ignored (removed) from the translated text.
+            </summary>
+            <remarks>
+            Eg. 
+            originalText = "this is it"
+            then
+            translatedText="thisisit"
+            and ignoredIndexes = {4, 7}
+            
+            To translate back to original index;
+            translatedIndex = 5
+            original = 5 + skipped tally (1) = 6
+            </remarks>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.TextMatching.AbstractIgnoreHandler.TranslateIndex(System.Int32,System.Boolean)">
+            <summary>
+            Translates from a character index in the translated string, to a character index in the original string.
+            </summary>
+            <param name="index">Char index in translated string</param>
+            <param name="shiftForward">Whether to return a position after any ignored chars that occurred </param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.TextMatching.AbstractIgnoreHandler.TranslateToIgnored(System.String,System.Int32,System.Int32@)">
+            <summary>
+            
+            </summary>
+            <param name="text"></param>
+            <param name="bookmark"></param>
+            <param name="translatedBookmark"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.TextMatching.AbstractIgnoreHandler.TranslateHit(Keyoti.RapidFindReplace.WPF.TextMatching.Hit)">
+            <summary>
+            
+            </summary>
+            <param name="hit"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.TextMatching.ITextMatcher">
+            <summary>
+            Interface for text matchers.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.TextMatching.ITextMatcher.GetEnumerator">
+            <summary>
+            Gets an enumerator
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.TextMatching.ITextMatcher.SetText(System.String)">
+            <summary>
+            Sets the text to search.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.TextMatching.ITextMatcher.ProcessReplacementSyntax(System.String,Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.Highlight)">
+            <summary>
+            Processes any relevant find syntax (eg. $1 style groupings in regex).
+            </summary>
+            <returns>Modified <c>replace</c> string (eg. with group substitutions in regular expressions)</returns>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.TextMatching.ITextMatcher.UnhookHandlers">
+            <summary>
+            Unhooks matcher from associated Query.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.TextMatching.ITextMatcher.CurrentPosition">
+            <summary>
+            The position in the text from where the next match will be searched for.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.TextMatching.AbstractTextMatcher.GetEnumerator">
+            <summary>
+            Gets an enumerator
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.TextMatching.AbstractTextMatcher.SetText(System.String)">
+            <summary>
+            The text the matcher is working on.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.TextMatching.AbstractTextMatcher.ProcessReplacementSyntax(System.String,Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.Highlight)">
+            <summary>
+            Processes any relevant find syntax (eg. $1 style groupings in regex).
+            </summary>
+            <returns>Modified <c>replace</c> string (eg. with group substitutions in regular expressions)</returns>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.TextMatching.AbstractTextMatcher.CurrentPosition">
+            <summary>
+            The position in the text from where the next match will be searched for.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.TextMatching.Hit">
+            <summary>
+            A hit in a text string.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.TextMatching.Hit.#ctor(System.Int32,System.Int32)">
+            <summary>
+            New
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.TextMatching.Hit.Start">
+            <summary>
+            The start position of the hit.
+            </summary>
+        </member>
+        <member name="P:Keyoti.RapidFindReplace.WPF.TextMatching.Hit.Length">
+            <summary>
+            The end position of the hit.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.TextMatching.IgnoreCharacterClassHandler">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.TextMatching.IgnoreCharacterClassHandler.#ctor(Keyoti.RapidFindReplace.WPF.TextMatching.IgnoreCharacterClassHandler.CharacterClass)">
+            <summary>
+            
+            </summary>
+            <param name="characterClass"></param>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.TextMatching.IgnoreCharacterClassHandler.TranslateToIgnored(System.String,System.Int32,System.Int32@)">
+            <summary>
+            Translates text to the ignored version (stripped ignored chars)
+            </summary>
+            <param name="text">The text to process</param>
+            <param name="bookmark">A character index that needs to be translated to a mapped value</param>
+            <param name="translatedBookmark">The translated value of <c>bookmark</c></param>
+            <returns>Translated text.</returns>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.TextMatching.IgnoreCharacterClassHandler.CharacterClass">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.TextMatching.IgnoreCharacterClassHandler.CharacterClass.Whitespace">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Keyoti.RapidFindReplace.WPF.TextMatching.IgnoreCharacterClassHandler.CharacterClass.Punctuation">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.TextMatching.RegularExpressionTextMatcher.ProcessReplacementSyntax(System.String,Keyoti.RapidFindReplace.WPF.FindHandlers.HighlightHandlers.Highlight)">
+            <summary>
+            Processes any relevant find syntax (eg. $1 style groupings in regex).
+            </summary>
+            <returns>Modified <c>replace</c> string (eg. with group substitutions in regular expressions)</returns>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.TextMatching.TextMatchers">
+            <summary>
+            Collection of TextMatchers.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.TextMatching.TextMatchers.#ctor(System.Int32)">
+            <summary>
+            New instance.
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.TextMatching.TextMatchers.UnhookHandlers">
+            <summary>
+            Unhooks matchers from associated Query.
+            </summary>
+        </member>
+        <member name="T:Keyoti.RapidFindReplace.WPF.TextMatching.WildcardTextMatcher">
+            <summary>
+            Wildcard which can be used as part of words in queries.  Wildcards can consume whitespace.  There can be multiple wildcards
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.Utility.FindScrollViewer(System.Windows.DependencyObject)">
+            <summary>
+            Gets the scroll viewer contained within the FlowDocumentScrollViewer control
+            </summary>
+        </member>
+        <member name="M:Keyoti.RapidFindReplace.WPF.Utility.GetClientRect(System.Windows.Window)">
+            <summary>
+            Get the client area size of a window
+            </summary>
+        </member>
+    </members>
+</doc>

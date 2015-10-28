@@ -1,0 +1,19 @@
+C:\Users\jake\Desktop\WebSiteText\WebSiteText\obj\Debug\WebSiteText.csprojResolveAssemblyReference.cache
+C:\Users\jake\Desktop\WebSiteText\WebSiteText\bin\WebSiteText.dll
+C:\Users\jake\Desktop\WebSiteText\WebSiteText\bin\WebSiteText.pdb
+C:\Users\jake\Desktop\WebSiteText\WebSiteText\bin\WatiN.Core.dll
+C:\Users\jake\Desktop\WebSiteText\WebSiteText\bin\Interop.SHDocVw.dll
+C:\Users\jake\Desktop\WebSiteText\WebSiteText\bin\WatiN.Core.pdb
+C:\Users\jake\Desktop\WebSiteText\WebSiteText\bin\WatiN.Core.xml
+C:\Users\jake\Desktop\WebSiteText\WebSiteText\obj\Debug\WebSiteText.dll
+C:\Users\jake\Desktop\WebSiteText\WebSiteText\obj\Debug\WebSiteText.pdb
+D:\Working Folder\Working\ScrapperDemo\sample\WebSiteText\WebSiteText\WebSiteText\bin\WebSiteText.dll.config
+D:\Working Folder\Working\ScrapperDemo\sample\WebSiteText\WebSiteText\WebSiteText\bin\WebSiteText.dll
+D:\Working Folder\Working\ScrapperDemo\sample\WebSiteText\WebSiteText\WebSiteText\bin\WebSiteText.pdb
+D:\Working Folder\Working\ScrapperDemo\sample\WebSiteText\WebSiteText\WebSiteText\bin\WatiN.Core.dll
+D:\Working Folder\Working\ScrapperDemo\sample\WebSiteText\WebSiteText\WebSiteText\bin\Interop.SHDocVw.dll
+D:\Working Folder\Working\ScrapperDemo\sample\WebSiteText\WebSiteText\WebSiteText\bin\WatiN.Core.pdb
+D:\Working Folder\Working\ScrapperDemo\sample\WebSiteText\WebSiteText\WebSiteText\bin\WatiN.Core.xml
+D:\Working Folder\Working\ScrapperDemo\sample\WebSiteText\WebSiteText\WebSiteText\obj\Debug\WebSiteText.csprojResolveAssemblyReference.cache
+D:\Working Folder\Working\ScrapperDemo\sample\WebSiteText\WebSiteText\WebSiteText\obj\Debug\WebSiteText.dll
+D:\Working Folder\Working\ScrapperDemo\sample\WebSiteText\WebSiteText\WebSiteText\obj\Debug\WebSiteText.pdb

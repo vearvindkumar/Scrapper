@@ -1,0 +1,15 @@
+D:\Working Folder\Working\ScrapperDemo\sample\RapidFindReplaceWPF-master\RapidFindReplaceWPF-master\Tests\bin\Debug\Tests.dll
+D:\Working Folder\Working\ScrapperDemo\sample\RapidFindReplaceWPF-master\RapidFindReplaceWPF-master\Tests\bin\Debug\Tests.pdb
+D:\Working Folder\Working\ScrapperDemo\sample\RapidFindReplaceWPF-master\RapidFindReplaceWPF-master\Tests\bin\Debug\Keyoti4.RapidFindReplace.WPF.dll
+D:\Working Folder\Working\ScrapperDemo\sample\RapidFindReplaceWPF-master\RapidFindReplaceWPF-master\Tests\bin\Debug\Keyoti4.RapidFindReplace.WPF.pdb
+D:\Working Folder\Working\ScrapperDemo\sample\RapidFindReplaceWPF-master\RapidFindReplaceWPF-master\Tests\bin\Debug\Keyoti4.RapidFindReplace.WPF.xml
+D:\Working Folder\Working\ScrapperDemo\sample\RapidFindReplaceWPF-master\RapidFindReplaceWPF-master\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+D:\Working Folder\Working\ScrapperDemo\sample\RapidFindReplaceWPF-master\RapidFindReplaceWPF-master\Tests\obj\Debug\TestFiles\FlowDocumentTests\FlowDocument5.baml
+D:\Working Folder\Working\ScrapperDemo\sample\RapidFindReplaceWPF-master\RapidFindReplaceWPF-master\Tests\obj\Debug\TestFiles\FlowDocumentTests\FlowDocument4.baml
+D:\Working Folder\Working\ScrapperDemo\sample\RapidFindReplaceWPF-master\RapidFindReplaceWPF-master\Tests\obj\Debug\TestFiles\FlowDocumentTests\FlowDocument3.baml
+D:\Working Folder\Working\ScrapperDemo\sample\RapidFindReplaceWPF-master\RapidFindReplaceWPF-master\Tests\obj\Debug\TestFiles\FlowDocumentTests\FlowDocument2.baml
+D:\Working Folder\Working\ScrapperDemo\sample\RapidFindReplaceWPF-master\RapidFindReplaceWPF-master\Tests\obj\Debug\TestFiles\FlowDocumentTests\FlowDocument1.baml
+D:\Working Folder\Working\ScrapperDemo\sample\RapidFindReplaceWPF-master\RapidFindReplaceWPF-master\Tests\obj\Debug\Tests_MarkupCompile.cache
+D:\Working Folder\Working\ScrapperDemo\sample\RapidFindReplaceWPF-master\RapidFindReplaceWPF-master\Tests\obj\Debug\Tests.g.resources
+D:\Working Folder\Working\ScrapperDemo\sample\RapidFindReplaceWPF-master\RapidFindReplaceWPF-master\Tests\obj\Debug\Tests.dll
+D:\Working Folder\Working\ScrapperDemo\sample\RapidFindReplaceWPF-master\RapidFindReplaceWPF-master\Tests\obj\Debug\Tests.pdb

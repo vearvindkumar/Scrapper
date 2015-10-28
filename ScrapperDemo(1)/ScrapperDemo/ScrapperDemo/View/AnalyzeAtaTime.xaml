@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="ScrapperDemo.View.AnalyzeAtaTime"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" Height="175" Width="520">
+    <Grid Margin="0,0,0,10" Background="LightSteelBlue">
+        <GroupBox Header="Analyze First And Second" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="153" Width="495"/>
+
+        <Button Visibility="Visible" x:Name="BtnwebpagecontentDiff" Content="Show Diff" HorizontalAlignment="Left" Margin="296,121,0,0" VerticalAlignment="Top" Width="60" Height="30" Click="BtnwebpagecontentDiff_Click" />
+
+        <Label Content="First URL:" HorizontalAlignment="Left" Margin="10,42,0,0" VerticalAlignment="Top" Width="76"/>
+        <TextBox Name="txtbxfirsturl" HorizontalAlignment="Left" Height="23" Margin="91,44,0,0" TextWrapping="Wrap" Text="Enter First URL: http://www.hrcadcentre.com" VerticalAlignment="Top" Width="384"/>
+
+        <Label Content="Second URL:" HorizontalAlignment="Left" Margin="10,82,0,0" VerticalAlignment="Top" Width="76"/>
+        <TextBox Name="txtbxsecondurl" HorizontalAlignment="Left" Height="23" Margin="91,84,0,0" TextWrapping="Wrap" Text="Enter Second URL: http://www.cadfolks.com" VerticalAlignment="Top" Width="384"/>
+
+        <Button Name="Btnatatimeanalyze" Content="Start Analyze" HorizontalAlignment="Left" Margin="361,121,0,0" VerticalAlignment="Top" Width="114" Height="30" Click="Btnatatimeanalyze_Click"/>
+
+
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,22 @@
+$(function(){
+	var photos = [
+		'./images/ban1.jpg',
+			
+			'./images/ban3.jpg',
+			'./images/ban4.jpg',
+			'./images/ban2.jpg',
+	
+	];
+	
+	var slideshow = $('#slideShow').bubbleSlideshow(photos);
+
+	$(window).load(function(){
+		slideshow.autoAdvance(5000);
+	});
+	
+	// Other valid method calls:
+	
+	// slideshow.showNext();
+	// slideshow.showPrev();
+	// slideshow.stopAutoAdvance();
+});

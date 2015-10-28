@@ -1,0 +1,4 @@
+D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DifferenceEngine\bin\Debug\DifferenceEngine.dll
+D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DifferenceEngine\bin\Debug\DifferenceEngine.pdb
+D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DifferenceEngine\obj\Debug\DifferenceEngine.dll
+D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DifferenceEngine\obj\Debug\DifferenceEngine.pdb

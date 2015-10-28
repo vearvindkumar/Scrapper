@@ -1,0 +1,40 @@
+D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DiffCalc\bin\Debug\DiffCalc.exe
+D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DiffCalc\bin\Debug\DiffCalc.pdb
+D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DiffCalc\bin\Debug\DifferenceEngine.dll
+D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DiffCalc\bin\Debug\DifferenceEngine.pdb
+D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DiffCalc\obj\Debug\DiffCalc.csprojResolveAssemblyReference.cache
+D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DiffCalc\obj\Debug\DiffCalc.BinaryResults.resources
+D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DiffCalc\obj\Debug\DiffCalc.MainForm.resources
+D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DiffCalc\obj\Debug\DiffCalc.Results.resources
+D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DiffCalc\obj\Debug\DiffCalc.csproj.GenerateResource.Cache
+D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DiffCalc\obj\Debug\DiffCalc.exe
+D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DiffCalc\obj\Debug\DiffCalc.pdb
+D:\Working Folder\Working\ScrapperDemo\DiffCalc\obj\Debug\DiffCalc.exe
+D:\Working Folder\Working\ScrapperDemo\DiffCalc\obj\Debug\DiffCalc.pdb
+D:\Working Folder\Working\ScrapperDemo\DiffCalc\bin\Debug\DiffCalc.exe
+D:\Working Folder\Working\ScrapperDemo\DiffCalc\bin\Debug\DiffCalc.pdb
+D:\Working Folder\Working\ScrapperDemo\DiffCalc\bin\Debug\DifferenceEngine.dll
+D:\Working Folder\Working\ScrapperDemo\DiffCalc\bin\Debug\DifferenceEngine.pdb
+D:\Working Folder\Working\ScrapperDemo\DiffCalc\obj\Debug\DiffCalc.BinaryResults.resources
+D:\Working Folder\Working\ScrapperDemo\DiffCalc\obj\Debug\DiffCalc.MainForm.resources
+D:\Working Folder\Working\ScrapperDemo\DiffCalc\obj\Debug\DiffCalc.Results.resources
+D:\Working Folder\Working\ScrapperDemo\DiffCalc\obj\Debug\DiffCalc.csproj.GenerateResource.Cache
+D:\Working Folder\Working\ScrapperDemo\DiffCalc\bin\Debug\DiffCalc.exe.config
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\DiffCalc\bin\Debug\DiffCalc.exe.config
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\DiffCalc\bin\Debug\DiffCalc.exe
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\DiffCalc\bin\Debug\DiffCalc.pdb
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\DiffCalc\bin\Debug\DifferenceEngine.dll
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\DiffCalc\bin\Debug\mscorlib.dll
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\DiffCalc\bin\Debug\DifferenceEngine.pdb
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\DiffCalc\bin\Debug\normidna.nlp
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\DiffCalc\bin\Debug\normnfc.nlp
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\DiffCalc\bin\Debug\normnfd.nlp
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\DiffCalc\bin\Debug\normnfkc.nlp
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\DiffCalc\bin\Debug\normnfkd.nlp
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\DiffCalc\obj\Debug\DiffCalc.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\DiffCalc\obj\Debug\DiffCalc.BinaryResults.resources
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\DiffCalc\obj\Debug\DiffCalc.MainForm.resources
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\DiffCalc\obj\Debug\DiffCalc.Results.resources
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\DiffCalc\obj\Debug\DiffCalc.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\DiffCalc\obj\Debug\DiffCalc.exe
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\DiffCalc\obj\Debug\DiffCalc.pdb

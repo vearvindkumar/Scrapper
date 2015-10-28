@@ -1,0 +1,11 @@
+D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\CPAM\bin\Debug\CPAM.exe
+D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\CPAM\bin\Debug\CPAM.pdb
+D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\CPAM\bin\Debug\CPArticleScraper.dll
+D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\CPAM\bin\Debug\CPArticleScraper.pdb
+D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\CPAM\obj\Debug\CPAM.csprojResolveAssemblyReference.cache
+D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\CPAM\obj\Debug\CPAM.Form1.resources
+D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\CPAM\obj\Debug\CPAM.Properties.Resources.resources
+D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\CPAM\obj\Debug\CPAM.Resource1.resources
+D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\CPAM\obj\Debug\CPAM.csproj.GenerateResource.Cache
+D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\CPAM\obj\Debug\CPAM.exe
+D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\CPAM\obj\Debug\CPAM.pdb

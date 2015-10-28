@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Fashion>
+  <ProductDetail>
+    <ProductID>M45</ProductID>
+    <ProductName>Men Black Genuine Leather Trench Coat Belted SM</ProductName>
+    <ProductPrice>$32.85</ProductPrice>
+    <ColorAvailable>Black, Blue</ColorAvailable>
+    <DeliveryDays>14</DeliveryDays>
+  </ProductDetail>
+  <ProductDetail>
+    <ProductID>M50</ProductID>
+    <ProductName>Gucci Tom Ford by Zegna Runway Black Flannel Pinstripe Suit Double Breasted 44 R</ProductName>
+    <ProductPrice>$160.00</ProductPrice>
+    <ColorAvailable>Green, Blue</ColorAvailable>
+    <DeliveryDays>10</DeliveryDays>
+  </ProductDetail>
+  <ProductDetail>
+    <ProductID>M55</ProductID>
+    <ProductName>BAR and SHIELD MENS HOODIE</ProductName>
+    <ProductPrice>$160.00</ProductPrice>
+    <ColorAvailable>Red, Black and Yellow</ColorAvailable>
+    <DeliveryDays>10</DeliveryDays>
+  </ProductDetail>
+  <ProductDetail>
+    <ProductID>M60</ProductID>
+    <ProductName>GUIDE BLACK WIND JACKET</ProductName>
+    <ProductPrice>$85.00</ProductPrice>
+    <ColorAvailable>Black</ColorAvailable>
+    <DeliveryDays>7</DeliveryDays>
+  </ProductDetail>
+  <ProductDetail>
+    <ProductID>M65</ProductID>
+    <ProductName>Three Stripes Polo Sport Shirt</ProductName>
+    <ProductPrice>$30.00</ProductPrice>
+    <ColorAvailable>Black, Blue, Red, White</ColorAvailable>
+    <DeliveryDays>10</DeliveryDays>
+  </ProductDetail>
+  <ProductDetail>
+    <ProductID>M70</ProductID>
+    <ProductName>Dark Green - Merino Wool</ProductName>
+    <ProductPrice>$128.50</ProductPrice>
+    <ColorAvailable>Dark Green</ColorAvailable>
+    <DeliveryDays>10</DeliveryDays>
+  </ProductDetail>
+  <ProductDetail>
+    <ProductID>M75</ProductID>
+    <ProductName>Soccer Training Running Warm Up Pants</ProductName>
+    <ProductPrice>$102.50</ProductPrice>
+    <ColorAvailable>Black, Green</ColorAvailable>
+    <DeliveryDays>12</DeliveryDays>
+  </ProductDetail>
+  <ProductDetail>
+    <ProductID>M80</ProductID>
+    <ProductName>MILITARY-STYLE CARGO Pants</ProductName>
+    <ProductPrice>$25.00</ProductPrice>
+    <ColorAvailable>Coffee</ColorAvailable>
+    <DeliveryDays>5</DeliveryDays>
+  </ProductDetail>
+  <ProductDetail>
+    <ProductID>M85</ProductID>
+    <ProductName>FDNY JOB SHIRT PULLOVER</ProductName>
+    <ProductPrice>$55.50</ProductPrice>
+    <ColorAvailable>Black</ColorAvailable>
+    <DeliveryDays>3</DeliveryDays>
+  </ProductDetail>
+</Fashion>

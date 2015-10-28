@@ -1,0 +1,70 @@
+/* Custom Styles */
+
+    #gs-header, #piecemaker-header, #c1-header, #c2-header, #c3-header {/* background: url("http://idesignmywebsite.com/u-design/wp-content/uploads/2011/05/bg.png") repeat-x scroll left bottom #FFFFFF;*/
+}
+#navigation-menu ul.sf-menu > li > a > span {
+	color:#555555;
+}
+#navigation-menu ul.sf-menu > li.current-menu-item > a > span, #navigation-menu ul.sf-menu > li.current_page_item > a > span {
+	color:#F95700;
+}
+#navigation-menu ul.sf-menu > li.current-menu-item > a > span:hover, #navigation-menu ul.sf-menu > li.current_page_item > a > span:hover {
+	color:#AAAAAA;
+}
+#navigation-menu ul.sf-menu > li > a:hover span {
+	color:#AAAAAA;
+}
+#page-content-title #page-title h1, .js_on .cufon-on #page-content-title #page-title h1, #page-content-title #page-title h2, .js_on .cufon-on #page-content-title #page-title h2, #page-content-title #page-title h3, .js_on .cufon-on #page-content-title #page-title h3, #page-content-title #page-title .single-post-categories, .js_on .cufon-on #page-content-title #page-title .single-post-categories {
+	color:#333333;
+}
+#page-content-title {
+	background-color:#FBFBFB;
+}
+#home-page-content, #page-content {
+	background-color:#FFFFFF;
+}
+h3.before_cont_title {
+	color:#525252;
+}
+#before-content {
+	color:#333333;
+}
+#before-content {
+	background-color:#FAFAFA;
+}
+#bottom-bg {
+	background: none repeat scroll 0 0 #F7F7F7;
+}
+h3.bottom-col-title {
+	color: #757575;
+}
+#bottom, #bottom .textwidget, #bottom #wp-calendar, #bottom .posts-counter {
+	color: #444444;
+}
+#bottom a {
+	color: #F95700;
+}
+#bottom a:hover {
+	color: #757575;
+}
+#bottom .custom-frame, #bottom .small-custom-frame {
+	border: 1px solid #EAEAEA;
+}
+h3.bottom-col-title, #bottom ul.small-thumb li, #bottom .widget_recent_entries li a, #bottom .widget_categories li a, #bottom .widget_pages li a, #bottom .widget_subpages li a, #bottom .widget_archive li a, #bottom .widget_links li a, #bottom .widget_rss li a, #bottom .widget_meta li a, #bottom .loginform li a, #bottom .widget_nav_menu li a {
+	background: url("../style1/images/heading_underline.html") repeat-x scroll 0 100% transparent;
+}
+#bottom .widget_recent_comments li {
+	background: url("../style1/images/heading_underline.html") repeat-x scroll 0 100% transparent;
+}
+#footer-bg {
+	background: url("../common-images/home-page-content-top.html") repeat-x scroll 50% 0 #212121;
+}
+#footer, #footer_text {
+	color: #EBEBEB;
+}
+#footer a, #footer_text a {
+	color: #949494;
+}
+#footer a:hover, #footer_text a:hover {
+	color: #F95700;
+}

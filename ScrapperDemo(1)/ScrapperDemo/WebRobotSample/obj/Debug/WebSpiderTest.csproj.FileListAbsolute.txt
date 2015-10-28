@@ -1,0 +1,8 @@
+C:\Working Folder\Makis Robots\ZetaWebSpider_source\WebSpiderTest\bin\Debug\WebSpiderTest.exe
+C:\Working Folder\Makis Robots\ZetaWebSpider_source\WebSpiderTest\bin\Debug\WebSpiderTest.pdb
+C:\Working Folder\Makis Robots\ZetaWebSpider_source\WebSpiderTest\bin\Debug\Zeta.WebSpider.dll
+C:\Working Folder\Makis Robots\ZetaWebSpider_source\WebSpiderTest\bin\Debug\SgmlReaderDll.dll
+C:\Working Folder\Makis Robots\ZetaWebSpider_source\WebSpiderTest\bin\Debug\Zeta.WebSpider.pdb
+C:\Working Folder\Makis Robots\ZetaWebSpider_source\WebSpiderTest\obj\Debug\WebSpiderTest.csprojResolveAssemblyReference.cache
+C:\Working Folder\Makis Robots\ZetaWebSpider_source\WebSpiderTest\obj\Debug\WebSpiderTest.exe
+C:\Working Folder\Makis Robots\ZetaWebSpider_source\WebSpiderTest\obj\Debug\WebSpiderTest.pdb

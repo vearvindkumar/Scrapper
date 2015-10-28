@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Fashion>
+  <ProductDetail>
+    <ProductID>W10</ProductID>
+    <ProductName>Skinny Boot Cut Jeans in Blue Bell Dark Wash Stretch</ProductName>
+    <ProductPrice>$120.00</ProductPrice>
+    <ColorAvailable>Black, Blue</ColorAvailable>
+    <DeliveryDays>7</DeliveryDays>
+  </ProductDetail>
+  <ProductDetail>
+    <ProductID>W20</ProductID>
+    <ProductName>Super SKINNY LEGGINGS Woman</ProductName>
+    <ProductPrice>$95.00</ProductPrice>
+    <ColorAvailable>Grey</ColorAvailable>
+    <DeliveryDays>4</DeliveryDays>
+  </ProductDetail>
+  <ProductDetail>
+    <ProductID>W30</ProductID>
+    <ProductName>Low Rise PENCIL LEG Woman Jeans</ProductName>
+    <ProductPrice>$120.00</ProductPrice>
+    <ColorAvailable>Blue</ColorAvailable>
+    <DeliveryDays>8</DeliveryDays>
+  </ProductDetail>
+  <ProductDetail>
+    <ProductID>W40</ProductID>
+    <ProductName>Skinny Leg Womens Jeans</ProductName>
+    <ProductPrice>$60.00</ProductPrice>
+    <ColorAvailable>Black</ColorAvailable>
+    <DeliveryDays>7</DeliveryDays>
+  </ProductDetail>
+  <ProductDetail>
+    <ProductID>W50</ProductID>
+    <ProductName>CAICOS BLUE JEANS</ProductName>
+    <ProductPrice>$70.00</ProductPrice>
+    <ColorAvailable>Blue</ColorAvailable>
+    <DeliveryDays>5</DeliveryDays>
+  </ProductDetail>
+  <ProductDetail>
+    <ProductID>W60</ProductID>
+    <ProductName>SKINNY LEG Woman Jeans SZ</ProductName>
+    <ProductPrice>$100.00</ProductPrice>
+    <ColorAvailable>Bottle Green</ColorAvailable>
+    <DeliveryDays>5</DeliveryDays>
+  </ProductDetail>
+  <ProductDetail>
+    <ProductID>W70</ProductID>
+    <ProductName>SKINNY MID-RISE INDIGO BOA JEANS</ProductName>
+    <ProductPrice>$80.00</ProductPrice>
+    <ColorAvailable>Blue,White</ColorAvailable>
+    <DeliveryDays>9</DeliveryDays>
+  </ProductDetail>
+  <ProductDetail>
+    <ProductID>W80</ProductID>
+    <ProductName>Pencil Leg Slim-Fit, Low-Rise Jeans</ProductName>
+    <ProductPrice>$55.00</ProductPrice>
+    <ColorAvailable>Blue and White</ColorAvailable>
+    <DeliveryDays>7</DeliveryDays>
+  </ProductDetail>
+  <ProductDetail>
+    <ProductID>W90</ProductID>
+    <ProductName>Jeans 811 Starr Wash (Gray) Mid Rise</ProductName>
+    <ProductPrice>$75.00</ProductPrice>
+    <ColorAvailable>Grey</ColorAvailable>
+    <DeliveryDays>9</DeliveryDays>
+  </ProductDetail>
+  <ProductDetail>
+    <ProductID>W100</ProductID>
+    <ProductName>Slim Cigarette Skinny Ankle Denim Jeans</ProductName>
+    <ProductPrice>$85.00</ProductPrice>
+    <ColorAvailable>Grey</ColorAvailable>
+    <DeliveryDays>10</DeliveryDays>
+  </ProductDetail>
+</Fashion>

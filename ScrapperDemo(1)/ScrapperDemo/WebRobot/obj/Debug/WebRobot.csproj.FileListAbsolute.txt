@@ -1,0 +1,28 @@
+C:\Working Folder\Makis Robots\ZetaWebSpider_source\WebSpider\bin\Debug\Zeta.WebSpider.dll
+C:\Working Folder\Makis Robots\ZetaWebSpider_source\WebSpider\bin\Debug\Zeta.WebSpider.pdb
+C:\Working Folder\Makis Robots\ZetaWebSpider_source\WebSpider\bin\Debug\SgmlReaderDll.dll
+C:\Working Folder\Makis Robots\ZetaWebSpider_source\WebSpider\obj\Debug\Zeta.WebSpider.dll
+C:\Working Folder\Makis Robots\ZetaWebSpider_source\WebSpider\obj\Debug\Zeta.WebSpider.pdb
+C:\Working Folder\Makis Robots\ZetaWebSpider_source\WebSpider\obj\Debug\WebRobot.csprojResolveAssemblyReference.cache
+C:\Working Folder\Makis Robots\WebRobots\WebRobot\bin\Debug\Zeta.WebSpider.dll
+C:\Working Folder\Makis Robots\WebRobots\WebRobot\bin\Debug\Zeta.WebSpider.pdb
+C:\Working Folder\Makis Robots\WebRobots\WebRobot\bin\Debug\SgmlReaderDll.dll
+C:\Working Folder\Makis Robots\WebRobots\WebRobot\obj\Debug\Zeta.WebSpider.dll
+C:\Working Folder\Makis Robots\WebRobots\WebRobot\obj\Debug\Zeta.WebSpider.pdb
+C:\Working Folder\Makis Robots\WebRobots\WebRobot\obj\Debug\WebRobot.csprojResolveAssemblyReference.cache
+C:\Working Folder\Makis webRobots\WebRobots\WebRobot\bin\Debug\Zeta.WebSpider.dll
+C:\Working Folder\Makis webRobots\WebRobots\WebRobot\bin\Debug\Zeta.WebSpider.pdb
+C:\Working Folder\Makis webRobots\WebRobots\WebRobot\bin\Debug\SgmlReaderDll.dll
+C:\Working Folder\Makis webRobots\WebRobots\WebRobot\obj\Debug\Zeta.WebSpider.dll
+C:\Working Folder\Makis webRobots\WebRobots\WebRobot\obj\Debug\Zeta.WebSpider.pdb
+D:\Working Folder\Working\Makis webRobots\WebRobots\vs13\WebRobot\bin\Debug\Zeta.WebSpider.dll
+D:\Working Folder\Working\Makis webRobots\WebRobots\vs13\WebRobot\bin\Debug\Zeta.WebSpider.pdb
+D:\Working Folder\Working\Makis webRobots\WebRobots\vs13\WebRobot\bin\Debug\SgmlReaderDll.dll
+D:\Working Folder\Working\Makis webRobots\WebRobots\vs13\WebRobot\obj\Debug\WebRobot.csprojResolveAssemblyReference.cache
+D:\Working Folder\Working\Makis webRobots\WebRobots\vs13\WebRobot\obj\Debug\Zeta.WebSpider.dll
+D:\Working Folder\Working\Makis webRobots\WebRobots\vs13\WebRobot\obj\Debug\Zeta.WebSpider.pdb
+D:\Working Folder\Working\ScrapperDemo\WebRobot\bin\Debug\Zeta.WebSpider.dll
+D:\Working Folder\Working\ScrapperDemo\WebRobot\bin\Debug\Zeta.WebSpider.pdb
+D:\Working Folder\Working\ScrapperDemo\WebRobot\bin\Debug\SgmlReaderDll.dll
+D:\Working Folder\Working\ScrapperDemo\WebRobot\obj\Debug\Zeta.WebSpider.dll
+D:\Working Folder\Working\ScrapperDemo\WebRobot\obj\Debug\Zeta.WebSpider.pdb

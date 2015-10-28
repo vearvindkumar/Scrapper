@@ -1,0 +1,4 @@
+D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\CPArticleScraper\bin\Debug\CPArticleScraper.dll
+D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\CPArticleScraper\bin\Debug\CPArticleScraper.pdb
+D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\CPArticleScraper\obj\Debug\CPArticleScraper.dll
+D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\CPArticleScraper\obj\Debug\CPArticleScraper.pdb

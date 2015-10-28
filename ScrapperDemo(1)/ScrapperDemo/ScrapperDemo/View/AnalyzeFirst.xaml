@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="ScrapperDemo.View.AnalyzeFirst"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" Height="177" Width="524">
+    <Grid Name="FirstAnalyze" Background="Cornsilk" >
+        <Label Content="Enter Website Address (URL) : " HorizontalAlignment="Left" Margin="10,53,0,0" VerticalAlignment="Top" Width="173" Height="30"/>
+        <TextBox Name="txtbxenterurl" HorizontalAlignment="Left" Height="30" Margin="188,53,0,0" TextWrapping="Wrap" Text="Enter URL: http://www.cadfolks.com" VerticalAlignment="Top" Width="302"/>
+        <Button Name="BtnStartScrappingURL"  Content="Start Scrapping URL" HorizontalAlignment="Left" Margin="372,102,0,0" VerticalAlignment="Top" Width="118" Height="30" RenderTransformOrigin="2.761,0.853" Click="BtnStartScrappingURL_Click"/>
+        <Label Name="lblStatus" Content="Status: " HorizontalAlignment="Left" Margin="10,137,0,0" VerticalAlignment="Top" Width="480" Height="30"/>
+        <Button Name="BtnDirPath" Content="Choose Directory Path" HorizontalAlignment="Left" Margin="237,102,0,0" VerticalAlignment="Top" Width="130" Height="30" RenderTransformOrigin="2.761,0.853" Click="BtnDirPath_Click"/>
+        <GroupBox Header="First Analyze" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="157" Width="495"/>
+
+
+        <!--<ProgressBar Name="firstprogbar" HorizontalAlignment="Left" Height="20" Margin="10,110,0,0" VerticalAlignment="Top" Width="192" Visibility="Visible"/>-->
+    </Grid>
+</UserControl>

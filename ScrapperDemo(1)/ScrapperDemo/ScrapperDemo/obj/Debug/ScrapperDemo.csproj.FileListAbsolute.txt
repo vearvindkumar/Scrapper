@@ -1,0 +1,84 @@
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\obj\Debug\ScrapperDemo.csprojResolveAssemblyReference.cache
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\obj\Debug\View\AnalyzeAtaTime.baml
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\obj\Debug\View\AnalyzeFirst.baml
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\obj\Debug\View\AnalyzeSecond.baml
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\obj\Debug\MainWindow.g.cs
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\obj\Debug\View\AnalyzeAtaTime.g.cs
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\obj\Debug\View\AnalyzeFirst.g.cs
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\obj\Debug\View\AnalyzeSecond.g.cs
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\obj\Debug\App.g.cs
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\obj\Debug\ScrapperDemo_MarkupCompile.cache
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\obj\Debug\ScrapperDemo_MarkupCompile.lref
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\bin\Debug\ScrapperDemo.exe.config
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\bin\Debug\ScrapperDemo.exe
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\bin\Debug\ScrapperDemo.pdb
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\bin\Debug\Zeta.WebSpider.dll
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\bin\Debug\SgmlReaderDll.dll
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\bin\Debug\Zeta.WebSpider.pdb
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\obj\Debug\MainWindow.baml
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\obj\Debug\ScrapperDemo.g.resources
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\obj\Debug\ScrapperDemo.Properties.Resources.resources
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\obj\Debug\ScrapperDemo.csproj.GenerateResource.Cache
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\obj\Debug\ScrapperDemo.exe
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\obj\Debug\ScrapperDemo.pdb
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\bin\Debug\WebSpiderTest.exe
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\bin\Debug\WebSpiderTest.pdb
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\obj\Debug\ScrapperDemo_Content.g.cs
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\bin\Debug\WatiN.Core.dll
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\bin\Debug\Interop.SHDocVw.dll
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\bin\Debug\WatiN.Core.pdb
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\bin\Debug\WatiN.Core.xml
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\obj\Debug\View\LoadHTMLContentToSQL.baml
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\obj\Debug\View\LoadHTMLContentToSQL.g.cs
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\obj\Debug\View\SearchData.g.cs
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\obj\Debug\View\SearchData.baml
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\bin\Debug\DifferenceEngine.dll
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\bin\Debug\DiffCalc.pdb
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\bin\Debug\DifferenceEngine.pdb
+D:\Working Folder\Working\ScrapperDemo\ScrapperDemo\bin\Debug\DiffCalc.exe
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\bin\Debug\ScrapperDemo.exe.config
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\bin\Debug\ScrapperDemo.exe
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\bin\Debug\ScrapperDemo.pdb
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\bin\Debug\DiffCalc.exe
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\bin\Debug\mscorlib.dll
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\bin\Debug\WatiN.Core.dll
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\bin\Debug\WebSpiderTest.exe
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\bin\Debug\Zeta.WebSpider.dll
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\bin\Debug\DifferenceEngine.dll
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\bin\Debug\Interop.SHDocVw.dll
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\bin\Debug\SgmlReaderDll.dll
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\bin\Debug\DiffCalc.pdb
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\bin\Debug\WatiN.Core.pdb
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\bin\Debug\WatiN.Core.xml
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\bin\Debug\WebSpiderTest.pdb
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\bin\Debug\Zeta.WebSpider.pdb
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\bin\Debug\DifferenceEngine.pdb
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\bin\Debug\normidna.nlp
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\bin\Debug\normnfc.nlp
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\bin\Debug\normnfd.nlp
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\bin\Debug\normnfkc.nlp
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\bin\Debug\normnfkd.nlp
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\obj\Debug\ScrapperDemo.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\obj\Debug\View\AnalyzeAtaTime.baml
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\obj\Debug\View\AnalyzeFirst.baml
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\obj\Debug\View\AnalyzeSecond.baml
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\obj\Debug\View\LoadHTMLContentToSQL.baml
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\obj\Debug\View\AnalyzeAtaTime.g.cs
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\obj\Debug\View\AnalyzeFirst.g.cs
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\obj\Debug\View\AnalyzeSecond.g.cs
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\obj\Debug\View\LoadHTMLContentToSQL.g.cs
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\obj\Debug\View\SearchData.g.cs
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\obj\Debug\App.g.cs
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\obj\Debug\ScrapperDemo_Content.g.cs
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\obj\Debug\ScrapperDemo_MarkupCompile.cache
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\obj\Debug\ScrapperDemo_MarkupCompile.lref
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\obj\Debug\MainWindow.baml
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\obj\Debug\View\SearchData.baml
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\obj\Debug\ScrapperDemo.g.resources
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\obj\Debug\ScrapperDemo.Properties.Resources.resources
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\obj\Debug\ScrapperDemo.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\obj\Debug\ScrapperDemo.exe
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\ScrapperDemo\obj\Debug\ScrapperDemo.pdb

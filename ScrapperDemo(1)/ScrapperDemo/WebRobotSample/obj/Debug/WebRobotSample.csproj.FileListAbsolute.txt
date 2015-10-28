@@ -1,0 +1,42 @@
+C:\Working Folder\Makis Robots\WebRobots\WebRobotSample\bin\Debug\WebSpiderTest.exe
+C:\Working Folder\Makis Robots\WebRobots\WebRobotSample\bin\Debug\WebSpiderTest.pdb
+C:\Working Folder\Makis Robots\WebRobots\WebRobotSample\bin\Debug\Zeta.WebSpider.dll
+C:\Working Folder\Makis Robots\WebRobots\WebRobotSample\bin\Debug\SgmlReaderDll.dll
+C:\Working Folder\Makis Robots\WebRobots\WebRobotSample\bin\Debug\Zeta.WebSpider.pdb
+C:\Working Folder\Makis Robots\WebRobots\WebRobotSample\obj\Debug\WebRobotSample.csprojResolveAssemblyReference.cache
+C:\Working Folder\Makis Robots\WebRobots\WebRobotSample\obj\Debug\WebSpiderTest.exe
+C:\Working Folder\Makis Robots\WebRobots\WebRobotSample\obj\Debug\WebSpiderTest.pdb
+C:\Working Folder\Makis webRobots\WebRobots\WebRobotSample\obj\Debug\WebSpiderTest.exe
+C:\Working Folder\Makis webRobots\WebRobots\WebRobotSample\obj\Debug\WebSpiderTest.pdb
+C:\Working Folder\Makis webRobots\WebRobots\WebRobotSample\bin\Debug\WebSpiderTest.exe
+C:\Working Folder\Makis webRobots\WebRobots\WebRobotSample\bin\Debug\WebSpiderTest.pdb
+C:\Working Folder\Makis webRobots\WebRobots\WebRobotSample\bin\Debug\Zeta.WebSpider.dll
+C:\Working Folder\Makis webRobots\WebRobots\WebRobotSample\bin\Debug\SgmlReaderDll.dll
+C:\Working Folder\Makis webRobots\WebRobots\WebRobotSample\bin\Debug\Zeta.WebSpider.pdb
+C:\Working Folder\Makis webRobots\WebRobots\WebRobotSample\obj\Debug\WebRobotSample.csprojResolveAssemblyReference.cache
+D:\Working Folder\Working\Makis webRobots\WebRobots\vs13\WebRobotSample\obj\Debug\WebSpiderTest.exe
+D:\Working Folder\Working\Makis webRobots\WebRobots\vs13\WebRobotSample\obj\Debug\WebSpiderTest.pdb
+D:\Working Folder\Working\Makis webRobots\WebRobots\vs13\WebRobotSample\bin\Debug\WebSpiderTest.exe
+D:\Working Folder\Working\Makis webRobots\WebRobots\vs13\WebRobotSample\bin\Debug\WebSpiderTest.pdb
+D:\Working Folder\Working\Makis webRobots\WebRobots\vs13\WebRobotSample\bin\Debug\Zeta.WebSpider.dll
+D:\Working Folder\Working\Makis webRobots\WebRobots\vs13\WebRobotSample\bin\Debug\SgmlReaderDll.dll
+D:\Working Folder\Working\Makis webRobots\WebRobots\vs13\WebRobotSample\bin\Debug\Zeta.WebSpider.pdb
+D:\Working Folder\Working\Makis webRobots\WebRobots\vs13\WebRobotSample\obj\Debug\WebRobotSample.csprojResolveAssemblyReference.cache
+D:\Working Folder\Working\ScrapperDemo\WebRobotSample\bin\Debug\WebSpiderTest.exe.config
+D:\Working Folder\Working\ScrapperDemo\WebRobotSample\bin\Debug\WebSpiderTest.exe
+D:\Working Folder\Working\ScrapperDemo\WebRobotSample\bin\Debug\WebSpiderTest.pdb
+D:\Working Folder\Working\ScrapperDemo\WebRobotSample\bin\Debug\Zeta.WebSpider.dll
+D:\Working Folder\Working\ScrapperDemo\WebRobotSample\bin\Debug\SgmlReaderDll.dll
+D:\Working Folder\Working\ScrapperDemo\WebRobotSample\bin\Debug\Zeta.WebSpider.pdb
+D:\Working Folder\Working\ScrapperDemo\WebRobotSample\obj\Debug\WebRobotSample.csprojResolveAssemblyReference.cache
+D:\Working Folder\Working\ScrapperDemo\WebRobotSample\obj\Debug\WebSpiderTest.exe
+D:\Working Folder\Working\ScrapperDemo\WebRobotSample\obj\Debug\WebSpiderTest.pdb
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\WebRobotSample\bin\Debug\WebSpiderTest.exe.config
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\WebRobotSample\obj\Debug\WebSpiderTest.exe
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\WebRobotSample\obj\Debug\WebSpiderTest.pdb
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\WebRobotSample\bin\Debug\WebSpiderTest.exe
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\WebRobotSample\bin\Debug\WebSpiderTest.pdb
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\WebRobotSample\bin\Debug\Zeta.WebSpider.dll
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\WebRobotSample\bin\Debug\SgmlReaderDll.dll
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\WebRobotSample\bin\Debug\Zeta.WebSpider.pdb
+C:\Users\Administrator\Desktop\ScrapperDemo(1)\ScrapperDemo\WebRobotSample\obj\Debug\WebRobotSample.csprojResolveAssemblyReference.cache

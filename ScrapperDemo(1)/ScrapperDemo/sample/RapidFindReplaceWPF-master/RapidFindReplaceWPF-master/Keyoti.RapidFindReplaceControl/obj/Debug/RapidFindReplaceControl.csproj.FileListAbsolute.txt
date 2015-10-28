@@ -1,0 +1,15 @@
+D:\Working Folder\Working\ScrapperDemo\sample\RapidFindReplaceWPF-master\RapidFindReplaceWPF-master\Keyoti.RapidFindReplaceControl\bin\Debug\Keyoti4.RapidFindReplace.WPF.XML
+D:\Working Folder\Working\ScrapperDemo\sample\RapidFindReplaceWPF-master\RapidFindReplaceWPF-master\Keyoti.RapidFindReplaceControl\bin\Debug\Keyoti4.RapidFindReplace.WPF.dll
+D:\Working Folder\Working\ScrapperDemo\sample\RapidFindReplaceWPF-master\RapidFindReplaceWPF-master\Keyoti.RapidFindReplaceControl\bin\Debug\Keyoti4.RapidFindReplace.WPF.pdb
+D:\Working Folder\Working\ScrapperDemo\sample\RapidFindReplaceWPF-master\RapidFindReplaceWPF-master\Keyoti.RapidFindReplaceControl\obj\Debug\RapidFindReplaceControl.csprojResolveAssemblyReference.cache
+D:\Working Folder\Working\ScrapperDemo\sample\RapidFindReplaceWPF-master\RapidFindReplaceWPF-master\Keyoti.RapidFindReplaceControl\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Working Folder\Working\ScrapperDemo\sample\RapidFindReplaceWPF-master\RapidFindReplaceWPF-master\Keyoti.RapidFindReplaceControl\obj\Debug\Keyoti4.RapidFindReplace.WPF_MarkupCompile.cache
+D:\Working Folder\Working\ScrapperDemo\sample\RapidFindReplaceWPF-master\RapidFindReplaceWPF-master\Keyoti.RapidFindReplaceControl\obj\Debug\Keyoti4.RapidFindReplace.WPF_MarkupCompile.lref
+D:\Working Folder\Working\ScrapperDemo\sample\RapidFindReplaceWPF-master\RapidFindReplaceWPF-master\Keyoti.RapidFindReplaceControl\obj\Debug\Resources\Dictionary.baml
+D:\Working Folder\Working\ScrapperDemo\sample\RapidFindReplaceWPF-master\RapidFindReplaceWPF-master\Keyoti.RapidFindReplaceControl\obj\Debug\Resources\OfficeStyle.baml
+D:\Working Folder\Working\ScrapperDemo\sample\RapidFindReplaceWPF-master\RapidFindReplaceWPF-master\Keyoti.RapidFindReplaceControl\obj\Debug\Themes\Generic.baml
+D:\Working Folder\Working\ScrapperDemo\sample\RapidFindReplaceWPF-master\RapidFindReplaceWPF-master\Keyoti.RapidFindReplaceControl\obj\Debug\Keyoti4.RapidFindReplace.WPF.g.resources
+D:\Working Folder\Working\ScrapperDemo\sample\RapidFindReplaceWPF-master\RapidFindReplaceWPF-master\Keyoti.RapidFindReplaceControl\obj\Debug\Keyoti.RapidFindReplace.WPF.Properties.Resources.resources
+D:\Working Folder\Working\ScrapperDemo\sample\RapidFindReplaceWPF-master\RapidFindReplaceWPF-master\Keyoti.RapidFindReplaceControl\obj\Debug\RapidFindReplaceControl.csproj.GenerateResource.Cache
+D:\Working Folder\Working\ScrapperDemo\sample\RapidFindReplaceWPF-master\RapidFindReplaceWPF-master\Keyoti.RapidFindReplaceControl\obj\Debug\Keyoti4.RapidFindReplace.WPF.dll
+D:\Working Folder\Working\ScrapperDemo\sample\RapidFindReplaceWPF-master\RapidFindReplaceWPF-master\Keyoti.RapidFindReplaceControl\obj\Debug\Keyoti4.RapidFindReplace.WPF.pdb

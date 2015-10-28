@@ -1,0 +1,3304 @@
+
+body {
+
+	
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+a {
+	color:#5073ac;
+	text-decoration:none;
+	outline:none;
+	line-height:normal;
+}
+a:hover {
+	color:#ef8013;
+	text-decoration:none;
+	outline:none;
+	transition: all 0.5s;
+}
+.copyright {
+	color:#6b6b6b;
+	font-size:11px;
+	float:left;
+	color:#6b6b6b;
+	text-align:left;
+}
+.copyright a {
+	color:#6b6b6b;
+	font-size:11px;
+	margin:0 5px;
+}
+.copyright a:hover {
+	color:#fff;
+	font-size:11px;
+}
+.clear {
+	clear:both;
+}
+.relative {
+	position:relative;
+}
+.menubg {
+	background:url(../images/sprite-img-menu.png) no-repeat 0 0;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	-ms-transition: all 1s;
+	transition: all 1s;
+}
+.menubg_2 {
+	background:url(../images/menubg-new.png) no-repeat 0 0;
+}
+#wrapper {
+	display:block;
+}
+#top-container {
+	width:1000px;
+	margin:auto;
+	min-height:129px;
+}
+#midd-container {
+	width:1002px;
+	margin:auto;
+	min-height:450px;
+}
+#bott-container {
+	display: block;
+	background: url(../../m2.hiddenbrains.com/image_server/v5/bott-new.jpg) repeat-x top center #333333;
+	padding:37px 0 0px 0;
+}
+.logoarea {
+	height:58px;
+}
+.logo img {
+	position:absolute;
+	top:2px;
+	left:25px;
+}
+.topright {
+	width:1000px;
+	float:right;
+	/*padding-top:10px;*/
+}
+.toppartarea {
+	padding:10px 0;
+}
+.livechat {
+	float:right;
+	margin-left:10px;
+}
+.topareablock1 {
+	width:330px;
+	float:left;
+	color:#6f8ec4;
+	line-height:20px;
+	padding-top:25px;
+}
+.topareablock1 span {
+	font-size: 17px;
+	color: #7f9cce;
+	font-style: italic;
+}
+.topareablock2 {
+	width:200px;
+	margin-left:45px;
+	float:right;
+	text-align:right;
+	color:#ef9213;
+	font-weight: 700;
+	padding-top:10px;
+	font-size:14px;
+}
+.topareablock2 span {
+	color:#ef9213;
+	font-weight: 700;
+	margin-top:5px;
+	margin-left:8px;
+	font-size:14px;
+}
+.topareablock2 span.hiring {
+	background:url(../../m1.hiddenbrains.com/image_server/v5/home-img-sp.png) -244px -80px no-repeat;
+	height:30px;
+	width:17px;
+	float:right;
+	display:block;
+	padding-right:0px;
+}
+
+.topareablock2 a {
+	color:#000;
+	font-size:13px;
+	font-weight:normal;
+}
+.topareablock2 a:hover {
+	color:#5073ac;
+}
+.topareablock3 {
+	width:285px;
+	float:right;
+	padding-left:15px;
+	padding-right:5px;
+	margin-left:20px;
+	display:block;
+}
+.wqc {
+	width:30px;
+	height:50px;
+	display:block;
+	float:left;
+}
+.gml {
+	width:30px;
+	height:50px;
+	display:block;
+	float:left;
+}
+.middbottbox {
+	clear:both;
+	width:1002px;
+	margin:auto;
+	margin-bottom:10px;
+}
+.middbottbox-block {
+	width:324px;
+	float:left;
+	margin-right:15px;
+	min-height:340px;
+}
+.nomarginright {
+	margin-right:0;
+}
+.middbott-hd {
+	background: #ef9213;
+	border-radius: 4px;
+	height:38px;
+	font-size:14px;
+	color:#fff;
+	line-height:37px;
+	font-weight: 600;
+	text-indent:15px;
+}
+.companynews {
+	background:#69b167;
+	border-radius: 4px;
+	line-height:normal;
+	height:37px;
+}
+.clientspeaks {
+	background: #6989c0;
+	border-radius: 4px;
+}
+ul.middbottlist li {
+	list-style-type:none;
+	margin-bottom:0px;
+	padding:6px 0;
+	padding-left:10px;
+	padding-bottom:3px;
+}
+ul.middbottlist li a {
+	color:#2f5dbc;
+}
+ul.middbottlist li a:hover {
+	color:#ef8013;
+}
+.morelink a {
+	color:#434343;
+	font-size:10px;
+	text-transform:uppercase;
+	margin-right:5px;
+}
+.morelink a:hover {
+	color:#ef8013;
+}
+#middpartarea {
+	width:100%;
+	margin:0 auto;
+}
+.sponsor-logo {
+	width:100%;
+	border-top:1px solid #e4e4e4;
+	background:#FFF;
+	padding:10px 0;
+	-moz-box-shadow:1px -6px 4px #000;
+	-webkit-box-shadow:1px -6px 4px #000;
+	box-shadow:1px 5px 22px #8f8f8f;
+}
+.sponsor-in {
+	width:965px;
+	margin:0 auto;
+	height:50px;
+	margin:10px 0;
+	margin:0 auto;
+	padding-top:20px;
+}
+.bottcontent {
+	width:986px;
+	margin:auto;
+	color:#858b96;
+}
+.workingwithus {
+	display:block;
+}
+.working-txt {
+	float: right;
+	text-align: right;
+	color: #8aa3ca;
+	margin-bottom: 7px;
+	margin-top: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	position: relative;
+	padding-right: 74px;
+}
+.working-txt span {
+	float:left;
+	position:relative;
+	top:-4px;
+}
+.workingwithusbg {
+	clear:both;
+	background: url(../../m2.hiddenbrains.com/image_server/v5/bott-gradient.gif) repeat-x 0 0;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	height:59px;
+	padding-top:22px;
+	font-size:11px;
+}
+.workingwithus-hd {
+	font-size: 11px;
+	color: #7d7d7d;
+	padding:18px 0 0 5px;
+	float:left;
+}
+.workingwithus-hd span {
+	color: #ef9213;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+}
+.bottlink {
+	padding:20px 0;
+	color:#535353;
+	clear:both;
+	display:block
+}
+.bottlink a {
+	color:#858b96;
+	font-size:11px;
+	margin:0 7px;
+}
+.bottlink a:hover {
+	color:#fff;
+	font-size:11px;
+}
+.besocial {
+	line-height:26px;
+	float:right;
+	color:#6983ae;
+	font-size:11px;
+}
+.besocial a {
+	margin:0;
+}
+.working-block1 {
+	width:157px;
+	color:#69b167;
+	float:left;
+	padding-left:80px;
+	font-size:12px;
+	position: relative;
+}
+.working-block1 span {
+	color:#7291c6;
+	font-size:11px;
+}
+.working-block2 {
+	width:178px;
+	position: relative;
+	color:#69b167;
+	float:left;
+	padding-left:90px;
+	font-size:12px;
+}
+.working-block2 span {
+	color:#7291c6;
+	font-size:11px;
+}
+.working-block2 em {
+	color:#7291c6;
+	font-style:normal;
+}
+.working-block3 {
+	width:138px;
+	position: relative;
+	color:#69b167;
+	float:left;
+	padding-left:90px;
+	font-size:12px;
+}
+.working-block3 span {
+	color:#7291c6;
+	font-size:11px;
+}
+.working-block3 a {
+	color:#7291c6;
+	font-size:11px;
+}
+.working-block3 a:hover {
+	color:#fff;
+	font-size:11px;
+}
+.bott-servicebg {
+	background:#959595;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	color:#313131;
+	font-size:11px;
+	padding:15px 15px 25px 15px;
+}
+.partnersite {
+	padding:12px 0;
+	text-align:right;
+	font-size:11px;
+	color:#6983ae;
+}
+.partnersite a {
+	color: #838383;
+}
+.partnersite a:hover {
+	color: #fff;
+}
+.bott-left {
+	width:234px;
+	float:left;
+}
+.bott-left ul li {
+	list-style-type:none;
+	position:relative;
+}
+.bott-left ul li {
+	border-bottom:1px dotted #303030;
+}
+.bott-left ul li em {
+	display:block;
+	width:4px;
+	height:7px;
+	background:url(../../m1.hiddenbrains.com/image_server/v5/home-img-sp.png) no-repeat;
+	background-position:-47px -92px;
+	position:absolute;
+	left:10px;
+	top:10px;
+}
+.bott-left ul li a {
+	color:#2f2f2f;
+	display:block;
+	height:28px;
+	line-height:28px;
+	padding-left:25px;
+}
+.bott-left ul li a.active span, .bott-left ul li a:hover span {
+	background:url(../../m1.hiddenbrains.com/image_server/v5/home-img-sp.png) -216px -112px no-repeat;
+	position:absolute;
+	right:-18px;
+	width:18px;
+	height:29px;
+}
+.bott-left ul li a:hover, .bott-left ul li a.active {
+	color:#2f2f2f;
+	background:#bbbaba;
+}
+.bott-right {
+	width:690px;
+	float:right;
+}
+ul.bott-servicelist li {
+	list-style-type:none;
+	float:left;
+	width:200px;
+	margin-right:35px;
+	height:117px;
+	line-height:12px;
+}
+ul.bott-servicelist li.last {
+	margin-right:0;
+}
+img {
+	vertical-align:middle;
+	padding-right:5px;
+}
+ul.bott-servicelist li h2 {
+	font-size:12px;
+	color:#2a2a2a;
+	font-weight:700;
+	margin-bottom:4px;
+}
+ul.bott-servicelist li h2 a {
+	color:#2a2a2a;
+}
+ul.bott-servicelist li h2 a:hover {
+	color:#e4e4e4;
+}
+ul#tabstrips {
+	margin:0px 0 0 7px;
+	padding:2px 0 0 0;
+}
+ul#tabstrips li {
+	display:block;
+	float:left;
+	margin-right:2px;
+	list-style-type:none;
+}
+ul#tabstrips li a {
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	text-indent:0;
+	padding:0px 3px 0px 0px;
+}
+ul#tabstrips li a em {
+	padding-right:13px;
+	display:block;
+	font-style: normal;
+	padding-left:22px;
+	font-size: 14px;
+	font-weight:600;
+	padding-top:7px;
+	padding-bottom:11px;
+}
+ul#tabstrips li a.current {
+	color:#4c8e4a;
+	font-weight:normal;
+	background:#fff;
+	-webkit-border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+}
+ul#tabstrips li a.current em {
+	color:#4c8e4a;
+	background: #fff;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+}
+ul#tabstrips li a:hover {
+	color:#4c8e4a;
+	font-weight:normal;
+	background:#fff;
+	-webkit-border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+}
+ul#tabstrips li a:hover em {
+	color:#4c8e4a;
+}
+.newscontent {
+	display:block;
+	clear:both;
+	padding:9px 12px;
+}
+.newscontent ul, .articlescontent ul {
+	min-height:125px;
+}
+.newscontent ul li.last {
+	border-bottom:none;
+	margin-bottom:0;
+}
+.newscontent ul li a {
+	font-size: 13px;
+	color:#646464;
+}
+.newscontent ul li a:hover {
+	color:#ef8013;
+}
+.articlescontent {
+	display:block;
+	clear:both;
+	padding:9px 12px;
+}
+.articlescontent ul li.last {
+	border-bottom:none;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+.articlescontent ul li a {
+	color:#646464;
+	font-size:13px;
+}
+.articlescontent ul li a:hover {
+	color:#ef8013;
+}
+a.main-nav-tab {
+	/*font-weight:600;*/
+}
+#main-nav {
+	list-style:none;
+	padding:0;
+	position:relative;
+}
+#main-nav .main-nav-item {
+	display:inline;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	-ms-transition: all 1s;
+	transition: all 1s;
+}
+#main-nav .main-nav-tab {
+	float:left;
+	padding:0px 29px 8px 29px;
+	height:32px;
+	line-height:40px;
+	text-align:center;
+	color:#000;
+	/*text-shadow:0px 1px 0px #2b539c;*/
+	text-decoration:none;
+	font-size:16px;
+}
+#main-nav .main-nav-item-active .main-nav-tab {
+	background:#000;
+	color:#fff;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-top-right-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-topright:3px;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	transition: all 1s;
+}
+.active-menu {
+	background:#0d75af;
+	color:#fff;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-top-right-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-topright:3px;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	transition: all 1s;
+}
+
+
+
+div.active-home .active-home {
+	background:#af0d0e;
+	color:#fff !important;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-top-right-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-topright:3px;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	transition: all 1s;
+}
+div.active-about .active-about {
+	background:#0d75af;
+	color:#fff !important;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-top-right-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-topright:3px;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	transition: all 1s;
+}
+div.active-services .active-services {
+	background:#0d75af;
+	color:#fff !important;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-top-right-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-topright:3px;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	transition: all 1s;
+}
+div.active-product .active-product {
+	background:#0d75af;
+	color:#fff !important;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-top-right-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-topright:3px;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	transition: all 1s;
+}
+div.active-portfolio .active-portfolio {
+	background:#0d75af;
+	color:#fff !important;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-top-right-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-topright:3px;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	transition: all 1s;
+}
+div.active-contact .active-contact {
+	background:#0d75af;
+	color:#fff !important;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-top-right-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-topright:3px;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	transition: all 1s;
+}
+div.active-inquiry .active-inquiry {
+	background:#0d75af;
+	color:#fff !important;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-top-right-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-topright:3px;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	transition: all 1s;
+}
+div.active-internet-marketing .active-internet-marketing {
+	background:#0d75af;
+	color:#fff !important;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-top-right-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-topright:3px;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	transition: all 1s;
+}
+
+
+
+
+
+
+#main-nav .main-nav-dd {
+	position:absolute;
+	top:40px;
+	left:0;
+	z-index:99999;
+	margin:0;
+	padding:0;
+	background: rgba(83, 83, 83, 0.93);
+	border-radius: 3px;
+	border-top:none;
+	display:none;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	-ms-transition: all 1s;
+	transition: all 1s;
+}
+#main-nav .main-nav-item-active .main-nav-dd {
+	display:block;
+	/*left: 630px !important;*/
+	right:0px !important;
+	margin-left:-80px;
+}
+h3.menu-heading {
+	font-size:13px;
+	color:#b0ceff;
+	font-weight: 600;
+	text-shadow: 0 1px 0px #183572;
+	margin-bottom:10px;
+	font-weight:normal;
+}
+.about-block1 {
+	width:170px;
+	float:left;
+	margin-right:20px;
+	padding:7px;
+}
+.about-block2 {
+	width:200px;
+	float:left;
+	font-size:13px;
+	color:#617fb5;
+	background:#1b4082;
+	padding:10px 20px;
+}
+.about-block2 span {
+	color:#617fb5;
+}
+ul.aboutmenu-list li a {
+	color:#bed2f4;
+	text-decoration:none;
+	font-size:13px;
+}
+ul.aboutmenu-list li a:hover {
+	color:#ffc281;
+	text-decoration:none;
+}
+.readmore {
+	border-top:none;
+	padding-top:3px;
+	margin-top:3px;
+}
+.readmore a {
+	color:#ffb261;
+	text-decoration:none;
+	padding-right:15px;
+}
+.readmore a:hover {
+	color:#fff;
+	text-decoration:none;
+}
+.noborder {
+	border:none;
+}
+ul.services {
+	margin:0px;
+}
+ul.services li {
+	list-style-type:none;
+	color: #6e8dc1;
+	width:280px;
+	float:left;
+	border-right: 1px solid #9B9B9B;
+border-bottom: 1px solid #9B9B9B; 
+	font: normal 13px 'Open Sans', sans-serif;
+}
+ul.services li.last {
+	border-right:none;
+}
+ul.services li a {
+	display:block;
+	text-decoration:none;
+	padding:5px 10px 5px 10px;
+	color: #B3B3B3;
+	font-size: 12px;
+	display: inline-block;
+	width: 260px;
+}
+ul.services li a em {
+	color: #F9FBFF;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 17px;
+	font-style: normal;
+}
+ul.services li a:hover {
+	background:#292929;
+	text-decoration:none;
+	
+}
+ul.services li.nobottborder {
+	border-bottom:none;
+}
+ul.services li span {
+	font-style:normal;
+	margin-bottom: 0px;
+	display:block;
+	float:left;
+	margin-top:0px;
+}
+.technology-left {
+	width:179px;
+	float:right;
+	padding:0;
+}
+.technology-right {
+	width:470px;
+	float: left;
+padding: 0px 10px 0 0;
+	padding-right:0;
+}
+.technology-content {
+	width:211px;
+	-webkit-border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	text-align:center;
+	display:block;
+	overflow:hidden;
+	background:#1b4082;
+}
+.lightorange-txt {
+	color:#fff;
+	font-size: 13px;
+	font-weight: 600;
+	text-shadow: 0 1px 0px #14316f;
+	padding-bottom:15px;
+	display:block;
+	/*text-align:center;*/
+}
+ul.technologylist li {
+	list-style-type:none;
+	float:left;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+ul.technologylist li.last {
+	margin-right:0;
+}
+ul.technologylist li.nomarginbott {
+	margin-bottom:0;
+}
+.technology-content ul li {
+	list-style-type:none;
+	float:left;
+}
+.technology-content ul li a {
+	color:#727272;
+	text-decoration:none;
+	display:block;
+	width:105px;
+	height:95px;
+	border-bottom:1px solid #153368;
+}
+.technology-content ul li a:hover {
+	color:#fff;
+	text-decoration:none;
+}
+.technology-content ul li a img {
+	text-align:center;
+}
+.client-left {
+	width:318px;
+	float:left;
+	background:#28477e;
+	padding:15px;
+}
+.client-right {
+	width:260px;
+	float:right;
+	color:#6e8dc1;
+	font-size:11px;
+	line-height:17px;
+	padding:15px 0;
+}
+.vidoe-testimonial {
+	color:#b0ceff;
+	font-size: 13px;
+	font-weight: 600;
+	text-shadow: 0 1px 0 #14316f;
+	margin-bottom:20px;
+	font-size:12px;
+}
+a.watchvideo {
+	font-size:10px;
+	text-decoration:none;
+	color:#d5d5d5;
+	font-style:italic;
+	float:right;
+}
+a:hover.watchvideo {
+	color:#87ddeb;
+}
+.relative {
+	position:relative;
+}
+.youtube-video a {
+	color:#ffa33b;
+	text-decoration:none;
+}
+.youtube-video a:hover {
+	color:#fff;
+	text-decoration:none;
+}
+.testimonialname {
+	color:#3c93a0;
+}
+.testimonialname span {
+	color:#ffa33b;
+}
+.mobapp-block-cbg h2 {
+	font-size:14px;
+	color:#289125;
+	margin-bottom:7px;
+}
+.mobapp-link {
+	color:#71bc6f;
+}
+.mobapp-link a {
+	margin:0 5px;
+	color:#69b067;
+}
+.mobapp-link a:hover {
+	color:#ef8013;
+}
+.clientspeak-left {
+	width:152px;
+	margin-right:20px;
+	margin-left:5px;
+	float:left;
+	padding-top:10px;
+}
+.clientspeak-right {
+	width:130px;
+	float:left;
+	padding-top:10px;
+	font-size:12px;
+	color:#6d6d6d;
+	line-height:17px;
+}
+.clientspeak-right span {
+	font-size:11px;
+	color:#666;
+}
+.customersatisfaction {
+	display:block;
+	margin-top:12px;
+	width:308px;
+}
+.customersatisfaction-tc {
+	background-position:-510px -197px;
+	height:28px;
+	color:#6b90ce;
+	font-size:13px;
+	line-height:28px;
+	text-indent:15px;
+	font-weight:700;
+}
+.customersatisfaction-cbg {
+	padding:12px 15px;
+	font-size:11px;
+	line-height:14px;
+	height:70px;
+}
+.phone-icon {
+	background: url(../../m1.hiddenbrains.com/image_server/v5/home-img-sp.png) no-repeat 0px -46px;
+	position: absolute;
+	top: -1px;
+	right: 15px;
+	width: 47px;
+	height: 57px;
+}
+.mobapp-imgbg {
+	float:right;
+	margin-left:5px;
+	width:80px;
+	height:66px;
+	background-position:0 -173px;
+}
+.besocialicon {
+	float:right;
+	margin-left:5px;
+}
+a.socialblock {
+	width:20px;
+	height:20px;
+	display:block;
+	float:left;
+	margin-right:4.5px;
+}
+.partnersiteblock {
+	width:600px;
+	float:right;
+}
+ul.partnerslogo {
+	width:520px;
+	float:right;
+	margin-left:10px;
+}
+ul.partnerslogo li {
+	float:left;
+	list-style-type:none;
+	margin-right:15px;
+}
+.iadi {
+	width:20px;
+	height:20px;
+	display:block;
+	float:left;
+	margin-right:5px;
+	background-position:-80px -194px;
+}
+.ipad {
+	width:20px;
+	height:20px;
+	display:block;
+	float:left;
+	margin-right:5px;
+	background-position:-100px -194px;
+}
+.android {
+	width:20px;
+	height:20px;
+	display:block;
+	float:left;
+	margin-right:5px;
+	background-position:-120px -194px;
+}
+.hwdi {
+	width:20px;
+	height:20px;
+	display:block;
+	float:left;
+	margin-right:5px;
+	background-position:-140px -194px;
+}
+.madi {
+	width:20px;
+	height:20px;
+	display:block;
+	float:left;
+	margin-right:5px;
+	background-position:-160px -194px;
+}
+.ctd {
+	width:20px;
+	height:20px;
+	display:block;
+	float:left;
+	margin-right:5px;
+	background-position:-180px -194px;
+}
+.gdi {
+	width:20px;
+	height:20px;
+	display:block;
+	float:left;
+	margin-right:5px;
+	background-position:-200px -194px;
+}
+.hpp {
+	width:20px;
+	height:20px;
+	display:block;
+	float:left;
+	margin-right:5px;
+	background-position:-220px -194px;
+}
+.ser-icon1 {
+	background-position:-200px -7px;
+	width:32px;
+	height:32px;
+	margin-right:21px;
+}
+.ser-icon2 {
+	background-position:-8px -7px;
+	width:32px;
+	height:32px;
+	margin-right:21px
+}
+.ser-icon3 {
+	background-position: -47px -6px;
+	width: 32px;
+	height: 32px;
+	margin-left:6px;
+	margin-right:17px;
+}
+.ser-icon4 {
+	background-position:-88px -10px;
+	width:32px;
+	height:32px;
+	margin-left:5px;
+	margin-right:21px;
+}
+.ser-icon5 {
+	background-position:-129px -10px;
+	width:32px;
+	height:32px;
+	margin-left:2px;
+	margin-right:21px;
+}
+.ser-icon6 {
+	background-position:-47px -40px;
+	width:32px;
+	height:32px;
+	margin-left:7px;
+	margin-right:21px;
+}
+.ser-icon7 {
+	background-position:-167px -44px;
+	margin-left:6px;
+	margin-right:21px;
+	width:32px;
+	height:32px;
+}
+.ser-icon8 {
+	background-position:-130px -45px;
+	width:32px;
+	height:32px;
+	margin-left:6px;
+	margin-right:21px;
+}
+.ser-icon9 {
+	background-position:-163px -9px;
+	width:32px;
+	height:32px;
+	margin-left:7px;
+	margin-right:21px;
+}
+.ser-icon10 {
+	background-position:-4px -36px;
+	margin-left:6px;
+	margin-right:21px;
+	width:32px;
+	height:32px;
+}
+.ser-icon11 {
+	background:url(../images/product-development.png) no-repeat;
+	width:32px;
+	height:32px;
+	margin-left:6px;
+	margin-right:21px;
+}
+.ser-icon12 {
+	background-position:-89px -44px;
+	width:32px;
+	height:32px;
+	margin-left:7px;
+	margin-right:21px;
+}
+.ser-icon15 {
+	background-position:-6px -76px;
+	width:32px;
+	height:32px;
+	margin-left:7px;
+	margin-right:21px;
+}
+.ser-icon16 {
+	background-position:-47px -81px;
+	width:32px;
+	height:32px;
+	margin-left:7px;
+	margin-right:21px;
+}
+.iphoneapp {
+	background-position:-178px -234px;
+	width:33px;
+	height:55px;
+	display:block;
+	margin:auto;
+	margin-bottom:5px;
+}
+.ipadapp {
+	background-position:-178px -290px;
+	width:42px;
+	height:55px;
+	display:block;
+	margin:auto;
+	margin-bottom:5px;
+}
+.androidapp {
+	background-position:-178px -192px;
+	width:42px;
+	height:42px;
+	display:block;
+	margin:auto;
+	margin-bottom:5px;
+}
+.blackberryapp {
+	background-position:0px -336px;
+	width:40px;
+	height:42px;
+	display:block;
+	margin:auto;
+	margin-bottom:5px;
+}
+.windowsapp {
+	background-position:-178px -347px;
+	width:42px;
+	height:35px;
+	display:block;
+	margin:auto;
+	margin-bottom:5px;
+}
+.symbianapp {
+	background-position:-217px -347px;
+	width:42px;
+	height:35px;
+	display:block;
+	margin:auto;
+	margin-bottom:5px;
+}
+.apple {
+	background-position:-180px -129px;
+	width:69px;
+	height:64px;
+	display:block;
+}
+.php {
+	background-position:-109px -193px;
+	width:69px;
+	height:64px;
+	display:block;
+}
+.net {
+	background-position:-39px -67px;
+	width:69px;
+	height:64px;
+	display:block;
+}
+.wp {
+	background-position:-40px -323px;
+	width:69px;
+	height:64px;
+	display:block;
+}
+.rail {
+	background-position:-40px -131px;
+	width:69px;
+	height:64px;
+	display:block;
+}
+.drupal {
+	background-position:-40px -195px;
+	width:69px;
+	height:64px;
+	display:block;
+}
+.flash {
+	background-position:-40px -259px;
+	width:69px;
+	height:64px;
+	display:block;
+}
+.joomla {
+	background-position:-41px -3px;
+	width:69px;
+	height:64px;
+	display:block;
+}
+.java {
+	background-position:-112px -129px;
+	width:69px;
+	height:64px;
+	display:block;
+}
+.ajax {
+	background-position:-108px -323px;
+	width:69px;
+	height:64px;
+	display:block;
+}
+.flex {
+	background-position:-178px -2px;
+	width:69px;
+	height:64px;
+	display:block;
+}
+.magento {
+	background-position:-109px -2px;
+	width:69px;
+	height:64px;
+	display:block;
+}
+.zend {
+	background-position:-178px -64px;
+	width:69px;
+	height:64px;
+	display:block;
+}
+.xcart {
+	background-position:-109px -257px;
+	width:69px;
+	height:64px;
+	display:block;
+}
+.cf {
+	background-position:-110px -66px;
+	width:69px;
+	height:64px;
+	display:block;
+}
+.jcarousel-skin-tango li {
+	list-style-type:none;
+}
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+	width:200px;
+	padding:0 40px;
+}
+.jcarousel-skin-tango .jcarousel-clip {
+	overflow:hidden;
+}
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+	width:200px;
+	height:100px;
+}
+.jcarousel-skin-tango .jcarousel-item {
+	width:190px;
+	height:90px;
+	text-align:center;
+	overflow:hidden;
+}
+.jcarousel-skin-tango .jcarousel-item-horizontal {
+	margin:0 5px;
+}
+.jcarousel-skin-tango .jcarousel-next-horizontal:hover, .jcarousel-skin-tango .jcarousel-next-horizontal:focus {
+}
+.jcarousel-skin-tango .jcarousel-next-horizontal:active {
+}
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal, .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover, .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:focus, .jcarousel-skin-tango {
+	left:auto;
+	right:5px;
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal:hover, .jcarousel-skin-tango .jcarousel-prev-horizontal:focus {
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+}
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal, .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover, .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:focus, .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+	cursor:default;
+}
+.jcarousel-skin-tango .jcarousel-next-vertical:hover, .jcarousel-skin-tango .jcarousel-next-vertical:focus {
+	background-position:0 -32px;
+}
+.jcarousel-skin-tango .jcarousel-next-vertical:active {
+	background-position:0 -64px;
+}
+.jcarousel-skin-tango .jcarousel-next-disabled-vertical, .jcarousel-skin-tango .jcarousel-next-disabled-vertical:hover, .jcarousel-skin-tango .jcarousel-next-disabled-vertical:focus, .jcarousel-skin-tango .jcarousel-next-disabled-vertical:active {
+	cursor:default;
+	background-position:0 -96px;
+}
+.jcarousel-skin-tango .jcarousel-prev-vertical:hover, .jcarousel-skin-tango .jcarousel-prev-vertical:focus {
+	background-position:0 -32px;
+}
+.jcarousel-skin-tango .jcarousel-prev-vertical:active {
+	background-position:0 -64px;
+}
+.jcarousel-skin-tango .jcarousel-prev-disabled-vertical, .jcarousel-skin-tango .jcarousel-prev-disabled-vertical:hover, .jcarousel-skin-tango .jcarousel-prev-disabled-vertical:focus, .jcarousel-skin-tango .jcarousel-prev-disabled-vertical:active {
+	cursor:default;
+	background-position:0 -96px;
+}
+a.viewall-smalllink {
+	font-size:11px;
+}
+.displaynone {
+	display:none;
+}
+.wc-icon {
+	position:relative;
+}
+.w3c-ico {
+	background:url(../../m1.hiddenbrains.com/image_server/v5/home-img-sp.png) 0px -103px no-repeat;
+	width:61px;
+	height:24px;
+	display:inline-block;
+	float:right;
+	margin-left:5px;
+}
+.w3c-html {
+	background:url(../../m1.hiddenbrains.com/image_server/v5/home-img-sp.png) 0px -127px no-repeat;
+	width:61px;
+	height:24px;
+	display:inline-block;
+	float:right;
+}
+.dmca-ico {
+	background:url(../../m1.hiddenbrains.com/image_server/v5/home-img-sp.png) -62px -119px no-repeat;
+	width:123px;
+	height:24px;
+	display:inline-block;
+	margin-right:8px;
+	float:right;
+}
+.copyright-ico {
+	margin-right:5px;
+	background:url(../../m1.hiddenbrains.com/image_server/v5/home-img-sp.png) -62px -143px no-repeat;
+	width:62px;
+	height:24px;
+	display:inline-block;
+	margin-left:5px;
+	float:right;
+}
+.ipv-ico {
+	background:url(../../m1.hiddenbrains.com/image_server/v5/home-img-sp.png) -185px -112px no-repeat;
+	width:31px;
+	height:37px;
+	display:inline-block;
+	position:relative;
+	top:-10px;
+	float:right;
+}
+.view-all {
+	float:right;
+	color:#ffa33b;
+}
+/*----Addthis-Code--css---------*/
+#w2bslikebox {
+	background: url(../../www.hiddenbrains.com/images/btnshare.gif) no-repeat !important;
+	display: block;
+	float: right;
+	height: 270px;
+	padding: 0 5px 0 30px;
+	width: 66px;
+	z-index: 99999;
+	position: fixed;
+	right: -71px;
+	top: 0%;
+	margin-top: 141px;
+}
+#w2bslikebox .addthis {
+	position: relative;
+	display: block;
+	width: 80px;
+	height: 290px;
+	background: #fff;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-left-radius: 5px;
+	border: 1px solid #3570be;
+	border-right: none;
+	padding-top: 5px;
+}
+#w2bslikebox span {
+	bottom: 12px;
+	font-size: 8px;
+	position: absolute;
+	right: 6px;
+	text-align: right;
+	z-index: 99999;
+}
+#w2bslikebox span a {
+	color: #808080;
+	text-decoration: none;
+}
+#w2bslikebox span a:hover {
+	text-decoration: underline;
+}
+/*--------End-addthis-code--------*/
+
+* {
+	margin:0;
+	padding:0;
+}
+#home-banner-wrapper {
+	width:930px;
+	height:268px;
+	background:url(../../m1.hiddenbrains.com/image_server/v5/banner-sprite.jpg) no-repeat 0 -1228px;
+	position:relative;
+	padding:10px 10px 30px 12px;
+	margin:0 auto;
+}
+ul#slider1 li {
+	position:relative !important;
+}
+ul#slider1 li {
+	display:none;
+}
+ul#slider1 li.first {
+	display:block;
+}
+.bx-pager {
+	text-align:center;
+	position:absolute;
+	bottom:-35px;
+	left:380px;
+	margin:0 auto;
+	width:200px;
+}
+.client-img {
+	background:url(../../m1.hiddenbrains.com/image_server/v5/banner-sp.jpg) no-repeat -696px -234px;
+	width:152px;
+	height:109px;
+	float:left;
+	margin-bottom:10px;
+}
+.clientdiv {
+	color:#878787;
+	float: left;
+	font-size: 11px;
+	margin: 10px 0;
+	padding:10px 0 20px 0;
+	text-align: center;
+	width: 100%;
+	background:url(../../m2.hiddenbrains.com/image_server/v5/client-back.jpg) top left repeat-x;
+}
+.clientdiv span {
+	color:#656565;
+}
+/*--------menu------*/
+#menu {
+	float:left;
+	width:573px;
+}
+#menu ul {
+	padding:0px;
+	margin:0px;
+}
+#menu li {
+	float:left;
+	height:32px;
+	color:#fff;
+	text-shadow:1px 1px 1px #2b539c;
+	text-decoration:none;
+	font-size:12px;
+	list-style-type:none;
+	font-weight:700;
+	width:100px;
+}
+#menu li a {
+	float:left;
+	padding:0px 10px;
+	line-height:32px;
+	color:#fff;
+	text-shadow:1px 1px 1px #2b539c;
+	text-decoration:none;
+	font-size:12px;
+}
+#menu li a:hover {
+	background:#000;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	color:#fff;
+}
+#menu div {
+	position: absolute;
+	left: -9999px;
+	top:100%;
+	z-index:1;
+	padding:0px 0 0px 0px;
+}
+#menu>ul>li:hover>div {
+	z-index:2;
+	position:relative;
+	left:-243px;
+	top:0px;
+}
+#menu .sub-menu {
+	max-height:199px;
+	width:918px;
+	float:none;
+	margin:0px;
+	padding:0px 10px;
+	height:auto;
+	background:#181a1d /*url(//m1.hiddenbrains.com/image_server/v5/top-back.png) top center no-repeat*/;
+	overflow: hidden;
+	z-index:1;
+-o-transition: padding .20s, height .25s;
+-webkit-transition: padding .25s, height .25s;
+-moz-transition: padding .25s, height .25s;
+-ms-transition:padding .25s, height .25s;
+transition: padding .25s, height .25s;
+	border-bottom:5px solid #f49a2b;
+	padding-top:11px;
+	position:relative;
+	top:0px;
+}
+#menu .sub-menu li {
+-o-transition:/*background:url(//m2.hiddenbrains.com/image_server/v5/back-hover.png) top center no-repeat;*/height:93px;
+	padding:15px 0px 0px 0px;
+	width:90px;
+	margin-right:12px;
+	text-align:center;
+}
+#menu .sub-menu li a {
+	font-size:11px;
+	color:#fff;
+	font-weight:normal;
+	text-transform:uppercase;
+	padding:0px;
+	margin:0px;
+	float:none;
+	line-height:normal;
+}
+#menu .sub-menu li a:hover {
+	background:none;
+}
+#menu .sub-menu li:hover { /*background:url(//m2.hiddenbrains.com/image_server/v5/back-hover.png) top left no-repeat;*/
+	height:288px;
+	background-color:none !important;
+}
+#menu .sps_list {
+	display: block;
+	left:0;
+	top:133px;
+	z-index:0;
+	padding:0;
+	width:100%;
+	height:113px;
+	background:/*url(//m1.hiddenbrains.com/image_server/v5/chooseshaddow.png) top center no-repeat*/ #000;
+	margin-top:11px;
+	opacity:0;
+-o-transition:
+}
+#menu .sub-menu li .sps_list li {
+	text-align:left;
+	line-height:24px;
+	height:auto !important;
+}
+#menu .sub-menu li .sps_list li:hover {
+	background:none;
+}
+#menu div li:hover .sps_list {
+	top:109px;
+	z-index: 1;
+	opacity: 1;
+-o-transition: opacity .25s;
+-webkit-transition: opacity .25s;
+-moz-transition: opacity .25s;
+-ms-transition: opacity .25s;
+transition: opacity .25s;
+}
+#menu div:hover li .sps_list {
+	padding-bottom: 5em;
+	height: 69px;
+-o-transition: padding .25s, height .25s, opacity .25s;
+-webkit-transition: padding .25s, height .25s, opacity .25s;
+-moz-transition: padding .25s, height .25s, opacity .25s;
+-ms-transition: padding .25s, height .25s, opacity .25s;
+transition: padding .25s, height .25s, opacity .25s;
+}
+#menu div div div {
+	position: static;
+	padding:0px;
+	background:none;
+	float:left;
+}
+#menu div div div.sublist {
+	padding:10px 20px;
+	margin:0px;
+	width:857px;
+	float:left;
+	height:171px;
+}
+#menu div div div.sublist ul {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	width:200px;
+	float:left;
+}
+#menu div div div.sublist li {
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+	display:block;
+	width:200px;
+	float:left;
+}
+#menu div div div.sublist li a {
+	color:#d9d9d9;
+	font-size: 12px;
+	line-height:24px;
+	background:url(../../m2.hiddenbrains.com/image_server/v5/menu-bullets.jpg) 0 3px no-repeat;
+	padding-left:15px;
+	text-decoration:none;
+	line-height:24px;
+	text-transform:capitalize;
+}
+#menu div div div.sublist li a:hover {
+	color:#fff; /*background:url(//m2.hiddenbrains.com/image_server/v5/menu-bullets.jpg) 0 3px no-repeat;*/
+}
+/* Generated by http://css.spritegen.com CSS Sprite Generator */
+.web, .web6, .web8, .web7, .web1, .web5, .web3, .web2, .web4 {
+	display: block;
+	background:url(../../m1.hiddenbrains.com/image_server/v5/tem.png) no-repeat;
+}
+.web {
+	background-position: -45px -53px;
+	width: 45px;
+	height: 53px;
+	margin-left:24px;
+}
+.web1 {
+	background-position: -90px -53px;
+	width: 45px;
+	height: 53px;
+	margin-left:20px;
+}
+.web2 {
+	background-position: -0px -106px;
+	width: 45px;
+	height: 53px;
+	margin-left:22px;
+}
+.web3 {
+	background-position: -45px -106px;
+	width: 45px;
+	height: 53px;
+	margin-left:22px;
+}
+.web4 {
+	background-position: -90px -106px;
+	width: 45px;
+	height: 53px;
+	margin-left:24px;
+}
+.web5 {
+	background-position: -0px -0px;
+	width: 45px;
+	height: 53px;
+	margin-left:24px;
+}
+.web6 {
+	background-position: -45px -0px;
+	width: 45px;
+	height: 53px;
+	margin-left:22px;
+}
+.web7 {
+	background-position: -90px -0px;
+	width: 45px;
+	height: 53px;
+	margin-left:17px;
+}
+.web8 {
+	background-position: -0px -53px;
+	width: 45px;
+	height: 53px;
+	margin-left:22px;
+}
+/*
+Name: Sliding Login Panel with jQuery 1.3.2
+Author: Jeremie Tisseau
+Author URI: http://web-kreation.com/
+Date: March 26, 2009
+Version: 1.0
+
+	Copyright 2009 Jeremie Tisseau
+	"Sliding Login Panel with jQuery 1.3.2" is distributed under the GNU General Public License version 3:
+	http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+/***** clearfix *****/
+.clearfix {
+	display: inline-block;
+}
+/* Hides from IE-mac \*/
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/* End hide from IE-mac */
+.clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/* Panel Tab/button */
+.tab {
+	background: url(../../m2.hiddenbrains.com/image_server/v5/heading-rq.png) no-repeat 0 0;
+	height:46px;
+	position: relative;
+	bottom:-2px;
+	z-index:10000;
+}
+.tab div.login {
+	display: block;
+	position: relative;
+	float:left;
+	clear:right;
+	height:46px;
+	width: auto;
+	font-weight: bold;
+	line-height:46px;
+	margin: 0;
+	left:0px;
+	color: white;
+	font-size: 80%;
+	text-align: center;
+	width:267px;
+}
+.tab div.login a {
+	color: #15ADFF;
+	margin-left: 112px;
+	margin-top: 3px;
+}
+.tab div.login a:hover {
+	color: white;
+}
+.tab a.open, .tab a.close {
+	height:27px;
+	line-height:27px !important;
+	cursor: pointer;
+	display: block;
+	width:150px;
+	position: relative;
+	top:6px;
+}
+/*.tab a:hover.open { background: url(../images/bt_open.png) no-repeat left -19px;}
+.tab a:hover.close { background: url(../images/bt_close.png) no-repeat left -19px; }
+*/
+/* sliding panel */
+#toppanel {
+	position: fixed;
+	bottom:0;
+	right: 15px;
+	width: 265px;
+	z-index:100000;
+	margin-left: auto;
+	margin-right: auto;
+}
+#panel {
+	width: 265px;
+	height: auto;
+	color: #999999;
+	overflow: hidden;
+	position: relative;
+	z-index:100000;
+	display: none;
+}
+#panel a {
+	text-decoration: none;
+	color: #15ADFF;
+}
+#panel a:hover {
+	color: white;
+}
+/* BUTTONS */
+
+/* Login and Register buttons */
+.form-bottom {
+	width: 263px;
+	float: left;
+	margin-top:0px;
+	border: 1px solid #4881ca;
+	background: #fff;
+	border-bottom:none;
+}
+.form-quick-new-bottom {
+	width: 245px;
+	padding: 10px 10px;
+	border-bottom: 0px solid #d9d9d9;
+	float: left;
+}
+.form-quick-row-new-bottom {
+	color: #5a5959;
+	width: 245px;
+}
+.form-quick-row-new-bottom label {
+	color: #5a5959;
+	font-size: 13px;
+	font-weight: normal;
+	width: 224px;
+	line-height: 18px;
+}
+.form-quick-row-new-bottom input, .form-quick-row-new-bottom textarea {
+	background: #E9E9E9;
+	border: 1px solid #B3B3B3;
+	color: #3A3A3A;
+	font-size: 13px;
+	margin-bottom: 5px;
+	padding: 3px 5px;
+	resize: none;
+}
+.form-quick-row-new-bottom input:hover, .form-quick-row-new-bottom textarea:hover {
+	background: #bfd3f7;
+	border: 1px solid #152b53;
+	outline:none;
+}
+.form-quick-row-new-bottom input:focus {
+	background: #bfd3f7;
+	border: 1px solid #152b53;
+	outline:none;
+}
+.form-quick-row-new-bottom input:focus:hover {
+	background: #bfd3f7;
+	border: 1px solid #152b53;
+	outline:none;
+}
+.form-quick-row-new-bottom .error {
+	margin-left: 0px;
+}
+.new-submit-new {
+	width: auto;
+	float: left;
+	line-height: 29px;
+	font-size:13px;
+	padding-top:5px;
+}
+.new-submit-new img {
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.new-submit-new span {
+	color: #F00;
+	font-size: 12px;
+	font-weight: normal;
+	padding-left: 10px;
+}
+span.error-msg {
+	color: #F00 !important;
+	font-size: 16px;
+	padding-left: 0px;
+}
+div.error {
+	margin-bottom: 0px !important;
+	margin-left: 97px;
+	color: red;
+	font-size: 13px;
+}
+/* addthis */
+.feedback-panel {
+	padding:5px;
+	width:72px;
+	background:#fff;
+	-webkit-border-bottom-right-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	border-bottom-right-radius:5px;
+	border:1px solid #3570be;
+	position: fixed;
+	top:100px;
+	left: -291px;
+	z-index:10000;
+}
+#award-block {
+	display:block;
+	overflow:hidden;
+	float:right;
+}
+#award-block div {
+	color: #5a5959;
+	font-size:15px;
+	overflow:hidden;
+	white-space:nowrap;
+	float:right;
+}
+#award-block div span {
+	display:inline-block; /*background:url(../images/toplogo.jpg) no-repeat left top;*/
+	height:50px;
+	vertical-align:middle;
+	margin-right:10px;
+}
+#award-block div p {
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+	display:inline-block;
+	vertical-align:middle;
+}
+#award-block div span.first-aw {
+	width:121px;
+	height:51px; /*background:url(../images/aegis-awardbg.png) no-repeat left top;*/
+}
+#award-block div span.sec-aw {
+	width:29px;
+	background-position:-29px 0px;
+}
+#award-block div span.third-aw {
+	width:39px;
+	background-position:-65px 0px;
+}
+#award-block div span.four-aw {
+	width:85px;
+	background-position:-112px 0px;
+}
+#award-block div span.five-aw {
+	width:72px;
+	background-position:-211px 0px;
+}
+#award-block div span.six-aw {
+	width:89px;
+	background-position:-293px 0px;
+}
+#award-block div span.seven-aw {
+	width:56px;
+	height: 47px; /*background: url(../images/gesia-logo.jpg) no-repeat center 0;*/
+}
+.toppartarea {
+	padding-right:25px;
+}
+#award-block p {
+	font-size: 12px;
+	color: #5677b1;
+}
+#award-block p a em {
+	color: #3d4b63;
+	font-weight: 700;
+	font-style: normal;
+}
+#award-block p em {
+	color: #3d4b63;
+	font-weight: 700;
+	font-style: normal;
+}
+.slider-main {
+	display:inline-block;
+	position:relative;
+	padding:0px 30px;
+	float:right;
+}
+.nextcss {
+	position:absolute;
+	right:5px;
+	top:15px;
+}
+.previouscss {
+	position:absolute;
+	left:5px;
+	top:15px;
+}
+.slider-main .nextcss, .slider-main .previouscss {
+	display:none;
+}
+.slider-main:hover .nextcss, .slider-main:hover .previouscss {
+	display:block;
+}
+.awa-new {
+	padding-left:10px;
+	padding-right:10px;
+	width:81px;
+	float:left;
+}
+.awa-cont {
+	width:209px;
+	float:left;
+	color:#4f504f;
+	font-size:11px;
+}
+.awa-cont span a {
+	font-size:18px;
+	color:#000000;
+	font-weight:700;
+	line-height:18px;
+}
+.awa-cont span {
+	display:block;
+	padding-bottom:5px;
+}
+.main-awar-new {
+	display:block;
+	overflow:hidden;
+	width:273px;
+	margin-left: 23px;
+}
+.topareablock3 {
+	height:60px !important;
+	overflow:hidden;
+	position:relative;
+}
+.topareablock3 a#next span, .topareablock3 a#prev span {
+	display:block;
+	width:6px;
+	height:8px;
+	position:absolute;
+	background:url(../../m2.hiddenbrains.com/image_server/v5/arrow-awards-new.png) no-repeat left top;
+	top:25px;
+}
+.topareablock3 a#next span {
+	background-position:-12px 0px;
+	right:0px;
+}
+.topareablock3 a#prev span {
+	background-position:0px 0px;
+	left:0px;
+}
+.topareablock3 a:hover#next span {
+	background-position:-6px 0px;
+}
+.topareablock3 a:hover#prev span {
+	background-position:-18px 0px;
+}
+.awa-cont span a.smallfont {
+	font-size:17px;
+}
+.awa-cont span.topspace {
+	padding-top:10px;
+}
+.topareablock3 a#next, .topareablock3 a#prev {
+	display:none;
+}
+.topareablock3:hover a#next, .topareablock3:hover a#prev {
+	display:block;
+}
+.addthis_floating_style {
+	position:inherit !important;
+}
+.addthis {
+	position:absolute;
+}
+span.menublock {
+	font-size: 12px;
+	color: #a9c6f7;
+}
+span.menublock-small {
+	display: block;
+	color: #a9c6f7;
+}
+a.gesia-award {
+	width: 254px !important;
+	height: 54px !important;
+	background: url(../../m1.hiddenbrains.com/image_server/v5/home-img-sp.png) no-repeat 0 -167px;
+	display: block;
+	margin-left:15px;
+	margin-top:5px;
+	margin-bottom:3px;
+}
+a.aegis-award {
+	width: 244px !important;
+	height: 52px !important;
+	background: url(../../m1.hiddenbrains.com/image_server/v5/home-img-sp.png) no-repeat 0 -221px;
+	display: block;
+	margin-left:15px;
+	margin-top:4px;
+	margin-bottom:4px;
+}
+a.wqc-award {
+	width: 261px !important;
+	height: 51px !important;
+	background: url(../../m1.hiddenbrains.com/image_server/v5/home-img-sp.png) no-repeat 0 -273px;
+	display: block;
+	margin-left:30px;
+	margin-top:4px;
+	margin-bottom:4px;
+}
+a.iso-award {
+	width: 237px !important;
+	height: 49px !important;
+	background: url(../../m1.hiddenbrains.com/image_server/v5/home-img-sp.png) no-repeat 0 -324px;
+	display: block;
+	margin-left:15px;
+	margin-top:5px;
+	margin-bottom:6px;
+}
+a.nasscom-award {
+	width: 236px !important;
+	height:41px;
+	background: url(../../m1.hiddenbrains.com/image_server/v5/home-img-sp.png) no-repeat 0 -373px;
+	display: block;
+	margin-left:25px;
+	margin-top:9px;
+	margin-bottom:10px;
+}
+a.gesialife-award {
+	width: 259px !important;
+	height: 55px !important;
+	background: url(../../m1.hiddenbrains.com/image_server/v5/home-img-sp.png) no-repeat 0 -414px;
+	display: block;
+	margin-left:15px;
+	margin-top:3px;
+	margin-bottom:2px;
+}
+a.microsoft-award {
+	width: 243px !important;
+	height: 46px !important;
+	background: url(../../m1.hiddenbrains.com/image_server/v5/home-img-sp.png) no-repeat 0 -469px;
+	display: block;
+	margin-left:15px;
+	margin-top:7px;
+	margin-bottom:7px;
+}
+.bottblock1 {
+	position: absolute;
+	top: 0px;
+	left: 25px;
+	width: 46px;
+	height: 46px;
+	display: block;
+	background: url(../../m1.hiddenbrains.com/image_server/v5/home-img-sp.png) no-repeat 0px 0px;
+}
+.bottblock2 {
+	position: absolute;
+	top: 0px;
+	left: 25px;
+	width: 46px;
+	height: 46px;
+	display: block;
+	background: url(../../m1.hiddenbrains.com/image_server/v5/home-img-sp.png) no-repeat -46px 0px;
+}
+.bottblock3 {
+	position: absolute;
+	top: 0px;
+	left: 25px;
+	width: 46px;
+	height: 46px;
+	display: block;
+	background: url(../../m1.hiddenbrains.com/image_server/v5/home-img-sp.png) no-repeat -92px 0px;
+}
+.bottblock4 {
+	position: absolute;
+	top: 0px;
+	left: 25px;
+	width: 46px;
+	height: 46px;
+	display: block;
+	background: url(../../m1.hiddenbrains.com/image_server/v5/home-img-sp.png) no-repeat -138px 0px;
+}
+/* New Added CSS */
+.home-banner {
+	height: 234px;
+	position: relative;
+}
+.first-ban-img {
+	display:block;
+	float:left;
+	background: url(../../m1.hiddenbrains.com/image_server/v5/banner-sp.jpg) no-repeat 0px 0px;
+	width:323px;
+	height:234px;
+}
+.sec-ban-img {
+	display:block;
+	float:left;
+	background: url(../../m1.hiddenbrains.com/image_server/v5/banner-sp.jpg) no-repeat -323px 0px;
+	width:323px;
+	height:234px;
+	margin-left:16px;
+}
+.third-ban-img {
+	display:block;
+	float:left;
+	background: url(../../m1.hiddenbrains.com/image_server/v5/banner-sp.jpg) no-repeat -646px 0;
+	width:323px;
+	height:234px;
+	margin-left:17px;
+}
+.home-slogan {
+	padding: 28px 0;
+	text-align: center;
+}
+
+.home-slogan span {
+	font-size: 14px;
+	color: #627096;
+}
+.banner-cont-block1 {
+	width: 324px;
+	float: left;
+	margin-right: 15px;
+	text-align: center;
+	line-height: 20px;
+}
+.banner-cont-block2 {
+	width: 324px;
+	float: left;
+	text-align: center;
+}
+.banner-cont {
+	font-size: 13px;
+	color: #e4e4e4;
+	padding-top: 180px;
+	text-shadow: 0 1px 0px #000;
+}
+.home-banner a {
+}
+.home-banner span {
+	color: #fafafa;
+	font-size: 18px;
+	font-weight: 700;
+}
+.home-banner a:hover span {
+	color:#c3d9ff;
+}
+/* The Nivo Slider styles */
+.nivoSlider {
+	position:relative;
+	width:100%;
+	height:60px;
+	overflow: hidden;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	max-width: none;
+}
+.nivo-main-image {
+	display: block !important;
+	position: relative !important;
+	width: 100% !important;
+	height:100% !important;
+}
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+	background:white;
+	filter:alpha(opacity=0);
+	opacity:0;
+}
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:60px;
+	top:0;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+	overflow:hidden;
+}
+.nivo-box img {
+	display:block;
+}
+.nivo-caption {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	background:#000;
+	color:#fff;
+	width:100%;
+	z-index:8;
+	padding: 5px 10px;
+	opacity: 0.8;
+	overflow: hidden;
+	display: none;
+	-moz-opacity: 0.8;
+	filter:alpha(opacity=8);
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;
+}
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+	display:none;
+}
+.nivo-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:9;
+	cursor:pointer;
+}
+.nivo-prevNav {
+	left:0px;
+}
+.nivo-nextNav {
+	right:0px;
+}
+.nivo-controlNav {
+	text-align:center;
+	padding: 15px 0;
+}
+.nivo-controlNav a {
+	cursor:pointer;
+}
+.nivo-controlNav a.active {
+	font-weight:bold;
+}
+.theme-default .nivoSlider {
+	position:relative;
+}
+.theme-default .nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.theme-default .nivoSlider a {
+	border:0;
+	display:block;
+	background-color:white;
+}
+.nivoSlider li {
+	width:0px;
+	height:60px;
+}
+.theme-default .nivo-controlNav {
+	text-align: center;
+	padding: 20px 0;
+}
+.theme-modified .nivo-controlNav {
+	text-align: center;
+	padding:0px;
+}
+.theme-default .nivo-controlNav a {
+	display:inline-block;
+	width:22px;
+	height:22px;	/*background:url(bullets.png) no-repeat;*/
+	text-indent:-9999px;
+	border:0;
+	margin: 0 2px;
+}
+.theme-default .nivo-controlNav a.active {
+	background-position:0 -22px;
+}
+.theme-default .nivo-directionNav a {
+	display:block;
+	width:6px;
+	height:8px;
+	background:url(../../m1.hiddenbrains.com/image_server/v5/home-img-sp.png) no-repeat -124px -143px;
+	text-indent:-9999px;
+	opacity:0;
+	top:27px;
+	border:none;
+}
+.theme-default .nivo-directionNav a:hover {
+	background-position:-130px -143px;
+}
+.theme-default:hover .nivo-directionNav a {
+	opacity: 1;
+}
+.theme-modified .nivo-directionNav a {
+	opacity: 1!important;
+}
+.theme-default a.nivo-nextNav {
+	right:0px;
+	background-position: -136px -143px;
+}
+.theme-default a.nivo-nextNav:hover {
+	background-position: -142px -143px;
+}
+.theme-default a.nivo-prevNav {
+	left:0px;
+}
+.theme-default .nivo-caption {
+}
+.theme-default .nivo-caption a {
+	color:#fff;
+	border-bottom:1px dotted #fff;
+}
+.theme-default .nivo-caption a:hover {
+	color:#fff;
+}
+.theme-default .nivo-controlNav.nivo-thumbs-enabled {
+	width: 100%;
+}
+.theme-default .nivo-controlNav.nivo-thumbs-enabled a {
+	width: auto;
+	height: auto;
+	background: none;
+	margin-bottom: 5px;
+}
+.theme-default .nivo-controlNav.nivo-thumbs-enabled img {
+	display: block;
+	width: 120px;
+	height: auto;
+}
+.midd-bott-area {
+	position: absolute;
+	bottom: 10px;
+	left: -347px;
+	background: url(../../m1.hiddenbrains.com/image_server/v5/banner-sp.jpg) no-repeat 0 -234px;
+	width: 679px;
+	height: 105px;
+}
+.bott-industry {
+	margin: 40px 0;
+	background: #fff;
+	border: 1px solid #d6d6d6;
+	border-radius: 5px;
+	width:1000px;
+}
+.bott-industry ul li {
+	list-style-type: none;
+	float: left;
+	border-right: 1px solid #e3e3e3;
+	width:72px;
+	height: 59px;
+	display: block;
+	text-align: center;
+}
+.bott-industry ul li.industries, .bott-industry ul li:hover.industries {
+	background: #6989c0;
+	font-weight: 700;
+	color: #fff;
+	font-size: 13px;
+	text-transform: uppercase;
+	width:102px;
+	border-right: none;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding-top: 10px;
+	height: 40px;
+	line-height: 15px;
+}
+.bott-industry ul li.last {
+	border-right: none;
+}
+.bott-industry ul li.ind-1, .bott-industry ul li.ind-2, .bott-industry ul li.ind-3, .bott-industry ul li.ind-4, .bott-industry ul li.ind-5, .bott-industry ul li.ind-6, .bott-industry ul li.ind-7, .bott-industry ul li.ind-8, .bott-industry ul li.ind-9, .bott-industry ul li.ind-10, .bott-industry ul li.ind-11, .bott-industry ul li.ind-12 {
+	width:73px;
+	height: 50px;
+	text-align:center;
+}
+ul#main-nav li.main-nav-item a.home {
+	background: url(../../m1.hiddenbrains.com/image_server/v5/home-img-sp.png) no-repeat -234px -112px;
+	margin-left: 15px;
+	height:17px !important;
+	margin-top:8px !important;
+}
+ul#main-nav li.main-nav-item a.home:hover {
+	background-position: -234px -129px;
+}
+.mobile-tech li a span, ul.technologylist li a span, ul.services li a span {
+	opacity:0.4;
+	filter:alpha(opacity=40);
+}
+.mobile-tech li a:hover span, ul.technologylist li a:hover span, ul.services li a:hover span {
+	opacity:0.88;
+	filter:alpha(opacity=88);
+	cursor:pointer;
+}
+ul.technologylist li a {
+	width:86px;
+	height:76px;
+	background:#292929;
+	border-radius:5px;
+	text-align:center;
+}
+ul.technologylist li a span {
+	display:inline-block;
+}
+ul.technologylist li a.techicon15 span {
+	width:29px;
+	height:40px;
+	background-position:-124px 0px;
+	margin-top:17px;
+}
+ul.technologylist li a.techicon9 span {
+	width:42px;
+	height:22px;
+	background-position:-82px 0px;
+	margin-top:27px;
+}
+ul.technologylist li a.techicon2 span {
+	width:57px;
+	height:30px;
+	background-position:-207px -51px;
+	margin-top:21px;
+}
+ul.technologylist li a.techicon6 span {
+	width:36px;
+	height:34px;
+	background-position:-264px -54px;
+	margin-top:20px;
+}
+ul.technologylist li a.techicon3 span {
+	width:30px;
+	height:38px;
+	background-position:-338px 0px;
+	margin-top:19px;
+}
+ul.technologylist li a.techicon4 span {
+	width:29px;
+	height:34px;
+	background-position:-117px -40px;
+	margin-top:18px;
+}
+ul.technologylist li a.techicon5 span {
+	width:30px;
+	height:30px;
+	background-position:-177px -51px;
+	margin-top:22px;
+}
+ul.technologylist li a.techicon1 span {
+	width:32px;
+	height:32px;
+	background-position:-264px 0px;
+	margin-top:20px;
+}
+ul.technologylist li a.techicon10 span {
+	width:28px;
+	height:52px;
+	background-position:-310px 0px;
+	margin-top:11px;
+}
+ul.technologylist li a.techicon7 span {
+	width:54px;
+	height:27px;
+	background-position:-368px 0px;
+	margin-top:23px;
+}
+ul.technologylist li a.techicon13 span {
+	width:31px;
+	height:31px;
+	background-position:-146px -44px;
+	margin-top:21px;
+}
+ul.technologylist li a.techicon12 span {
+	width:33px;
+	height:38px;
+	background-position:-231px 0px;
+	margin-top:17px;
+}
+ul.technologylist li a.techicon14 span {
+	width:46px;
+	height:22px;
+	background-position:-264px -32px;
+	margin-top:25px;
+}
+ul.technologylist li a.techicon8 span {
+	width:28px;
+	height:38px;
+	background-position:-300px -54px;
+	margin-top:19px;
+}
+ul.technologylist li a.techicon11 span {
+	width:34px;
+	height:33px;
+	background-position:-338px -38px;
+	margin-top:21px;
+}
+.technology-content ul li.last a {
+	border-left:1px solid #153368;
+}
+.technology-content ul li a span {
+	background:url(../../m1.hiddenbrains.com/image_server/v5/menubg-new.png) no-repeat 0 0;
+	display:inline-block;
+}
+.technology-content ul li a.iphoneapp span {
+	width:54px;
+	height:32px;
+	background-position:0px 0px;
+}
+.technology-content ul li a.ipadapp span {
+	width:41px;
+	height:51px;
+	background-position:-190px 0px;
+}
+.technology-content ul li a.androidapp span {
+	width:48px;
+	height:37px;
+	background-position:-21px -48px;
+}
+.technology-content ul li a.blackberryapp span {
+	width:34px;
+	height:30px;
+	background-position:-51px -60px;
+}
+.technology-content ul li a.windowsapp span {
+	width:32px;
+	height:23px;
+	background-position:-83px -51px;
+}
+.technology-content ul li a.symbianapp span {
+	width:7px;
+	height:35px;
+	background-position:0px -37px;
+}
+.mobile-tech {
+	width:180px;
+	border-radius:5px;
+	text-align:center;
+	display:block;
+	overflow:hidden;
+	background:#292929;
+}
+.mobile-tech ul {
+	list-style-type:none;
+}
+.mobile-tech li {
+	display:block;
+	width:85px;
+	height:82px;
+	float:left;
+	text-align:center;
+	position: relative;
+}
+.mobile-tech li a {
+	color:#6f8dc1;
+	display:block;
+	text-align:center;
+}
+.mobile-tech li a:hover {
+	color:#fff;
+}
+.mobile-tech li a em {
+	display:block;
+	clear:both;
+	font-style:normal;
+	margin-top:5px;
+}
+.mobile-tech li.last {
+	border-right:none;
+	width:90px;
+}
+.mobile-tech li.last1 {
+	border-right:none;
+	border-b:none;
+}
+.mobile-tech li a span {
+	display:inline-block;
+	clear:both;
+}
+.iphone-ico, .symbian-ico, .bb-ico, .ipad-ico, .windoes-ico, .android-ico {
+	display: block;
+	background:url(../../m1.hiddenbrains.com/image_server/v5/menubg-new.png) no-repeat 0 0;
+	display:inline-block;
+}
+/* Generated by http://css.spritegen.com CSS Sprite Generator */
+
+.iphone-txt {
+	position: absolute;
+	bottom: -5px;
+	left: 25%;
+	font-size: 12px;
+	color: #fff;
+}
+.ipad-txt {
+	position: absolute;
+	bottom: -5px;
+	left: 37%;
+	font-size: 12px;
+	color: #fff;
+}
+.android-txt {
+	position: absolute;
+	bottom: 0px;
+	left: 25%;
+	font-size: 12px;
+	color: #fff;
+}
+.blackberry-txt {
+	position: absolute;
+	bottom: 0px;
+	left: 22%;
+	font-size: 12px;
+	color: #fff;
+}
+.windows-txt {
+	position: absolute;
+	bottom: 7px;
+	left: 20%;
+	font-size: 12px;
+	color: #fff;
+}
+.symbian-txt {
+	position: absolute;
+	bottom: 7px;
+	left: 27%;
+	font-size: 12px;
+	color: #fff;
+}
+.iphone-ico, .bb-ico, .windoes-ico-h, .android-ico-h, .symbian-ico, .iphone-ico-h, .ipad-ico, .ipad-ico-h, .bb-ico-h, .symbian-ico-h, .windoes-ico, .android-ico {
+	display: block;
+	background: url(../images/menubg-new.png) no-repeat 0 0;
+	transition: all 1s;
+}
+.iphone-ico {
+	background-position: -0px -0px;
+	width: 21px;
+	height: 37px;
+	margin-top:20px;
+}
+.windoes-ico {
+	background-position: -83px -51px;
+	width: 34px;
+	height: 30px;
+	margin-top:20px;
+}
+.android-ico {
+	background-position: -21px -48px;
+	width: 30px;
+	height: 35px;
+	margin-top:22px;
+}
+.symbian-ico {
+	background-position: -0px -37px;
+	width: 7px;
+	height: 35px;
+	margin-top:20px;
+}
+.ipad-ico {
+	background-position: -190px -0px;
+	width: 41px;
+	height: 51px;
+	margin-top:17px;
+}
+.bb-ico {
+	background-position: -51px -60px;
+	width: 32px;
+	height: 23px;
+	margin-top:27px;
+}
+.sponsor-in span {
+	background:url(../../m1.hiddenbrains.com/image_server/v5/banner-sp.jpg) no-repeat left top;
+	display:inline-block;
+	vertical-align:middle;
+}
+.sponsor-in span + span {
+	margin-left:19px;
+}
+.sponsor-in span.cl-img1 {
+	width:114px;
+	height:15px;
+	background-position:-2px -358px;
+}
+.sponsor-in span.cl-img2 {
+	width:64px;
+	height:44px;
+	background-position:-142px -343px;
+}
+.sponsor-in span.cl-img3 {
+	width:119px;
+	height:40px;
+	background-position:-231px -343px;
+}
+.sponsor-in span.cl-img4 {
+	width:93px;
+	height:32px;
+	background-position:-374px -345px;
+}
+.sponsor-in span.cl-img5 {
+	width:148px;
+	height:22px;
+	background-position:-493px -354px;
+}
+.sponsor-in span.cl-img6 {
+	width:161px;
+	height:30px;
+	background-position:-652px -350px;
+}
+.sponsor-in span.cl-img7 {
+	width:125px;
+	height:31px;
+	background-position:-820px -351px;
+}
+.besocialicon a {
+	background: url(../../m1.hiddenbrains.com/image_server/v5/home-img-sp.png) no-repeat left top;
+	display:inline-block;
+	width:24px;
+	height:24px;
+	margin-left:5px;
+}
+a.facebookicon {
+	background-position:-184px 0px;
+}
+a.twittericon {
+	background-position:-184px -24px;
+}
+a.youicon {
+	background-position:-208px 0px;
+}
+a.linkicon {
+	background-position:-208px -24px;
+}
+a.blogicon {
+	background-position:-232px 0px;
+}
+a.gicon {
+	background-position:-232px -24px;
+	width:26px;
+	height:26px;
+}
+.logo, .articlescontent ul li span, .newscontent ul li span, ul.middbottlist li a span, .tab a.open span, .tab a.close span, ul.aboutmenu-list li a span, .bott-industry ul li span {
+	background: url(../../m1.hiddenbrains.com/image_server/v5/home-img-sp.png) no-repeat left top;
+	display:inline-block;
+}
+.bott-industry ul li.ind-1 span {
+	width:37px;
+	height:25px;
+	background-position:-47px -46px;
+	margin-top:13px;
+}
+.bott-industry ul li.ind-2 span {
+	width:32px;
+	height:32px;
+	background-position:-84px -46px;
+	margin-top:8px;
+}
+.bott-industry ul li.ind-3 span {
+	width:35px;
+	height:35px;
+	background-position:-116px -46px;
+	margin-top:8px;
+}
+.bott-industry ul li.ind-4 span {
+	width:37px;
+	height:34px;
+	background-position:-151px -48px;
+	margin-top:10px;
+}
+.bott-industry ul li.ind-5 span {
+	width:36px;
+	height:25px;
+	background-position:-188px -48px;
+	margin-top:13px;
+}
+.bott-industry ul li.ind-6 span {
+	width:27px;
+	height:30px;
+	background-position:-231px -50px;
+	margin-top:13px;
+}
+.bott-industry ul li.ind-7 span {
+	width:29px;
+	height:21px;
+	background-position:-47px -71px;
+	margin-top:15px;
+}
+.bott-industry ul li.ind-8 span {
+	width:37px;
+	height:28px;
+	background-position:-76px -78px;
+	margin-top:13px;
+}
+.bott-industry ul li.ind-9 span {
+	width:40px;
+	height:37px;
+	background-position:-113px -82px;
+	margin-top:13px;
+}
+.bott-industry ul li.ind-10 span {
+	width:23px;
+	height:37px;
+	background-position:-153px -82px;
+	margin-top:8px;
+}
+.bott-industry ul li.ind-11 span {
+	width:33px;
+	height:27px;
+	background-position:-176px -82px;
+	margin-top:13px;
+}
+.bott-industry ul li.ind-12 span {
+	width:35px;
+	height:32px;
+	background-position:-209px -80px;
+	margin-top:10px;
+}
+.bott-industry ul li:hover {
+	background:#eff5ff;
+}
+ul.aboutmenu-list li {
+	list-style-type:none;
+	color:#9e9e9e;
+	margin-bottom:3px;
+	padding-left:15px;
+}
+ul.aboutmenu-list li a {
+	color:#bed2f4;
+	text-decoration:none;
+	font-size:13px;
+}
+ul.aboutmenu-list li a:hover {
+	color:#ffc281;
+	text-decoration:none;
+}
+.readmore {
+	border-top:none;
+	padding-top:3px;
+	margin-top:3px;
+}
+.readmore a {
+	color:#ffb261;
+	text-decoration:none;
+	padding-right:15px;
+}
+ul.aboutmenu-list li {
+	position:relative;
+}
+ul.aboutmenu-list li a span {
+	width:4px;
+	height:7px;
+	background-position:-51px -92px;
+	position:absolute;
+	left:0px;
+	top:6px;
+}
+.tab a.open span, .tab a.close span {
+	width: 21px;
+	height: 22px;
+	display: block;
+	margin-top:5px;
+}
+.tab a.open span {
+	background-position:-154px -143px;
+}
+.tab a.close span {
+	background-position:-238px -392px;
+}
+ul.middbottlist li a span {
+	vertical-align:middle;
+}
+ul.middbottlist li a span.mobile-icon {
+	width:12px;
+	height:22px;
+	background-position:0px -515px;
+	margin-right:21px;
+	margin-left:5px;
+}
+ul.middbottlist li a span.game-icon {
+	width:23px;
+	height:18px;
+	background-position:-12px -515px;
+	margin-right:15px;
+}
+ul.middbottlist li a span.hire-dev {
+	width:22px;
+	height:19px;
+	background-position:-35px -515px;
+	margin-right:15px;
+	margin-left:1px;
+}
+ul.middbottlist li a span.php-icon {
+	width:22px;
+	height:21px;
+	background-position:-57px -515px;
+	margin-right:15px;
+	margin-left:1px;
+}
+ul.middbottlist li a span.micro {
+	width:23px;
+	height:23px;
+	background-position:-79px -515px;
+	margin-right:15px;
+}
+ul.middbottlist li a span.source-icon {
+	width:22px;
+	height:20px;
+	background-position:-102px -515px;
+	margin-right:15px;
+	margin-left:1px;
+}
+ul.middbottlist li a span.em-icon {
+	width:21px;
+	height:20px;
+	background-position:-124px -515px;
+	margin-right:15px;
+	margin-left:2px;
+}
+ul.middbottlist li a span.cus-icon {
+	width:17px;
+	height:17px;
+	background-position:-145px -515px;
+	margin-right:15px;
+	margin-left:6px;
+}
+ul.middbottlist li a span.html-icon {
+	width:19px;
+	height:26px;
+	background-position:-162px -515px;
+	margin-right:15px;
+	margin-left:4px;
+}
+ul.middbottlist {
+	margin-top:20px;
+}
+.articlescontent ul li, .articlescontent ul, .newscontent ul, .newscontent ul li {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+.articlescontent ul li, .newscontent ul li {
+	position:relative;
+}
+.articlescontent ul li span, .newscontent ul li span {
+	width:4px;
+	height:7px;
+	background-position:-124px -151px;
+	vertical-align:top;
+	position:absolute;
+	left:-10px;
+	top:6px;
+}
+.articlescontent ul li + li, .newscontent ul li + li {
+	border-top:1px solid #d6d6d6;
+	padding-top:8px;
+	margin-top:8px;
+}
+.logo {
+	width:222px;
+	float:left;
+	text-align:center;
+	background-position:0px -542px;
+	height:57px;
+	position:relative;
+}
+.articlescontent ul li span, .newscontent ul li span {
+	width: 4px;
+	height: 7px;
+	background-position: -124px -151px;
+	vertical-align: top;
+	position: absolute;
+	left: -10px;
+	top: 6px;
+}
+.articlescontent ul li + li, .newscontent ul li + li {
+	border-top: 1px solid #d6d6d6;
+	padding-top: 8px;
+	margin-top: 8px;
+}
+.articlescontent ul li + li span, .newscontent ul li + li span {
+	width: 4px;
+	height: 7px;
+	background-position: -124px -151px;
+	vertical-align: top;
+	position: absolute;
+	left: -10px;
+	top: 14px;
+}
+.logo {
+	width: 222px;
+	float: left;
+	text-align: center;
+	background-position: 0px -542px;
+	height: 57px;
+	position: relative;
+}
+/*17102013*/
+.new-client {
+	padding: 10px;
+	height: 233px;
+	color: #b0ceff;
+	margin-left: -96px !important;
+	width: 576px !important;
+}
+.new-client .clientspeak-right {
+	color: #b0ceff;
+}
+.new-client .clientspeak-right span {
+	color: #ffb261;
+}
+.schedule-metting-back, .client-why-hb, .deloitte-logo {
+	display: block;
+	background: url(../../m2.hiddenbrains.com/image_server/v5/sdl-img.png);
+}
+.client-why-hb {
+	background-position: -0px -210px;
+	width: 328px;
+	height: 151px;
+	position: absolute;
+	bottom: 0px;
+	left: -347px;
+}
+.deloitte-award {
+	width: 303px;
+	display: block;
+	padding: 10px 10px 25px 10px;
+	float: left;
+}
+.deloitte-award .deloitte-txt {
+	width: 130px;
+	float: left;
+	color: #6989c0;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+}
+.deloitte-award .deloitte-logo {
+	background-position: -0px -361px;
+	width: 171px;
+	height: 82px;
+	float: right;
+}
+.schedule-metting-back {
+	background-position: -0px -0px;
+	width: 277px;
+	height: 164px;
+	padding: 23px;
+}
+.schedule-metting-back p {
+	font-size: 15px;
+	padding-bottom: 60px;
+	font-weight: 300;
+	color: #090909;
+	margin: 0px;
+}
+.schedule-metting-back h3 {
+	font-size: 15px;
+	padding-bottom: 18px;
+	width: 187px;
+	font-weight: 400;
+	color: #090909;
+}
+.schedule-metting-back h3 span {
+	font-size: 18px;
+	font-weight: 700;
+	color: #090909;
+}
+.schedule-metting-back a {
+	font-size: 13px;
+	background: #bd0101;
+	border-radius: 3px;
+	padding: 7px 15px;
+	text-decoration: none;
+	color: #fff;
+}
+.schedule-metting-back a:hover {
+	background: #6989c0;
+}
+.client-left-new {
+	width: 300px;
+	float: left;
+	background: #28477e;
+	padding: 5px 10px;
+	text-align: left;
+}
+.vidoe-testimonial-new {
+	color: #b0ceff;
+	font-size: 13px;
+	font-weight: 600;
+	text-shadow: 0 1px 0 #14316f;
+	margin-bottom: 0px;
+	font-size: 12px;
+}
+.vidoe-testimonial-new span {
+	float: right;
+}
+.clientspeak-left-new {
+	width: 296px;
+	margin-right: 00px;
+	margin-left: 0px;
+	float: left;
+	padding-top: 10px;
+}
+.client-right-new {
+	width: 230px;
+	float: right;
+	color: #6e8dc1;
+	font-size: 11px;
+	line-height: 17px;
+	padding: 10px 0 15px 0;
+}
+.client-img-new {
+	background: url(../../m2.hiddenbrains.com/image_server/v5/sdl-img.png) no-repeat 0px -442px;
+	width: 300px;
+	height: 184px;
+	float: left;
+	margin-bottom: 10px;
+}
+.client-img-new {
+	background: url(../../m2.hiddenbrains.com/image_server/v5/sdl-img.png) no-repeat 0px -442px;
+	width: 300px;
+	height: 184px;
+	float: left;
+	margin-bottom: 10px;
+}
+.left-q {
+	background: url(../../m2.hiddenbrains.com/image_server/v5/sdl-img.png) no-repeat -300px -599px;
+	width: 25px;
+	height: 17px;
+	float: left;
+	margin-right: 5px;
+}
+.right-q {
+	background: url(../../m2.hiddenbrains.com/image_server/v5/sdl-img.png) no-repeat -300px -616px;
+	width: 25px;
+	height: 17px;
+	margin-left: 5px;
+	float: left;
+	margin-left: 180px;
+	margin-top: -11px;
+}
+.client-txt-new {
+	float: left;
+	padding-bottom: 10px;
+}
+.view-all-new {
+	float: left;
+	padding-top: 0px;
+}
+.view-all-new p {
+	font-weight: bold;
+	color: #ffb261;
+	line-height: 16px;
+	padding: 0px;
+	margin: 0px;
+}
+.view-all-new a {
+	float: right;
+	color: #b0ceff;
+	padding-top: 5px;
+}
+.view-all-new a:hover {
+	color: #fff;
+}
+ {
+	width:600px !important;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               

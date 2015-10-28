@@ -1,0 +1,14 @@
+D:\Working Folder\Working\ScrapperDemo\sample\HighlightText\HighlightText\HighlightText\bin\Debug\HighlightText.exe
+D:\Working Folder\Working\ScrapperDemo\sample\HighlightText\HighlightText\HighlightText\bin\Debug\HighlightText.pdb
+D:\Working Folder\Working\ScrapperDemo\sample\HighlightText\HighlightText\HighlightText\obj\x86\Debug\HighlightText.csprojResolveAssemblyReference.cache
+D:\Working Folder\Working\ScrapperDemo\sample\HighlightText\HighlightText\HighlightText\obj\x86\Debug\MainWindow.g.cs
+D:\Working Folder\Working\ScrapperDemo\sample\HighlightText\HighlightText\HighlightText\obj\x86\Debug\App.g.cs
+D:\Working Folder\Working\ScrapperDemo\sample\HighlightText\HighlightText\HighlightText\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Working Folder\Working\ScrapperDemo\sample\HighlightText\HighlightText\HighlightText\obj\x86\Debug\HighlightText_MarkupCompile.cache
+D:\Working Folder\Working\ScrapperDemo\sample\HighlightText\HighlightText\HighlightText\obj\x86\Debug\HighlightText_MarkupCompile.lref
+D:\Working Folder\Working\ScrapperDemo\sample\HighlightText\HighlightText\HighlightText\obj\x86\Debug\MainWindow.baml
+D:\Working Folder\Working\ScrapperDemo\sample\HighlightText\HighlightText\HighlightText\obj\x86\Debug\HighlightText.g.resources
+D:\Working Folder\Working\ScrapperDemo\sample\HighlightText\HighlightText\HighlightText\obj\x86\Debug\HighlightText.Properties.Resources.resources
+D:\Working Folder\Working\ScrapperDemo\sample\HighlightText\HighlightText\HighlightText\obj\x86\Debug\HighlightText.csproj.GenerateResource.Cache
+D:\Working Folder\Working\ScrapperDemo\sample\HighlightText\HighlightText\HighlightText\obj\x86\Debug\HighlightText.exe
+D:\Working Folder\Working\ScrapperDemo\sample\HighlightText\HighlightText\HighlightText\obj\x86\Debug\HighlightText.pdb

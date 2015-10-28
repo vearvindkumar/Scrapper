@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="DiffCalc">
+</Property><Property Name="Solution File" Value="D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DiffCalc\DiffCalc.sln">
+</Property><Property Name="Date" Value="26 October 2015">
+</Property><Property Name="Time" Value="12:05">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="DiffCalc.sln" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DiffCalc\Backup\DiffCalc.sln">
+</Event><Event ErrorLevel="0" Project="DiffCalc" Source="DiffCalc.csproj" Description="Project file successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DiffCalc\Backup\DiffCalc.csproj">
+</Event><Event ErrorLevel="0" Project="DiffCalc" Source="DiffCalc.csproj.user" Description="Project user file successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DiffCalc\Backup\DiffCalc.csproj.user">
+</Event><Event ErrorLevel="0" Project="DiffCalc" Source="AssemblyInfo.cs" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DiffCalc\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="DiffCalc" Source="BinaryResults.cs" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DiffCalc\Backup\BinaryResults.cs">
+</Event><Event ErrorLevel="0" Project="DiffCalc" Source="Main.cs" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DiffCalc\Backup\Main.cs">
+</Event><Event ErrorLevel="0" Project="DiffCalc" Source="Results.cs" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DiffCalc\Backup\Results.cs">
+</Event><Event ErrorLevel="0" Project="DiffCalc" Source="App.ico" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DiffCalc\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="DiffCalc" Source="BinaryResults.resx" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DiffCalc\Backup\BinaryResults.resx">
+</Event><Event ErrorLevel="0" Project="DiffCalc" Source="Main.resx" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DiffCalc\Backup\Main.resx">
+</Event><Event ErrorLevel="0" Project="DiffCalc" Source="Results.resx" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DiffCalc\Backup\Results.resx">
+</Event><Event ErrorLevel="1" Project="DiffCalc" Source="DiffCalc.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="DiffCalc" Source="DiffCalc.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="DiffCalc" Source="DiffCalc.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="DifferenceEngine" Source="..\DifferenceEngine\DifferenceEngine.csproj" Description="Warning: The project file is being backed up to a relative path that differs from the original solution relative path.  The difference in folder hierarchy may create problems in opening or building the backed up solution and project.">
+</Event><Event ErrorLevel="0" Project="DifferenceEngine" Source="..\DifferenceEngine\DifferenceEngine.csproj" Description="Project file successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DiffCalc\Backup\DifferenceEngine\DifferenceEngine.csproj">
+</Event><Event ErrorLevel="0" Project="DifferenceEngine" Source="..\DifferenceEngine\DifferenceEngine.csproj.user" Description="Project user file successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DiffCalc\Backup\DifferenceEngine\DifferenceEngine.csproj.user">
+</Event><Event ErrorLevel="0" Project="DifferenceEngine" Source="..\DifferenceEngine\AssemblyInfo.cs" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DiffCalc\Backup\DifferenceEngine\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="DifferenceEngine" Source="..\DifferenceEngine\BinaryFile.cs" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DiffCalc\Backup\DifferenceEngine\BinaryFile.cs">
+</Event><Event ErrorLevel="0" Project="DifferenceEngine" Source="..\DifferenceEngine\CharData.cs" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DiffCalc\Backup\DifferenceEngine\CharData.cs">
+</Event><Event ErrorLevel="0" Project="DifferenceEngine" Source="..\DifferenceEngine\Engine.cs" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DiffCalc\Backup\DifferenceEngine\Engine.cs">
+</Event><Event ErrorLevel="0" Project="DifferenceEngine" Source="..\DifferenceEngine\Structures.cs" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DiffCalc\Backup\DifferenceEngine\Structures.cs">
+</Event><Event ErrorLevel="0" Project="DifferenceEngine" Source="..\DifferenceEngine\TextFile.cs" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\DiffEngine_src\DiffCalc\Backup\DifferenceEngine\TextFile.cs">
+</Event><Event ErrorLevel="1" Project="DifferenceEngine" Source="..\DifferenceEngine\DifferenceEngine.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="DifferenceEngine" Source="..\DifferenceEngine\DifferenceEngine.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="DifferenceEngine" Source="..\DifferenceEngine\DifferenceEngine.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="DiffCalc.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="DiffCalc.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DiffCalc" Source="DiffCalc.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="DifferenceEngine" Source="..\DifferenceEngine\DifferenceEngine.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

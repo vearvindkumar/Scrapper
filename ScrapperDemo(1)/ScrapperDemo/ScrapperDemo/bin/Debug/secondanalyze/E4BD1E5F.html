@@ -1,0 +1,121 @@
+function contactus(){
+	//alert('hello ');
+	datastring = $('#contactForm').serialize();
+	//console.log(datastring);
+	$.post("contactus.php",datastring,function(jd){
+		var result = $.parseJSON(jd);
+			
+			if(result.success == 'true'){
+				
+				FormReset();
+				
+		   }else{
+				alert('Sorry For Inconvenience !');
+		   	}
+
+		});
+	
+	return false;
+}
+
+
+
+function registration(){
+	
+	datastring = $('#registrationForm').serialize();
+	
+	$.post("../registration/registration.php",datastring,function(jd){
+		var result = $.parseJSON(jd);
+			
+			if(result.success == 'true'){
+				$('#responsemessage').text('Thanks For Registration..').fadeOut(10000);
+				FormReset();
+				
+		   }else{
+			   $('#responsemessage').text('Some Error Occuring..').fadeOut(10000);
+				alert('Sorry For Inconvenience !');
+		   	}
+
+		});
+	
+	return false;
+	
+}
+
+
+FormReset = function(type){
+	$('#username').val('');
+	$('#email').val('');
+	$('#phone').val('');
+	$('#message').val('');
+	$('#name').val('');
+	$('#course').val(0);
+	
+};
+
+
+/*call_list = function(a){
+				
+	if(a==1){
+		$("#plus_ico_1").attr('src','images/minus_ico.gif');
+		$('#playlist1').toggle();
+	}else if(a==2){
+		alert("this si test only ");
+		$("#plus_ico_2").attr('src','images/minus_ico.gif');
+		$('#playlist2').show();
+	}
+	else if(a==3){
+		$('#playlist3').show();
+	}
+	else if(a==4){
+		$('#playlist4').show();
+	}
+	
+}*/
+
+
+$("#vertical-menu h5").click(function () {
+    //slide up all the link lists
+    $("#vertical-menu ul ul").slideUp();
+    $('.plus_ico',this).attr('src','images/plus_ico.gif');
+    //slide down the link list below the h3 clicked - only if its closed
+    if (!$(this).next().is(":visible")) {
+        $(this).next().slideDown();
+        //$(this).remove("span").append('<span class="minus">-</span>');
+        $('.plus_ico').attr('src','images/plus_ico.gif');
+        $('.plus_ico',this).attr('src','images/minus_ico.gif');
+    }
+})
+
+
+
+
+$(document).ready( function() {
+//$('a.youtube').on('click',function(e){
+	$("a.youtube").YouTubePopup({ idAttribute: 'youtube' });
+//});
+/*setInterval(function(){$("#newregistration").fadeToggle();}, 7000);*/
+setInterval(function(){$("#newregistration").toggleClass("backgroundRed");},"500");
+
+  $('pre code').each(function(i, block) {
+    hljs.highlightBlock(block);
+  });
+
+
+});
+	
+	
+$('.tabs .tab-links a').on('click', function(e)  {
+	var currentAttrValue = $(this).attr('href');
+	$('.tabs ' + currentAttrValue).show().siblings().hide();   // Show/Hide Tabs
+	$(this).parent('li').addClass('active').siblings().removeClass('active');  // Change/remove current tab to active
+	e.preventDefault();
+	});
+	
+
+var selectIds = $('#panel1,#panel2,#panel3,#panel4');
+$(function ($) {
+    selectIds.on('show.bs.collapse hidden.bs.collapse', function () {
+        $(this).prev().find('.glyphicon').toggleClass('glyphicon-plus glyphicon-minus');
+    })
+});

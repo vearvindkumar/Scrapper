@@ -1,0 +1,27 @@
+﻿<Window x:Class="HighlightText.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:HighlightText"
+        Title="Searchable TextBlock" Height="250" Width="425"
+        >
+    <Grid>
+        <Grid.Resources>
+            <local:StringToWordsConverter x:Key="StringToWordsConverter" />
+        </Grid.Resources>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <local:SearchableTextBlock x:Name="HighlightTextBlock1" HighlightBackground="Yellow"  HighlightableText="{Binding ElementName=TextString1, Path=Text, Mode=TwoWay}"
+                                   SearchWords="{Binding ElementName=CommaSeparatedWords, Path=Text, Converter={StaticResource ResourceKey=StringToWordsConverter}}"/>
+        <WrapPanel Grid.Row="1">
+            <Label Content="Search Words" />
+            <TextBox Name="CommaSeparatedWords" MinWidth="200"/>
+        </WrapPanel>
+        <WrapPanel Grid.Row="2">
+            <Label Content="String" />
+            <TextBox Name="TextString1" MinWidth="200" Text="Test me"/>
+        </WrapPanel>        
+    </Grid>
+</Window>

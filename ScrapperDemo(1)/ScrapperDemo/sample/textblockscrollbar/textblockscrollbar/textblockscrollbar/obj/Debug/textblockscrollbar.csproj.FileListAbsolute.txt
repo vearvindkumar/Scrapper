@@ -1,0 +1,14 @@
+D:\Working Folder\Working\ScrapperDemo\sample\textblockscrollbar\textblockscrollbar\textblockscrollbar\bin\Debug\textblockscrollbar.exe.config
+D:\Working Folder\Working\ScrapperDemo\sample\textblockscrollbar\textblockscrollbar\textblockscrollbar\bin\Debug\textblockscrollbar.exe
+D:\Working Folder\Working\ScrapperDemo\sample\textblockscrollbar\textblockscrollbar\textblockscrollbar\bin\Debug\textblockscrollbar.pdb
+D:\Working Folder\Working\ScrapperDemo\sample\textblockscrollbar\textblockscrollbar\textblockscrollbar\obj\Debug\textblockscrollbar.csprojResolveAssemblyReference.cache
+D:\Working Folder\Working\ScrapperDemo\sample\textblockscrollbar\textblockscrollbar\textblockscrollbar\obj\Debug\MainWindow.g.cs
+D:\Working Folder\Working\ScrapperDemo\sample\textblockscrollbar\textblockscrollbar\textblockscrollbar\obj\Debug\App.g.cs
+D:\Working Folder\Working\ScrapperDemo\sample\textblockscrollbar\textblockscrollbar\textblockscrollbar\obj\Debug\textblockscrollbar_MarkupCompile.cache
+D:\Working Folder\Working\ScrapperDemo\sample\textblockscrollbar\textblockscrollbar\textblockscrollbar\obj\Debug\textblockscrollbar_MarkupCompile.lref
+D:\Working Folder\Working\ScrapperDemo\sample\textblockscrollbar\textblockscrollbar\textblockscrollbar\obj\Debug\MainWindow.baml
+D:\Working Folder\Working\ScrapperDemo\sample\textblockscrollbar\textblockscrollbar\textblockscrollbar\obj\Debug\textblockscrollbar.g.resources
+D:\Working Folder\Working\ScrapperDemo\sample\textblockscrollbar\textblockscrollbar\textblockscrollbar\obj\Debug\textblockscrollbar.Properties.Resources.resources
+D:\Working Folder\Working\ScrapperDemo\sample\textblockscrollbar\textblockscrollbar\textblockscrollbar\obj\Debug\textblockscrollbar.csproj.GenerateResource.Cache
+D:\Working Folder\Working\ScrapperDemo\sample\textblockscrollbar\textblockscrollbar\textblockscrollbar\obj\Debug\textblockscrollbar.exe
+D:\Working Folder\Working\ScrapperDemo\sample\textblockscrollbar\textblockscrollbar\textblockscrollbar\obj\Debug\textblockscrollbar.pdb

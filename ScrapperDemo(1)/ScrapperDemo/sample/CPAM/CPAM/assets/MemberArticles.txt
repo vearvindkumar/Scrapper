@@ -1,0 +1,1535 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+
+
+<html>
+
+<head>
+	<title>CodeProject. Free source code and programming help</title>
+	
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<meta name="Description" content="Free source code and tutorials for Software developers and Architects." >
+<meta name="Keywords" content="Free source code, tutorials" >
+<meta name="Author" content="The Code Project" >
+<meta name="Rating" content="General" >
+<meta name="Robots" content="index, follow" >
+<meta name="Revisit-After" content="1 days" >
+<link rel="alternate" type="application/rss+xml" title="CodeProject Latest articles - All topics" href="http://www.codeproject.com/webservices/articlerss.aspx?cat=1" >
+<link rel="alternate" type="application/rss+xml" title="CodeProject Latest articles - MFC / C++" href="http://www.codeproject.com/webservices/articlerss.aspx?cat=2" >
+<link rel="alternate" type="application/rss+xml" title="CodeProject Latest articles - C#" href="http://www.codeproject.com/webservices/articlerss.aspx?cat=3" >
+<link rel="alternate" type="application/rss+xml" title="CodeProject Latest articles - ASP.NET" href="http://www.codeproject.com/webservices/articlerss.aspx?cat=4" >
+<link rel="alternate" type="application/rss+xml" title="CodeProject Latest articles - .NET" href="http://www.codeproject.com/webservices/articlerss.aspx?cat=5" >
+<link rel="alternate" type="application/rss+xml" title="CodeProject Latest articles - VB.NET" href="http://www.codeproject.com/webservices/articlerss.aspx?cat=6" >
+<link rel="alternate" type="application/rss+xml" title="CodeProject Lounge Postings" href="http://www.codeproject.com/webservices/LoungeRSS.aspx" >
+<link rel="search" type="application/opensearchdescription+xml" title="CodeProject" href="http://www.codeproject.com/info/OpenSearch.xml" >
+	<link rel="stylesheet" type="text/css" href="/App_Themes/NetCommunity/CodeProject.css" >	
+	<link rel="stylesheet" type="text/css" href="/App_Themes/NetCommunity/ForumClassic.css" >	
+	<base target="_top" >
+	
+<script type="text/javascript">
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+   var pageTracker = _gat._getTracker("UA-1735123-1");
+   pageTracker._setDomainName("www.codeproject.com");
+   pageTracker._setSessionTimeout("1200"); // 20 mins
+   pageTracker._initData();
+   pageTracker._trackPageview();
+</script>
+	
+	<script type="text/javascript" language="Javascript">//<![CDATA[
+if(top!=self)top.location.href=location.href; if(typeof(DemoUrl)!="undefined")document.write(unescape('%3Cme')+'ta http'+'-equiv="re' +'fresh" con'+'tent="1;url='+DemoUrl+unescape('"%3CE'));
+//]]></script>
+
+<script type="text/javascript" language="Javascript">//<![CDATA[
+function SetLicense(){
+ var alid = document.getElementById('ctl00_MC_LicenseList');
+ var alidval = -1;
+ if(alid)alidval=alid.value;
+ if(alidval>0)
+  window.location.href = "/script/Articles/UpdateStatus.aspx?aid=0&action=SetLicenseAll&clid="+ alidval +"&amid=7741";
+ return false;
+}
+//]]></script>
+
+<script type="text/javascript" language="Javascript">//<![CDATA[
+function ToggleMenu(itemName)
+{
+	var elm = document.getElementById(itemName);
+	var i,others = document.getElementById('SectionMenu');
+	for(i=0; i < others.childNodes.length; i++)
+	{
+		var other = others.childNodes[i];
+		if ((other.className == 'MenuSectionBlock') && (other != elm))
+			other.style.display='none';
+	}
+	if (elm.style.display == 'block') elm.style.display='none';
+	else elm.style.display='block';
+	return false;
+}
+
+//]]></script>
+
+<link rel="icon" href="/favicon.ico" type="image/ico" >
+<link rel="shortcut icon" href="/favicon.ico"  type="image/ico" >
+
+</head>
+
+<body>
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr valign="top">
+<td colspan="2">
+	<table width="100%" cellspacing="0" cellpadding="0" border="0">
+	<tr>
+	<td class="HeaderLogo"><a href="/"><img id="ctl00_Logo" src="/SiteRes/CP/Img/Std/logo225x90.gif" alt="The Code Project" style="border-width:0px;height:90px;width:225px;" /></a></td>				 
+	<td class="HeaderBanner"><IFRAME src="/script/Adm/ServeHTML.aspx?C=False&amp;adid=7637" frameborder="0" scrolling="no" width="728" height="90"></IFRAME></td>
+	</tr>
+	
+	<tr><td colspan="2">
+
+<table cellpadding="5" cellspacing="0" width="100%" class="MemberNavBar">
+<tr>
+<td class="SmallText" style="font-weight:bold">5,522,599 members and growing! (20,378 online)</td>
+<td align="right">
+
+<div id="ctl00_MemberMenu_LoggedOnOptions" class="MemberNavBarText">
+	
+<a id="ctl00_MemberMenu_MyProfile" href="/script/Membership/Profiles.aspx?mid=7741">John Simmons / outlaw programmer</a> | 
+<a id="ctl00_MemberMenu_MySettings" href="/script/Membership/Modify.aspx">My Settings</a> |
+<a id="ctl00_MemberMenu_MyCodeProject" href="/script/Membership/MyCodeProject.aspx"><b>My CodeProject</b></a> |
+<a id="ctl00_MemberMenu_MyBookmarks" href="/script/Bookmarks/List.aspx?obtid=2"><img src="/images/fave.gif" align="absmiddle" width="16" border="0" height="16" /> My Bookmarks</a> |
+<a id="ctl00_MemberMenu_MyArticles" href="/script/Articles/MemberArticles.aspx?amid=7741">My Articles</a> |
+
+<a id="ctl00_MemberMenu_Signout" href="/script/Membership/LogOff.aspx?rp=%2fscript%2fArticles%2fMemberArticles.aspx%3famid%3d7741">Sign out</a>
+
+</div>
+
+
+
+</td>
+</tr>
+</table></td></tr>
+	<tr><td colspan="2">
+<table cellpadding="0" cellspacing="0" class="SiteNavBar" id="tblSiteToolbar">
+<tr>
+
+<td nowrap="nowrap"><a href="/">Home</a></td><td> &nbsp; </td><td nowrap="nowrap" align="right" style="font-weight:normal">Current Site:</td><td nowrap="nowrap" class="SelCat"><a href="http://www.codeproject.com">C++ / .NET</a></td>
+<td nowrap="nowrap"><a href="http://java.codeproject.com">Java</a></td>
+<td nowrap="nowrap"><a href="http://sql.codeproject.com">SQL</a></td>
+<td nowrap="nowrap"><a href="http://LAMP.codeproject.com">Linux / Unix</a></td>
+
+<td width="100%">&nbsp;</td>
+<td id="ctl00_TopNavBar_RightMenus">
+	<div id="MenuPos" style="position: relative; width:380px;height:22px;top:1px">
+	<table width="380" cellpadding="0" cellspacing="0" style="border-width:0px;height:20px">
+	<tr valign="middle">
+	<td nowrap style="border-width:0"><a href="/info/FAQ.aspx">Help!</a></td>
+<td nowrap style="border-width:0"><a href="/script/Articles/Latest.aspx">Articles</a></td>
+<td nowrap style="border-width:0"><a href="/script/Forums/List.aspx">Message Boards</a></td>
+<td nowrap style="border-width:0"><a href="/script/Jobs/List.aspx">Job Board</a></td>
+<td nowrap style="border-width:0"><a href="/Lounge.aspx">Lounge</a></td>
+
+	</tr>
+	</table>
+	</div>
+</td>
+
+</tr>
+
+</table>
+</td></tr>
+	
+	</table>
+</td>
+</tr>
+
+<tr valign="top">
+<td id="ctl00_LNavBar" class="LHNavBar">
+	<div style="text-align:center;padding-top:5px;"><script type="text/javascript">document.write(unescape("%3ca%20href%3d%22http%3a%2f%2fwww.codeproject.com%2fRedir.aspx%3fadid%3d7689%26way%3dban%22%20target%3d%22_blank%22%20rel%3d%22nofollow%22%3e%3cimg%20src%3d%22http%3a%2f%2fwww.codeproject.com%2fscript%2fAdm%2fServeImg.aspx%3fFile%3d%252fscript%252fAdm%252fimages%252fPDClogo.png%26C%3dFalse%26adid%3d7689%22%20alt%3d%22%22%20border%3d%220%22%20width%3d%22150%22%20height%3d%2280%22%3e%3c%2fa%3e"));</script></div>
+	
+
+<div class="FeatureBlockHeader">Announcements</div>
+<div class="FeatureBlockContent RHFeatureBar" style="margin:0;padding:0;">
+<table cellpadding="2">
+
+
+
+
+			
+
+
+<tr valign="middle"><td><img src="/images/Info_24.png" width="24" height="24" alt="Comp" align="middle"/></td>
+<td><a id="ctl00_Announcements_CompLink" href="/Feature/ArticleCompetition/">Monthly Competition</a></td></tr>
+
+</table>
+</div>
+	
+	<div id="SectionMenu">
+<div class="MenuCat">Chapters</div>
+<div class="MenuChapter"><a href="/script/Content/Chapter.aspx?chptId=1" onclick="return ToggleMenu('Chapter1');">Desktop Development</a></div>
+<div class="MenuSectionBlock" id="Chapter1" style="display:none;">
+<div class="MI" id="Section1"><a href="/KB/buttons/">Button Controls</a></div>
+<div class="MI" id="Section15"><a href="/KB/clipboard/">Clipboard</a></div>
+<div class="MI" id="Section2"><a href="/KB/combobox/">Combo & List Boxes</a></div>
+<div class="MI" id="Section67"><a href="/KB/dialog/">Dialogs and Windows</a></div>
+<div class="MI" id="Section107"><a href="/KB/gadgets/">Desktop Gadgets</a></div>
+<div class="MI" id="Section16"><a href="/KB/docview/">Document / View</a></div>
+<div class="MI" id="Section4"><a href="/KB/edit/">Edit Controls</a></div>
+<div class="MI" id="Section17"><a href="/KB/files/">Files and Folders</a></div>
+<div class="MI" id="Section3"><a href="/KB/grid/">Grid & Data Controls</a></div>
+<div class="MI" id="Section5"><a href="/KB/list/">List Controls</a></div>
+<div class="MI" id="Section6"><a href="/KB/menus/">Menus</a></div>
+<div class="MI" id="Section14"><a href="/KB/miscctrl/">Miscellaneous</a></div>
+<div class="MI" id="Section18"><a href="/KB/printing/">Printing</a></div>
+<div class="MI" id="Section95"><a href="/KB/progress/">Progress Controls</a></div>
+<div class="MI" id="Section11"><a href="/KB/selection/">Selection Controls</a></div>
+<div class="MI" id="Section19"><a href="/KB/shell/">Shell and IE programming</a></div>
+<div class="MI" id="Section68"><a href="/KB/smart/">Smart Client</a></div>
+<div class="MI" id="Section8"><a href="/KB/splitter/">Splitter Windows</a></div>
+<div class="MI" id="Section9"><a href="/KB/static/">Static & Panel Controls</a></div>
+<div class="MI" id="Section10"><a href="/KB/statusbar/">Status Bar</a></div>
+<div class="MI" id="Section7"><a href="/KB/tabs/">Tabs & Property Pages</a></div>
+<div class="MI" id="Section12"><a href="/KB/toolbars/">Toolbars & Docking windows</a></div>
+<div class="MI" id="Section13"><a href="/KB/tree/">Tree Controls</a></div>
+</div>
+<div class="MenuChapter"><a href="/script/Content/Chapter.aspx?chptId=2" onclick="return ToggleMenu('Chapter2');">Web Development</a></div>
+<div class="MenuSectionBlock" id="Chapter2" style="display:none;">
+<div class="MI" id="Section70"><a href="/KB/ajax/">Ajax and Atlas</a></div>
+<div class="MI" id="Section27"><a href="/KB/applications/">Applications & Tools</a></div>
+<div class="MI" id="Section85"><a href="/KB/asp/">ASP</a></div>
+<div class="MI" id="Section89"><a href="/KB/aspnet/">ASP.NET</a></div>
+<div class="MI" id="Section28"><a href="/KB/webforms/">ASP.NET Controls</a></div>
+<div class="MI" id="Section38"><a href="/KB/ATL-Server/">ATL Server</a></div>
+<div class="MI" id="Section29"><a href="/KB/web-cache/">Caching</a></div>
+<div class="MI" id="Section91"><a href="/KB/web-image/">Charts, Graphs and Images</a></div>
+<div class="MI" id="Section25"><a href="/KB/scripting/">Client side scripting</a></div>
+<div class="MI" id="Section30"><a href="/KB/custom-controls/">Custom Controls</a></div>
+<div class="MI" id="Section23"><a href="/KB/HTML/">HTML / CSS</a></div>
+<div class="MI" id="Section24"><a href="/KB/ISAPI/">ISAPI</a></div>
+<div class="MI" id="Section33"><a href="/KB/server-management/">Site & Server Management</a></div>
+<div class="MI" id="Section34"><a href="/KB/session/">Session State</a></div>
+<div class="MI" id="Section113"><a href="/KB/silverlight/">Silverlight</a></div>
+<div class="MI" id="Section36"><a href="/KB/trace/">Trace and Logs</a></div>
+<div class="MI" id="Section31"><a href="/KB/user-controls/">User Controls</a></div>
+<div class="MI" id="Section37"><a href="/KB/validation/">Validation</a></div>
+<div class="MI" id="Section35"><a href="/KB/viewstate/">View State</a></div>
+<div class="MI" id="Section26"><a href="/KB/WAP/">WAP / WML</a></div>
+<div class="MI" id="Section32"><a href="/KB/web-security/">Web Security</a></div>
+<div class="MI" id="Section20"><a href="/KB/webservices/">Web Services</a></div>
+</div>
+<div class="MenuChapter"><a href="/script/Content/Chapter.aspx?chptId=9" onclick="return ToggleMenu('Chapter9');">Enterprise Systems</a></div>
+<div class="MenuSectionBlock" id="Chapter9" style="display:none;">
+<div class="MI" id="Section98"><a href="/KB/MCMS/">Content Management Server</a></div>
+<div class="MI" id="Section99"><a href="/KB/biztalk/">Microsoft BizTalk Server</a></div>
+<div class="MI" id="Section102"><a href="/KB/exchange/">Microsoft Exchange</a></div>
+<div class="MI" id="Section90"><a href="/KB/office/">Office Development</a></div>
+<div class="MI" id="Section101"><a href="/KB/sharepoint/">SharePoint Server</a></div>
+</div>
+<div class="MenuChapter"><a href="/script/Content/Chapter.aspx?chptId=3" onclick="return ToggleMenu('Chapter3');">Multimedia</a></div>
+<div class="MenuSectionBlock" id="Chapter3" style="display:none;">
+<div class="MI" id="Section42"><a href="/KB/audio-video/">Audio and Video</a></div>
+<div class="MI" id="Section44"><a href="/KB/directx/">DirectX</a></div>
+<div class="MI" id="Section46"><a href="/KB/GDI/">GDI</a></div>
+<div class="MI" id="Section47"><a href="/KB/GDI-plus/">GDI+</a></div>
+<div class="MI" id="Section43"><a href="/KB/graphics/">General Graphics</a></div>
+<div class="MI" id="Section45"><a href="/KB/openGL/">OpenGL</a></div>
+</div>
+<div class="MenuChapter"><a href="/script/Content/Chapter.aspx?chptId=4" onclick="return ToggleMenu('Chapter4');">Database</a></div>
+<div class="MenuSectionBlock" id="Chapter4" style="display:none;">
+<div class="MI" id="Section66"><a href="/KB/database/">Database</a></div>
+<div class="MI" id="Section100"><a href="/KB/reporting-services/">SQL Reporting Services</a></div>
+</div>
+<div class="MenuChapter"><a href="/script/Content/Chapter.aspx?chptId=8" onclick="return ToggleMenu('Chapter8');">Platforms, Frameworks & Libraries</a></div>
+<div class="MenuSectionBlock" id="Chapter8" style="display:none;">
+<div class="MI" id="Section83"><a href="/KB/atl/">ATL</a></div>
+<div class="MI" id="Section117"><a href="/KB/MFC/">MFC</a></div>
+<div class="MI" id="Section88"><a href="/KB/stl/">STL</a></div>
+<div class="MI" id="Section84"><a href="/KB/wtl/">WTL</a></div>
+<div class="MI" id="Section49"><a href="/KB/COM/">COM / COM+</a></div>
+<div class="MI" id="Section76"><a href="/KB/dotnet/">.NET Framework</a></div>
+<div class="MI" id="Section92"><a href="/KB/winsdk/">Win32/64 SDK & OS</a></div>
+<div class="MI" id="Section108"><a href="/KB/vista/">Vista API</a></div>
+<div class="MI" id="Section110"><a href="/KB/vista-security/">Vista Security</a></div>
+<div class="MI" id="Section82"><a href="/KB/cross-platform/">Cross Platform</a></div>
+<div class="MI" id="Section69"><a href="/KB/game/">Game Development</a></div>
+<div class="MI" id="Section73"><a href="/KB/mobile/">Mobile Development</a></div>
+<div class="MI" id="Section106"><a href="/KB/WC/">Windows CardSpace</a></div>
+<div class="MI" id="Section103"><a href="/KB/WCF/">Windows Communication Foundation</a></div>
+<div class="MI" id="Section104"><a href="/KB/WPF/">Windows Presentation Foundation</a></div>
+<div class="MI" id="Section105"><a href="/KB/WF/">Windows Workflow Foundation</a></div>
+<div class="MI" id="Section119"><a href="/KB/library/">Libraries</a></div>
+<div class="MI" id="Section122"><a href="/KB/powershell/">Windows Powershell</a></div>
+<div class="MI" id="Section123"><a href="/KB/linq/">LINQ</a></div>
+</div>
+<div class="MenuChapter"><a href="/script/Content/Chapter.aspx?chptId=5" onclick="return ToggleMenu('Chapter5');">Languages</a></div>
+<div class="MenuSectionBlock" id="Chapter5" style="display:none;">
+<div class="MI" id="Section71"><a href="/KB/cpp/">C / C++ Language</a></div>
+<div class="MI" id="Section72"><a href="/KB/mcpp/">C++ / CLI</a></div>
+<div class="MI" id="Section93"><a href="/KB/cs/">C#</a></div>
+<div class="MI" id="Section78"><a href="/KB/msil/">MSIL</a></div>
+<div class="MI" id="Section86"><a href="/KB/vbscript/">VBScript</a></div>
+<div class="MI" id="Section87"><a href="/KB/vb/">VB.NET</a></div>
+<div class="MI" id="Section115"><a href="/KB/vb-interop/">VB6 Interop</a></div>
+<div class="MI" id="Section77"><a href="/KB/net-languages/">Other .NET Languages</a></div>
+<div class="MI" id="Section21"><a href="/KB/XML/">XML</a></div>
+<div class="MI" id="Section96"><a href="/KB/java/">Java</a></div>
+</div>
+<div class="MenuChapter"><a href="/script/Content/Chapter.aspx?chptId=6" onclick="return ToggleMenu('Chapter6');">General Programming</a></div>
+<div class="MenuSectionBlock" id="Chapter6" style="display:none;">
+<div class="MI" id="Section57"><a href="/KB/recipes/">Algorithms & Recipes</a></div>
+<div class="MI" id="Section64"><a href="/KB/bugs/">Bugs & Workarounds</a></div>
+<div class="MI" id="Section79"><a href="/KB/collections/">Collections</a></div>
+<div class="MI" id="Section56"><a href="/KB/security/">Cryptography & Security</a></div>
+<div class="MI" id="Section50"><a href="/KB/datetime/">Date and Time</a></div>
+<div class="MI" id="Section52"><a href="/KB/DLL/">DLLs & Assemblies</a></div>
+<div class="MI" id="Section80"><a href="/KB/exception/">Exception Handling</a></div>
+<div class="MI" id="Section81"><a href="/KB/locale/">Localisation</a></div>
+<div class="MI" id="Section53"><a href="/KB/macros/">Macros and Add-ins</a></div>
+<div class="MI" id="Section54"><a href="/KB/tips/">Programming Tips</a></div>
+<div class="MI" id="Section55"><a href="/KB/string/">String handling</a></div>
+<div class="MI" id="Section22"><a href="/KB/IP/">Internet / Network</a></div>
+<div class="MI" id="Section58"><a href="/KB/threads/">Threads, Processes & IPC</a></div>
+<div class="MI" id="Section59"><a href="/KB/winhelp/">WinHelp / HTMLHelp</a></div>
+</div>
+<div class="MenuChapter"><a href="/script/Content/Chapter.aspx?chptId=10" onclick="return ToggleMenu('Chapter10');">Graphics / Design</a></div>
+<div class="MenuSectionBlock" id="Chapter10" style="display:none;">
+<div class="MI" id="Section40"><a href="/KB/expression/">Expression</a></div>
+<div class="MI" id="Section114"><a href="/KB/usability/">Usability</a></div>
+</div>
+<div class="MenuChapter"><a href="/script/Content/Chapter.aspx?chptId=11" onclick="return ToggleMenu('Chapter11');">Development Lifecycle</a></div>
+<div class="MenuSectionBlock" id="Chapter11" style="display:none;">
+<div class="MI" id="Section51"><a href="/KB/debug/">Debug Tips</a></div>
+<div class="MI" id="Section39"><a href="/KB/architecture/">Design and Architecture</a></div>
+<div class="MI" id="Section112"><a href="/KB/install/">Installation</a></div>
+<div class="MI" id="Section41"><a href="/KB/work/">Work Issues</a></div>
+<div class="MI" id="Section126"><a href="/KB/codegen/">Code Generation</a></div>
+</div>
+<div class="MenuChapter"><a href="/script/Content/Chapter.aspx?chptId=7" onclick="return ToggleMenu('Chapter7');">General Reading</a></div>
+<div class="MenuSectionBlock" id="Chapter7" style="display:none;">
+<div class="MI" id="Section60"><a href="/KB/books/">Book Chapters</a></div>
+<div class="MI" id="Section61"><a href="/KB/book-reviews/">Book Reviews</a></div>
+<div class="MI" id="Section109"><a href="/KB/hardware-review/">Hardware Reviews</a></div>
+<div class="MI" id="Section63"><a href="/KB/interviews/">Interviews</a></div>
+<div class="MI" id="Section62"><a href="/KB/scrapbook/">Scrapbook</a></div>
+<div class="MI" id="Section48"><a href="/KB/system/">Hardware & System</a></div>
+</div>
+<div class="MenuChapter"><a href="/script/Content/Chapter.aspx?chptId=12" onclick="return ToggleMenu('Chapter12');">Third Party Products</a></div>
+<div class="MenuSectionBlock" id="Chapter12" style="display:none;">
+<div class="MI" id="Section65"><a href="/KB/showcase/">Product Showcase</a></div>
+<div class="MI" id="Section124"><a href="/KB/solution-center/">Solution Center</a></div>
+</div>
+</div>
+<br />
+<div class="MenuCat">Services</div>
+<div class="MenuChapter"><a href="/script/Jobs/List.aspx">Job Board</a></div>
+<div class="MenuChapter"><a href="/Services/coffee.aspx">Code Project Coffee</a></div>
+<div class="MenuChapter"><a href="/Services/TradePub.aspx">Free Magazines</a></div>
+<br />
+<div class="MenuCat">Feature Zones</div>
+<div class="MenuChapter"><a href="/kb/Showcase/">Product Showcase</a></div>
+<div class="MenuChapter"><a href="/Zones/IBM">IBM DeveloperWorks</a></div>
+<div class="MenuChapter"><a href="/Zones/WhitePapers">WhitePapers / Webcasts</a></div>
+<div class="MenuChapter"><a href="/Zones/Acresso">InstallShield 2009</a></div>
+<div class="MenuChapter"><a href="/Zones/APress">Apress Bookstore</a></div>
+<br />
+<div class="MenuCat">News &amp; Community</div>
+<div class="MenuChapter"><a href="/script/Content/SiteMap.aspx">Site Map</a></div>
+<div class="MenuChapter"><a href="/script/Membership/Profiles.aspx">Who's Who @ CodeProject</a></div>
+<div class="MenuChapter" style="margin-bottom:2px"><a href="/script/Awards/MVPWinners.aspx">CodeProject MVPs</a></div>
+<div class="MenuChapter"><a href="/script/Awards/CurrentCompetitions.aspx?cmpTpId=0&amp;awsac=true">Article Competitions</a></div>
+<div class="MenuChapter"><a href="/script/Industry/List.aspx">Company Listings</a></div>
+<div class="MenuChapter"><a href="/script/Articles/Latest.aspx">Latest Articles</a></div>
+<div class="MenuChapter"><a href="/script/News/List.aspx">News</a></div>
+<div class="MenuChapter"><a href="/script/Mailouts/Archive.aspx?mtpid=1">Newsletter Archive</a></div>
+<div class="MenuChapter"><a href="/script/PressReleases/Preview.aspx">Press Releases</a></div>
+<div class="MenuChapter"><a href="/script/Surveys/List.aspx">Surveys</a></div>
+<div class="MenuChapter"><a href="/script/Articles/Submit.aspx">Submit an Article</a></div>
+<div class="MenuChapter"><a href="/Info/Stuff.aspx">Stuff from CodeProject</a></div>
+<br />
+<div class="MenuCat">The Code Project</div>
+<div class="MenuChapter"><a href="/info/about.aspx">About Us</a></div>
+<div class="MenuChapter"><a href="/info/Awards.aspx">Our Awards</a></div>
+<div class="MenuChapter"><a href="/info/MediaKit.aspx">Media kit &amp; Advertising info</a></div>
+<div style="margin-top:10px;margin-bottom:10px;text-align:center"><a href="/script/PressReleases/View.aspx?prid=31"><img border="0" src="/images/bullfrog.gif" width="160" height="70" alt="BullFrog Power" /></a></div>
+	
+
+
+
+	<img alt="" src="/script/Common/Images/t.gif" height="1" width="160" />
+			
+	
+</td>
+
+<td class="ContentPane">
+
+
+
+	
+<table class="SearchHeaderBar" cellspacing="0" width="100%">
+<tr>
+<td valign="middle" align="right" style="white-space:nowrap;width:60%">
+<form method="get" action="/info/search.aspx" name="Search" style="margin:0;">
+<b>Search &nbsp;</b>
+<input class="SmallText" name="artkw" style="width:200px;" />
+<select class="SmallText" style="font-weight:bold;" name="sbo">
+<option value="kw">Articles</option>
+<!--<option value="au">Authors</option>-->
+<option value="fm">Messages</option>
+<option value="s">Jobs</option>
+</select>
+<input type="submit" class="SmallText" style="font-weight:bold;" value=" Go! " /> &nbsp;
+</form>
+</td>
+
+<td class="TinyText" style="white-space:nowrap;">
+<a href="/info/search.aspx">Advanced Search</a><br />
+<a href="/script/Content/SiteMap.aspx">Sitemap</a>
+
+</td>
+</tr>
+</table>
+
+
+	
+	<!-- Main Page Contents Start -->
+	
+
+	
+	
+			
+	
+
+<script type="text/javascript">
+function ConfirmDelete() { return window.confirm("Are you sure you want to delete this article?"); }
+</script>
+
+<form name="aspnetForm" method="post" action="MemberArticles.aspx?amid=7741" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTUxODUzMjk0OA9kFgJmD2QWCgISD2QWAgILDw8WAh4HVmlzaWJsZWhkZAIUDxYCHwBoZAIcD2QWAmYPZBYCAgEPZBYIAgEPDxYCHgRUZXh0BUFBcnRpY2xlcyBieSBKb2huIFNpbW1vbnMgLyBvdXRsYXcgcHJvZ3JhbW1lciAoMzQgYXJ0aWNsZXMgIGZvdW5kKWRkAgUPFgIfAGgWAgIBDxAPFgYeDURhdGFUZXh0RmllbGQFBE5hbWUeDkRhdGFWYWx1ZUZpZWxkBQJJZB4LXyFEYXRhQm91bmRnZBAVDiRUaGUgQ29kZSBQcm9qZWN0IE9wZW4gTGljZW5zZSAoQ1BPTCk2VGhlIENvbW1vbiBEZXZlbG9wbWVudCBhbmQgRGlzdHJpYnV0aW9uIExpY2Vuc2UgKENEREwpJFRoZSBNaWNyb3NvZnQgUHVibGljIExpY2Vuc2UgKE1zLVBMKShUaGUgTW96aWxsYSBQdWJsaWMgTGljZW5zZSAxLjEgKE1QTCAxLjEpK1RoZSBDb21tb24gUHVibGljIExpY2Vuc2UgVmVyc2lvbiAxLjAgKENQTCkeVGhlIEVjbGlwc2UgUHVibGljIExpY2Vuc2UgMS4wD1RoZSBNSVQgTGljZW5zZQ9UaGUgQlNEIExpY2Vuc2UfVGhlIEFwYWNoZSBMaWNlbnNlLCBWZXJzaW9uIDIuMDdUaGUgQ3JlYXRpdmUgQ29tbW9ucyBBdHRyaWJ1dGlvbi1TaGFyZUFsaWtlIDIuNSBMaWNlbnNlF1RoZSB6bGliL2xpYnBuZyBMaWNlbnNlGkEgUHVibGljIERvbWFpbiBkZWRpY2F0aW9uJVRoZSBHTlUgTGVzc2VyIEdlbmVyYWwgUHVibGljIExpY2Vuc2UkVGhlIEdOVSBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIChHUEwpFQ4BMQE4AjExATcBMgEzATUBNAE2AjE0AjE1AjE2AjEwATkUKwMOZ2dnZ2dnZ2dnZ2dnZ2cWAWZkAgcPFgIeC18hSXRlbUNvdW50AiIWGAICD2QWAgIBDxYCHwBoZAIDD2QWAgIBDxYCHwBoZAIID2QWAgIBDxYCHwBoZAIKD2QWAgIBDxYCHwBoZAIND2QWBAIBDxYCHwBoZAIDDxYCHwBoZAISD2QWBAIBDxYCHwBoZAIDDxYCHwBoZAITD2QWBAIBDxYCHwBoZAIDDxYCHwBoZAIUD2QWBAIBDxYCHwBoZAIDDxYCHwBoZAIVD2QWBAIBDxYCHwBoZAIDDxYCHwBoZAIWD2QWBAIBDxYCHwBoZAIDDxYCHwBoZAIeD2QWBAIBDxYCHwBoZAIDDxYCHwBoZAIfD2QWBAIBDxYCHwBoZAIDDxYCHwBoZAILD2QWCgIBD2QWBgIBDw8WBB8BBSBKb2huIFNpbW1vbnMgLyBvdXRsYXcgcHJvZ3JhbW1lch4LTmF2aWdhdGVVcmwFKS9zY3JpcHQvTWVtYmVyc2hpcC9Qcm9maWxlcy5hc3B4P21pZD03NzQxZGQCAw8PFgIeCEltYWdlVXJsBUsvc2NyaXB0L01lbWJlcnNoaXAvUHJvZmlsZUltYWdlcy97MDBFQkFBQjEtOTVEOS00NzYwLUFCQUItNEQ1MjREOUM0N0MyfS5qcGdkZAIFDw8WAh8BBQNNdnBkZAIDDxYCHwEF3AZJJ3ZlIGJlZW4gcGFpZCBhcyBhIHByb2dyYW1tZXIgc2luY2UgMTk4MiB3aXRoIGV4cGVyaWVuY2UgaW4gUGFzY2FsLCBhbmQgQysrIChib3RoIHNlbGYtdGF1Z2h0KS4gSSd2ZSBiZWVuIHdyaXRpbmcgV2luZG93cyBwcm9ncmFtcyBzaW5jZSAxOTkxIGFsbW9zdCBleGNsdXNpdmVseSB3aXRoIFZpc3VhbCBDKysgYW5kIE1GQy4gSW4gdGhlIDJuZCBoYWxmIG9mIDIwMDcsIEkgc3RhcnRlZCB3cml0aW5nIEMjIGRlc2t0b3AgYW5kIHdlYiBhcHBsaWNhdGlvbnMuPGJyIC8+PGJyIC8+TXkgd2Vha2VzdCBwb2ludCBpcyB0aGF0IG15IG1vbWVudHMgb2YgY2xhcml0eSBhcmUgdG9vIGJyaWVmIHRvIGhvbGQgYSBtZWFuaW5nZnVsIGNvbnZlcnNhdGlvbiB0aGF0IHJlcXVpcmVzIG1vcmUgdGhhbiAzMCBzZWNvbmRzIHRvIGNvbXBsZXRlLiAgVGhhbmtmdWxseSwgZ3J1bnRzIG9mIGFncmVlbWVudCBhcmUgYWxsIHRoYXQgaXMgcmVxdWlyZWQgdG8gY29uZHVjdCBtb3N0IGRpc2N1c3Npb25zIHdpdGhvdXQgY29tbWl0dGluZyB0byBhbnkgcGFydGljdWxhciBiZWxpZWYgc3lzdGVtLiA8YnIgLz48YnIgLz5JIHJlYWxseSBkb24ndCBjYXJlIGlmIHlvdSB2b3RlIDEncyBvbiBteSBmb3J1bSBwb3N0cywgYnV0IGF0IGxlYXN0IGFjdCBsaWtlIGEgcHJvZmVzc2lvbmFsIHdoZW4gaXQgY29tZXMgdG8gbXkgYXJ0aWNsZXMuICBXaGVuIHlvdSBwbGF5IHN0dXBpZCBsaXR0bGUgdm90aW5nIGdhbWVzIGJlY2F1c2UgeW91IGRvbid0IGFncmVlIHdpdGggc29tZW9uZSdzIHBvbGl0aWNzIG9yIHNlbnNlIG9mIGh1bW9yLCB5b3UncmUgY2hlYXRpbmcgYWxsIHRoZSBvdGhlciBtZW1iZXJzIG9mIHRoZSBzaXRlLjxiciAvPjxiciAvPmQCBQ9kFgICAQ9kFgJmDw8WAh8BBRtTb2Z0d2FyZSBEZXZlbG9wZXIgKFNlbmlvcilkZAIHDxYCHwBoZAIJD2QWAgIBD2QWAmYPDxYCHwEFYDxpbWcgc3JjPSIvc2NyaXB0L0dlby9JbWFnZXMvVVMuZ2lmIiBhbHQ9IlVuaXRlZCBTdGF0ZXMiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxMSIgLz4gVW5pdGVkIFN0YXRlc2RkAh4PDxYCHwBoZGQCMA8WAh8AaBYCAgIPDxYCHwBoZGRkgS+nwf3VQSxAlBVBL1AYyPDKSLo=" />
+</div>
+
+<div id="ctl00_MC_MainDiv">
+<p><span id="ctl00_MC_PageTitle" class="TitleBar">Articles by John Simmons / outlaw programmer (34 articles  found)</span>
+<br /><br /><br /></p>
+
+<h4>Average article rating: 3.77</h4>
+
+
+	
+
+<div id="ctl00_MC_AR_ctl00_SD"><h3>Clipboard</h3>
+</div>
+<div id="ctl00_MC_AR_ctl00_SSD">
+	<p><a id="ctl00_MC_AR_ctl00_SSL" href="/KB/clipboard/">General</a></p>
+</div>
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl00_MAS">
+	    <b><a id="ctl00_MC_AR_ctl00_AT" href="/KB/clipboard/dib2clipboard.aspx">Copying a DIB to the Clipboard</a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl00_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 15 Apr 2008&nbsp;&nbsp;
+		    Page Views: 88,840&nbsp;&nbsp;
+		    Rating: 3.60 / 5&nbsp;&nbsp;
+		    Votes: 43&nbsp;&nbsp;
+		    Popularity: 5.89
+		    <span id="ctl00_MC_AR_ctl00_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 34
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">Helps with copying a device independant bitmap to the clipboard.</div>
+	</span>
+</div>
+
+<div id="ctl00_MC_AR_ctl01_SD"><h3>Dialogs and Windows</h3>
+</div>
+<div id="ctl00_MC_AR_ctl01_SSD">
+	<p><a id="ctl00_MC_AR_ctl01_SSL" href="/KB/dialog/">Dialogs</a></p>
+</div>
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl01_MAS">
+	    <b><a id="ctl00_MC_AR_ctl01_AT" href="/KB/dialog/formview_demo.aspx">Using CResizablePage In a CFormView</a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl01_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 16 Apr 2001&nbsp;&nbsp;
+		    Page Views: 63,574&nbsp;&nbsp;
+		    Rating: 2.96 / 5&nbsp;&nbsp;
+		    Votes: 20&nbsp;&nbsp;
+		    Popularity: 3.85
+		    <span id="ctl00_MC_AR_ctl01_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 16
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">Technique for utilizing a CResizablePage in a CFormView-derived class</div>
+	</span>
+</div>
+
+
+<div id="ctl00_MC_AR_ctl02_SSD">
+	<p><a id="ctl00_MC_AR_ctl02_SSL" href="/KB/dialog/">Form Views</a></p>
+</div>
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl02_MAS">
+	    <b><a id="ctl00_MC_AR_ctl02_AT" href="/KB/dialog/formview2.aspx">CResizableFormView</a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl02_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 6 Jun 2001&nbsp;&nbsp;
+		    Page Views: 110,656&nbsp;&nbsp;
+		    Rating: 3.45 / 5&nbsp;&nbsp;
+		    Votes: 34&nbsp;&nbsp;
+		    Popularity: 5.28
+		    <span id="ctl00_MC_AR_ctl02_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 26
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">Extension of Paolo Messina's CResizableDialog concept</div>
+	</span>
+</div>
+
+
+<div id="ctl00_MC_AR_ctl03_SSD">
+	<p><a id="ctl00_MC_AR_ctl03_SSL" href="/KB/dialog/">General</a></p>
+</div>
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl03_MAS">
+	    <b><a id="ctl00_MC_AR_ctl03_AT" href="/KB/dialog/EnumControls.aspx">Enumerate Controls In a Dialog Box or FormView</a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl03_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 9 Aug 2005&nbsp;&nbsp;
+		    Page Views: 24,236&nbsp;&nbsp;
+		    Rating: 3.62 / 5&nbsp;&nbsp;
+		    Votes: 22&nbsp;&nbsp;
+		    Popularity: 4.86
+		    <span id="ctl00_MC_AR_ctl03_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 12
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">Enumerate all controls in a dialog box or form view.</div>
+	</span>
+</div>
+
+<div id="ctl00_MC_AR_ctl04_SD"><h3>Document / View</h3>
+</div>
+<div id="ctl00_MC_AR_ctl04_SSD">
+	<p><a id="ctl00_MC_AR_ctl04_SSL" href="/KB/docview/">General</a></p>
+</div>
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl04_MAS">
+	    <b><a id="ctl00_MC_AR_ctl04_AT" href="/KB/docview/regiontracker.aspx">Tracking The Mouse In A View</a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl04_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 7 May 2001&nbsp;&nbsp;
+		    Page Views: 63,612&nbsp;&nbsp;
+		    Rating: 3.04 / 5&nbsp;&nbsp;
+		    Votes: 26&nbsp;&nbsp;
+		    Popularity: 4.30
+		    <span id="ctl00_MC_AR_ctl04_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 19
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">Track a mouse click, even in a scrolled view</div>
+	</span>
+</div>
+
+<div id="ctl00_MC_AR_ctl05_SD"><h3>Files and Folders</h3>
+</div>
+<div id="ctl00_MC_AR_ctl05_SSD">
+	<p><a id="ctl00_MC_AR_ctl05_SSL" href="/KB/files/">Configuration Files</a></p>
+</div>
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl05_MAS">
+	    <b><a id="ctl00_MC_AR_ctl05_AT" href="/KB/files/XMLAppProfile.aspx">XML Application Profile Class</a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl05_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 27 Jan 2007&nbsp;&nbsp;
+		    Page Views: 19,096&nbsp;&nbsp;
+		    Rating: 4.50 / 5&nbsp;&nbsp;
+		    Votes: 20&nbsp;&nbsp;
+		    Popularity: 5.85
+		    <span id="ctl00_MC_AR_ctl05_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 30
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">Implement XML application profiles that are similar (but not too similar) to using INI files</div>
+	</span>
+</div>
+
+<div id="ctl00_MC_AR_ctl06_SD"><h3>List Controls</h3>
+</div>
+<div id="ctl00_MC_AR_ctl06_SSD">
+	<p><a id="ctl00_MC_AR_ctl06_SSL" href="/KB/list/">List Controls</a></p>
+</div>
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl06_MAS">
+	    <b><a id="ctl00_MC_AR_ctl06_AT" href="/KB/list/clistctrlrant.aspx">CListCtrl - one of the Blonde classes in MFC</a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl06_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 8 Dec 2002&nbsp;&nbsp;
+		    Page Views: 116,411&nbsp;&nbsp;
+		    Rating: 3.59 / 5&nbsp;&nbsp;
+		    Votes: 42&nbsp;&nbsp;
+		    Popularity: 5.83
+		    <span id="ctl00_MC_AR_ctl06_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 18
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">Some dialogbox code to give the Blonde a clue</div>
+	</span>
+</div>
+
+<div id="ctl00_MC_AR_ctl07_SD"><h3>Menus</h3>
+</div>
+<div id="ctl00_MC_AR_ctl07_SSD">
+	<p><a id="ctl00_MC_AR_ctl07_SSL" href="/KB/menus/">Custom menus</a></p>
+</div>
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl07_MAS">
+	    <b><a id="ctl00_MC_AR_ctl07_AT" href="/KB/menus/System_Menu.aspx">Modifying the System Menu</a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl07_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 26 Jan 2007&nbsp;&nbsp;
+		    Page Views: 24,634&nbsp;&nbsp;
+		    Rating: 3.10 / 5&nbsp;&nbsp;
+		    Votes: 54&nbsp;&nbsp;
+		    Popularity: 5.37
+		    <span id="ctl00_MC_AR_ctl07_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 13
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">Add menu items to, and learn how to handle the system menu</div>
+	</span>
+</div>
+
+
+<div id="ctl00_MC_AR_ctl08_SSD">
+	<p><a id="ctl00_MC_AR_ctl08_SSL" href="/KB/menus/">General</a></p>
+</div>
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl08_MAS">
+	    <b><a id="ctl00_MC_AR_ctl08_AT" href="/KB/menus/DynaMenuToolbar.aspx">Dynamically Build Your Menu and/or Toolbar</a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl08_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 12 May 2005&nbsp;&nbsp;
+		    Page Views: 47,044&nbsp;&nbsp;
+		    Rating: 3.06 / 5&nbsp;&nbsp;
+		    Votes: 35&nbsp;&nbsp;
+		    Popularity: 4.73
+		    <span id="ctl00_MC_AR_ctl08_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 22
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">Build a menu and/or a toolbar dynamically without using resource files (well, almost).</div>
+	</span>
+</div>
+
+<div id="ctl00_MC_AR_ctl09_SD"><h3>Miscellaneous</h3>
+</div>
+<div id="ctl00_MC_AR_ctl09_SSD">
+	<p><a id="ctl00_MC_AR_ctl09_SSL" href="/KB/miscctrl/">Grid Control</a></p>
+</div>
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl09_MAS">
+	    <b><a id="ctl00_MC_AR_ctl09_AT" href="/KB/miscctrl/blinkgrid.aspx">Blinking Cells For Chris Maunder's Grid Control</a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl09_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 13 May 2005&nbsp;&nbsp;
+		    Page Views: 24,917&nbsp;&nbsp;
+		    Rating: 2.82 / 5&nbsp;&nbsp;
+		    Votes: 22&nbsp;&nbsp;
+		    Popularity: 3.79
+		    <span id="ctl00_MC_AR_ctl09_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 3
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">Create blinking cells for Chris Maunder's grid control.</div>
+	</span>
+</div>
+
+
+<div id="ctl00_MC_AR_ctl10_SSD">
+	<p><a id="ctl00_MC_AR_ctl10_SSL" href="/KB/miscctrl/">Windows Forms</a></p>
+</div>
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl10_MAS">
+	    <b><a id="ctl00_MC_AR_ctl10_AT" href="/KB/miscctrl/Application_Login.aspx">User Login For WinForm Applications</a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl10_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 2 Oct 2008&nbsp;&nbsp;
+		    Page Views: 1,556&nbsp;&nbsp;
+		    Rating: 3.91 / 5&nbsp;&nbsp;
+		    Votes: 24&nbsp;&nbsp;
+		    Popularity: 5.40
+		    <span id="ctl00_MC_AR_ctl10_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 18
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">Discusses windows authentication and application-specific authentication for WinForm applications</div>
+	</span>
+</div>
+
+<div id="ctl00_MC_AR_ctl11_SD"><h3>GDI+</h3>
+</div>
+<div id="ctl00_MC_AR_ctl11_SSD">
+	<p><a id="ctl00_MC_AR_ctl11_SSL" href="/KB/GDI-plus/">General</a></p>
+</div>
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl11_MAS">
+	    <b><a id="ctl00_MC_AR_ctl11_AT" href="/KB/GDI-plus/IdealTextColor.aspx">Determining Ideal Text Color Based on Specified Background Color</a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl11_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 8 May 2007&nbsp;&nbsp;
+		    Page Views: 39,082&nbsp;&nbsp;
+		    Rating: 4.38 / 5&nbsp;&nbsp;
+		    Votes: 85&nbsp;&nbsp;
+		    Popularity: 8.45
+		    <span id="ctl00_MC_AR_ctl11_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 65
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">A method for programatically determining the appropriate foreground color based on the specified background color</div>
+	</span>
+</div>
+
+<div id="ctl00_MC_AR_ctl12_SD"><h3>General Graphics</h3>
+</div>
+<div id="ctl00_MC_AR_ctl12_SSD">
+	<p><a id="ctl00_MC_AR_ctl12_SSL" href="/KB/graphics/">Bitmaps</a></p>
+</div>
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl12_MAS">
+	    <b><a id="ctl00_MC_AR_ctl12_AT" href="/KB/graphics/Bitmap_Copy.aspx">Replacing Part of an Existing Bitmap</a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl12_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 28 Jul 2006&nbsp;&nbsp;
+		    Page Views: 18,707&nbsp;&nbsp;
+		    Rating: 3.73 / 5&nbsp;&nbsp;
+		    Votes: 31&nbsp;&nbsp;
+		    Popularity: 5.57
+		    <span id="ctl00_MC_AR_ctl12_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 17
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">Copy a bitmap over a portion of another bitmap</div>
+	</span>
+</div>
+
+
+
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl13_MAS">
+	    <b><a id="ctl00_MC_AR_ctl13_AT" href="/KB/graphics/TextOnABitmap.aspx">Render Text On A Bitmap (and other stuff)</a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl13_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 28 Sep 2008&nbsp;&nbsp;
+		    Page Views: 2,114&nbsp;&nbsp;
+		    Rating: 3.98 / 5&nbsp;&nbsp;
+		    Votes: 12&nbsp;&nbsp;
+		    Popularity: 4.29
+		    <span id="ctl00_MC_AR_ctl13_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 9
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">Put text on a bitmap, make your winform app go full-screen, and say hello to some simple LINQ code.</div>
+	</span>
+</div>
+
+<div id="ctl00_MC_AR_ctl14_SD"><h3>Game Development</h3>
+</div>
+<div id="ctl00_MC_AR_ctl14_SSD">
+	<p><a id="ctl00_MC_AR_ctl14_SSL" href="/KB/game/">Games</a></p>
+</div>
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl14_MAS">
+	    <b><a id="ctl00_MC_AR_ctl14_AT" href="/KB/game/Anagrams2.aspx">Anagrams - A Word Game in C#</a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl14_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 7 Apr 2008&nbsp;&nbsp;
+		    Page Views: 11,998&nbsp;&nbsp;
+		    Rating: 4.54 / 5&nbsp;&nbsp;
+		    Votes: 24&nbsp;&nbsp;
+		    Popularity: 6.27
+		    <span id="ctl00_MC_AR_ctl14_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 10
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">The classic word game using words and letter scores alllowed in Scrabble. </div>
+	</span>
+</div>
+
+<div id="ctl00_MC_AR_ctl15_SD"><h3>Mobile Development</h3>
+</div>
+<div id="ctl00_MC_AR_ctl15_SSD">
+	<p><a id="ctl00_MC_AR_ctl15_SSL" href="/KB/mobile/">Dialogs and Windows</a></p>
+</div>
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl15_MAS">
+	    <b><a id="ctl00_MC_AR_ctl15_AT" href="/KB/mobile/ScrollPropPage_PPC2K2.aspx">Scrolling Property Page in PocketPC 2002</a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl15_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 22 Dec 2003&nbsp;&nbsp;
+		    Page Views: 47,527&nbsp;&nbsp;
+		    Rating: 3.71 / 5&nbsp;&nbsp;
+		    Votes: 17&nbsp;&nbsp;
+		    Popularity: 4.56
+		    <span id="ctl00_MC_AR_ctl15_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 13
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">Add a scrollbar to a property page when the SIP is displayed.</div>
+	</span>
+</div>
+
+<div id="ctl00_MC_AR_ctl16_SD"><h3>STL</h3>
+</div>
+<div id="ctl00_MC_AR_ctl16_SSD">
+	<p><a id="ctl00_MC_AR_ctl16_SSL" href="/KB/stl/">Collections and Iterators</a></p>
+</div>
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl16_MAS">
+	    <b><a id="ctl00_MC_AR_ctl16_AT" href="/KB/stl/binarysortstdlist.aspx">Binary Sorting Into a std::list</a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl16_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 9 Dec 2002&nbsp;&nbsp;
+		    Page Views: 67,663&nbsp;&nbsp;
+		    Rating: 3.34 / 5&nbsp;&nbsp;
+		    Votes: 22&nbsp;&nbsp;
+		    Popularity: 4.49
+		    <span id="ctl00_MC_AR_ctl16_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 8
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">One technique for performing a binary insertion sort on a std::list</div>
+	</span>
+</div>
+
+<div id="ctl00_MC_AR_ctl17_SD"><h3>C / C++ Language</h3>
+</div>
+<div id="ctl00_MC_AR_ctl17_SSD">
+	<p><a id="ctl00_MC_AR_ctl17_SSL" href="/KB/cpp/">General</a></p>
+</div>
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl17_MAS">
+	    <b><a id="ctl00_MC_AR_ctl17_AT" href="/KB/cpp/VS2005_COleDateTime.aspx">Formatting Behavior in COleDateTime for MFC8</a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl17_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 3 Aug 2006&nbsp;&nbsp;
+		    Page Views: 7,207&nbsp;&nbsp;
+		    Rating: 3.81 / 5&nbsp;&nbsp;
+		    Votes: 10&nbsp;&nbsp;
+		    Popularity: 3.81
+		    <span id="ctl00_MC_AR_ctl17_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 4
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">A passable workaround for the COleDateTime formatting behavior in MFC8.</div>
+	</span>
+</div>
+
+
+
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl18_MAS">
+	    <b><a id="ctl00_MC_AR_ctl18_AT" href="/KB/cpp/SDIMultiSplit_Part3.aspx">Using CodeProject - A Day In the Life of an Application - Part 3 of 5</a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl18_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 27 Jan 2007&nbsp;&nbsp;
+		    Page Views: 9,443&nbsp;&nbsp;
+		    Rating: 4.06 / 5&nbsp;&nbsp;
+		    Votes: 19&nbsp;&nbsp;
+		    Popularity: 5.19
+		    <span id="ctl00_MC_AR_ctl18_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 5
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">The right way to code using CodeProject for occasional support</div>
+	</span>
+</div>
+
+
+
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl19_MAS">
+	    <b><a id="ctl00_MC_AR_ctl19_AT" href="/KB/cpp/SDIMultiSplit_Part1.aspx">Using CodeProject - A Day In the Life of an Application - Part 1 of 5</a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl19_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 15 Apr 2008&nbsp;&nbsp;
+		    Page Views: 18,527&nbsp;&nbsp;
+		    Rating: 4.31 / 5&nbsp;&nbsp;
+		    Votes: 38&nbsp;&nbsp;
+		    Popularity: 6.81
+		    <span id="ctl00_MC_AR_ctl19_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 51
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">The right way to code using CodeProject for occasional support</div>
+	</span>
+</div>
+
+
+
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl20_MAS">
+	    <b><a id="ctl00_MC_AR_ctl20_AT" href="/KB/cpp/SDIMultiSplit_Part2.aspx">Using CodeProject - A Day In the Life of an Application - Part 2 of 5</a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl20_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 15 Apr 2008&nbsp;&nbsp;
+		    Page Views: 9,833&nbsp;&nbsp;
+		    Rating: 4.15 / 5&nbsp;&nbsp;
+		    Votes: 21&nbsp;&nbsp;
+		    Popularity: 5.48
+		    <span id="ctl00_MC_AR_ctl20_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 8
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">The right way to code using CodeProject for occasional support</div>
+	</span>
+</div>
+
+
+
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl21_MAS">
+	    <b><a id="ctl00_MC_AR_ctl21_AT" href="/KB/cpp/SDIMultiSplit_Part4.aspx">Using CodeProject - A Day In the Life of an Application - Part 4 of 5</a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl21_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 15 Apr 2008&nbsp;&nbsp;
+		    Page Views: 7,654&nbsp;&nbsp;
+		    Rating: 3.96 / 5&nbsp;&nbsp;
+		    Votes: 17&nbsp;&nbsp;
+		    Popularity: 4.88
+		    <span id="ctl00_MC_AR_ctl21_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 5
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">The right way to code using CodeProject for occasional support</div>
+	</span>
+</div>
+
+
+
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl22_MAS">
+	    <b><a id="ctl00_MC_AR_ctl22_AT" href="/KB/cpp/SDIMultiSplit_Part5.aspx">Using CodeProject - A Day In the Life of an Application - Part 5 of 5</a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl22_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 15 Apr 2008&nbsp;&nbsp;
+		    Page Views: 11,008&nbsp;&nbsp;
+		    Rating: 4.08 / 5&nbsp;&nbsp;
+		    Votes: 19&nbsp;&nbsp;
+		    Popularity: 5.22
+		    <span id="ctl00_MC_AR_ctl22_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 5
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">The right way to code using CodeProject for occasional support</div>
+	</span>
+</div>
+
+<div id="ctl00_MC_AR_ctl23_SD"><h3>C#</h3>
+</div>
+<div id="ctl00_MC_AR_ctl23_SSD">
+	<p><a id="ctl00_MC_AR_ctl23_SSL" href="/KB/cs/">General</a></p>
+</div>
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl23_MAS">
+	    <b><a id="ctl00_MC_AR_ctl23_AT" href="/KB/cs/AppConfigDerivation.aspx">Overriding App.Config Settings for Multiple Objects</a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl23_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 17 May 2008&nbsp;&nbsp;
+		    Page Views: 6,107&nbsp;&nbsp;
+		    Rating: 4.15 / 5&nbsp;&nbsp;
+		    Votes: 15&nbsp;&nbsp;
+		    Popularity: 4.88
+		    <span id="ctl00_MC_AR_ctl23_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 8
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">One method for loading common and object-specific data from your app.config file.</div>
+	</span>
+</div>
+
+<div id="ctl00_MC_AR_ctl24_SD"><h3>VBScript</h3>
+</div>
+<div id="ctl00_MC_AR_ctl24_SSD">
+	<p><a id="ctl00_MC_AR_ctl24_SSL" href="/KB/vbscript/">General</a></p>
+</div>
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl24_MAS">
+	    <b><a id="ctl00_MC_AR_ctl24_AT" href="/KB/vbscript/IdealTextColorVBS.aspx">Determining The Ideal Text Color Based on Specified Background Color (For VBScript)</a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl24_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 8 May 2007&nbsp;&nbsp;
+		    Page Views: 6,984&nbsp;&nbsp;
+		    Rating: 3.70 / 5&nbsp;&nbsp;
+		    Votes: 7&nbsp;&nbsp;
+		    Popularity: 3.13
+		    <span id="ctl00_MC_AR_ctl24_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 9
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">The VBScript version of my C# article about the very same thing</div>
+	</span>
+</div>
+
+<div id="ctl00_MC_AR_ctl25_SD"><h3>Algorithms & Recipes</h3>
+</div>
+<div id="ctl00_MC_AR_ctl25_SSD">
+	<p><a id="ctl00_MC_AR_ctl25_SSL" href="/KB/recipes/">Parsers and Interpreters</a></p>
+</div>
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl25_MAS">
+	    <b><a id="ctl00_MC_AR_ctl25_AT" href="/KB/recipes/qstringparser_net.aspx">Persistent String Parser</a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl25_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 30 Jul 2007&nbsp;&nbsp;
+		    Page Views: 12,613&nbsp;&nbsp;
+		    Rating: 4.11 / 5&nbsp;&nbsp;
+		    Votes: 16&nbsp;&nbsp;
+		    Popularity: 4.95
+		    <span id="ctl00_MC_AR_ctl25_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 20
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">Parse a string - supports quoted elements and character or string delimiters</div>
+	</span>
+</div>
+
+<div id="ctl00_MC_AR_ctl26_SD"><h3>Date and Time</h3>
+</div>
+<div id="ctl00_MC_AR_ctl26_SSD">
+	<p><a id="ctl00_MC_AR_ctl26_SSL" href="/KB/datetime/">Tools</a></p>
+</div>
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl26_MAS">
+	    <b><a id="ctl00_MC_AR_ctl26_AT" href="/KB/datetime/Scheduler.aspx">Scheduling Future Dates </a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl26_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 1 Oct 2008&nbsp;&nbsp;
+		    Page Views: 1,299&nbsp;&nbsp;
+		    Rating: 4.17 / 5&nbsp;&nbsp;
+		    Votes: 16&nbsp;&nbsp;
+		    Popularity: 5.02
+		    <span id="ctl00_MC_AR_ctl26_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 25
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">Implement repetitive tasks at consistent intervals</div>
+	</span>
+</div>
+
+<div id="ctl00_MC_AR_ctl27_SD"><h3>DLLs & Assemblies</h3>
+</div>
+<div id="ctl00_MC_AR_ctl27_SSD">
+	<p><a id="ctl00_MC_AR_ctl27_SSL" href="/KB/DLL/">General</a></p>
+</div>
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl27_MAS">
+	    <b><a id="ctl00_MC_AR_ctl27_AT" href="/KB/DLL/DLLModuleFileName.aspx">Get Your DLL's Path/Name</a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl27_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 30 Nov 2006&nbsp;&nbsp;
+		    Page Views: 27,223&nbsp;&nbsp;
+		    Rating: 3.75 / 5&nbsp;&nbsp;
+		    Votes: 36&nbsp;&nbsp;
+		    Popularity: 5.83
+		    <span id="ctl00_MC_AR_ctl27_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 25
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">Two methods to retrieve the path/name of a VS2002 or higher  DLL from within that DLL.</div>
+	</span>
+</div>
+
+<div id="ctl00_MC_AR_ctl28_SD"><h3>Programming Tips</h3>
+</div>
+<div id="ctl00_MC_AR_ctl28_SSD">
+	<p><a id="ctl00_MC_AR_ctl28_SSL" href="/KB/tips/">Design and Strategy</a></p>
+</div>
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl28_MAS">
+	    <b><a id="ctl00_MC_AR_ctl28_AT" href="/KB/tips/FloatingPointEquality.aspx">Reliable Floating Point Equality Comparison</a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl28_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 5 Dec 2006&nbsp;&nbsp;
+		    Page Views: 25,137&nbsp;&nbsp;
+		    Rating: 2.75 / 5&nbsp;&nbsp;
+		    Votes: 27&nbsp;&nbsp;
+		    Popularity: 3.94
+		    <span id="ctl00_MC_AR_ctl28_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 6
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">Compare floating point numbers for equality at programmer-specified precision.</div>
+	</span>
+</div>
+
+<div id="ctl00_MC_AR_ctl29_SD"><h3>String handling</h3>
+</div>
+<div id="ctl00_MC_AR_ctl29_SSD">
+	<p><a id="ctl00_MC_AR_ctl29_SSL" href="/KB/string/">General</a></p>
+</div>
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl29_MAS">
+	    <b><a id="ctl00_MC_AR_ctl29_AT" href="/KB/string/uniquestring.aspx">Creating a Unique String Using a UUID</a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl29_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 12 Dec 2001&nbsp;&nbsp;
+		    Page Views: 99,954&nbsp;&nbsp;
+		    Rating: 3.35 / 5&nbsp;&nbsp;
+		    Votes: 27&nbsp;&nbsp;
+		    Popularity: 4.80
+		    <span id="ctl00_MC_AR_ctl29_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 9
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">A small function to either accept or create a UUID* and return a CString</div>
+	</span>
+</div>
+
+
+
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl30_MAS">
+	    <b><a id="ctl00_MC_AR_ctl30_AT" href="/KB/string/cstringparser.aspx">String Parsing Class (supports quoted strings)</a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl30_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 14 Mar 2002&nbsp;&nbsp;
+		    Page Views: 110,529&nbsp;&nbsp;
+		    Rating: 3.81 / 5&nbsp;&nbsp;
+		    Votes: 51&nbsp;&nbsp;
+		    Popularity: 6.51
+		    <span id="ctl00_MC_AR_ctl30_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 30
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">Parse strings with specified delimiter and specified quote character</div>
+	</span>
+</div>
+
+
+
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl31_MAS">
+	    <b><a id="ctl00_MC_AR_ctl31_AT" href="/KB/string/STDIO_Across_Compilers.aspx">Keeping It Clean - String Function Wrappers for VS2005</a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl31_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 17 Nov 2006&nbsp;&nbsp;
+		    Page Views: 26,577&nbsp;&nbsp;
+		    Rating: 3.83 / 5&nbsp;&nbsp;
+		    Votes: 22&nbsp;&nbsp;
+		    Popularity: 5.14
+		    <span id="ctl00_MC_AR_ctl31_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 6
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">A technique for making stdio functions compile clean regardless of the Microsoft compiler used</div>
+	</span>
+</div>
+
+<div id="ctl00_MC_AR_ctl32_SD"><h3>Debug Tips</h3>
+</div>
+<div id="ctl00_MC_AR_ctl32_SSD">
+	<p><a id="ctl00_MC_AR_ctl32_SSL" href="/KB/debug/">General</a></p>
+</div>
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl32_MAS">
+	    <b><a id="ctl00_MC_AR_ctl32_AT" href="/KB/debug/dualmonitordebug.aspx">Debug With Apps Displayed on Secondary Monitor</a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl32_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 29 Nov 2006&nbsp;&nbsp;
+		    Page Views: 13,646&nbsp;&nbsp;
+		    Rating: 4.14 / 5&nbsp;&nbsp;
+		    Votes: 17&nbsp;&nbsp;
+		    Popularity: 5.09
+		    <span id="ctl00_MC_AR_ctl32_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 18
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">Here's some code that will automatically start your app on a secondary monitor if it's compiled with debug info.</div>
+	</span>
+</div>
+
+<div id="ctl00_MC_AR_ctl33_SD"><h3>Hardware & System</h3>
+</div>
+<div id="ctl00_MC_AR_ctl33_SSD">
+	<p><a id="ctl00_MC_AR_ctl33_SSL" href="/KB/system/">Hardware</a></p>
+</div>
+<div class="SmallText" style="width:650px;margin-left:40px;margin-top:10px">
+
+	<span id="ctl00_MC_AR_ctl33_MAS">
+	    <b><a id="ctl00_MC_AR_ctl33_AT" href="/KB/system/homemade_nas.aspx">Build Your Own NAS Device</a></b>
+
+	    
+
+	    
+    	
+	    
+    	
+	    <div id="ctl00_MC_AR_ctl33_SbD" class="subdue SmallText" style="white-space:nowrap">
+		    Last Updated: 14 Apr 2008&nbsp;&nbsp;
+		    Page Views: 16,910&nbsp;&nbsp;
+		    Rating: 4.64 / 5&nbsp;&nbsp;
+		    Votes: 29&nbsp;&nbsp;
+		    Popularity: 6.78
+		    <span id="ctl00_MC_AR_ctl33_BCS">
+		        &nbsp;&nbsp;Bookmark Count: 30
+		    </span>
+		    
+	    </div>
+	    <div style="margin-top:3;font-size:8pt;">How to go about buildingyour own NAS device</div>
+	</span>
+</div>
+
+
+
+
+<p>
+
+            
+<table cellpadding="0" cellspacing="5" border="0" width="100%">
+<tr valign="top">
+<td id="ctl00_MC_AboutAuthor_memberPhotoTable" valign="top" style="width:155px;">
+	<b><a id="ctl00_MC_AboutAuthor_memberProfileLink" href="/script/Membership/Profiles.aspx?mid=7741">John Simmons / outlaw programmer</a></b><br /><br />
+	<center><img id="ctl00_MC_AboutAuthor_memberPhoto" src="/script/Membership/ProfileImages/{00EBAAB1-95D9-4760-ABAB-4D524D9C47C2}.jpg" style="border-width:0px;" /></center><br />
+	<span id="ctl00_MC_AboutAuthor_memberType" class="SmallText">Mvp</span>
+		
+</td>
+
+<td>
+	I've been paid as a programmer since 1982 with experience in Pascal, and C++ (both self-taught). I've been writing Windows programs since 1991 almost exclusively with Visual C++ and MFC. In the 2nd half of 2007, I started writing C# desktop and web applications.<br /><br />My weakest point is that my moments of clarity are too brief to hold a meaningful conversation that requires more than 30 seconds to complete.  Thankfully, grunts of agreement are all that is required to conduct most discussions without committing to any particular belief system. <br /><br />I really don't care if you vote 1's on my forum posts, but at least act like a professional when it comes to my articles.  When you play stupid little voting games because you don't agree with someone's politics or sense of humor, you're cheating all the other members of the site.<br /><br /><br />	
+
+	<table>
+	<tr id="ctl00_MC_AboutAuthor_jobTitleRow">
+	<td class="SmallText" nowrap="nowrap">Occupation: </td>
+	<td width="100%"><span id="ctl00_MC_AboutAuthor_memberJobTitle" class="SmallText">Software Developer (Senior)</span></td>
+</tr>
+
+
+	
+
+	<tr id="ctl00_MC_AboutAuthor_locationRow">
+	<td class="SmallText">Location: </td>
+	<td width="100%"><span id="ctl00_MC_AboutAuthor_memberLocation" class="SmallText"><img src="/script/Geo/Images/US.gif" alt="United States" width="16" height="11" /> United States</span></td>
+</tr>
+
+	</table>
+	
+</td>
+</tr>
+</table>
+
+</p>
+</div>
+</form>
+
+	
+
+	<!-- Main Page Contents End -->
+	<br clear="all" />
+
+	<center>
+		<table border="0" cellpadding="0" cellspacing="1">
+		<tr>
+			<td align="center" colspan="2">
+			<IFRAME src="/script/Adm/ServeHTML.aspx?C=False&amp;adid=7585" frameborder="0" scrolling="no" width="468" height="60"></IFRAME>
+			</td>
+		</tr>
+		<tr valign="top">
+		<td class="TinyText">
+			<span id="ctl00_LastUpdatedLabel">Last Updated 3 Oct 2008</span><br />
+			Web07 |
+			<a id="ctl00_AdvertiseLink" href="/info/MediaKit.aspx">Advertise</a> | 
+			<a id="ctl00_PrivacyLink" href="/info/privacy.aspx">Privacy</a>
+		</td>
+		<td align="right" class="TinyText">
+			Copyright &copy; <a href="mailto:webmaster@codeproject.com">CodeProject</a>, 1999-2008 <br />
+			All Rights Reserved.
+			<a id="ctl00_TermsOfUseLink" href="/info/TermsOfUse.aspx">Terms of Use</a>
+		</td>
+		</tr>		
+		</table>
+		
+			
+		
+	</center>
+	
+
+
+	
+</td>
+</tr>
+</table>
+<br />
+<script type="text/javascript" language="Javascript" src="/script/Menu/menu132_com.js"></script>
+<script type="text/javascript" language="Javascript" src="/SiteRes/CP/JS/TopNavBar.js"></script>
+<script type="text/javascript" language="Javascript">//<![CDATA[
+new HVMenu(new menu_NavbarConfig());
+//]]></script>
+
+
+</body>
+</html>

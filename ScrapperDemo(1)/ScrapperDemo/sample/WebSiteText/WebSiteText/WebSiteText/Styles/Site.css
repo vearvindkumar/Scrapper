@@ -1,0 +1,56 @@
+﻿/*******************************************************************************
+    * Page Content Layout
+    ******************************************************************************/
+h2{
+    margin: .25em auto .25em auto;
+    color:GrayText;
+}
+input{
+    margin: 1em auto 1em auto;
+}
+.childBlock{
+	position:relative;
+	margin: .5em .75em .5em .75em;
+	width: 700px;
+	height: 700px;
+	-moz-border-radius: .833em;
+	-webkit-border-radius: .833em;
+	border-radius:.833em;
+	border: 1px solid #cccccc; 
+}
+.childContent{
+    position: static; 
+    margin: .5em .75em .5em .75em;   
+}
+/*******************************************************************************
+    * Div Content Layout
+    ******************************************************************************/
+#DNA{  
+    position: absolute;
+    right: 3%;
+    top:0%;  
+    height: 97%;  
+    opacity:0.05;
+    filter:alpha(opacity=05);
+    /*border: 1px solid black;*/
+}
+#copyright{
+    text-align:left; 
+    padding-left:15px;
+}
+
+.commandInput
+{
+    border-style:none;
+    outline-width: 0;
+    width:550px;
+}
+
+.scroll
+{
+    height:605px; 
+    width:680px; 
+    overflow:auto;   
+    /*overflow-y: scroll;
+    overflow-x: scroll; */ 
+}

@@ -1,0 +1,2184 @@
+﻿					
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CadFolks Course and Syllabus</title>
+        <meta name="keywords" content="" />
+		<meta name="description" content="" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+        
+        <!-- Bootstrap core CSS -->
+        <link href="F43B84BD.css" rel='stylesheet' type='text/css'>
+		<!-- Custom styles for this template -->
+        <link href="4C74E985.css"  rel='stylesheet' type='text/css'>
+        <link href="FF646489.css"  rel='stylesheet' type='text/css'>
+        
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+	</head>
+    
+    <body> 
+    	<div class="container">
+            <div class="row" align="center">
+                <div class="templatemo-line-header head_contact">
+                    <div class="text-center">
+                        <hr class="team_hr team_hr4 team_hr_left hr_gray"/>
+                            <span class="txt_darkgrey">Our Courses</span>
+                        <hr class="team_hr team_hr4 team_hr_right hr_gray"/>
+                    </div>
+                </div>
+                    
+                <div class="tabs">
+                    <ul class="tab-links  navbar-nav">
+                						      
+                        <li class="active"><a href="#tab1">AutoCAD</a></li>
+                        <li><a href="#tab2">ANSYS</a></li>
+                        <li><a href="#tab3">AUTODESK INVENTOR</a></li>
+                        <li><a href="#tab4">REVIT ARCHITECTURE</a></li>
+                        <li><a href="#tab5">CATIA</a></li>
+                        <li><a href="#tab6">CREO</a></li>
+                        <li><a href="#tab7">Unigraphics NX9</a></li>
+                        <li><a href="#tab8">SOLID WORK</a></li>
+                        <li><a href="#tab9">STAAD PRO</a></li>
+                        <li><a href="#tab10">SOLID EDGE_2</a></li>
+                    </ul>
+                 
+                    <div class="tab-content">
+                        <div id="tab1" class="tab active">
+                            <p><strong>AutoCAD</strong></p>
+
+<p>&nbsp;</p>
+
+<p>Day 1</p>
+
+<p>: Introduction to User Interface of AutoCAD<br />
+: Introduction to different views in AutoCAD<br />
+: Basic Drawing Tools<br />
+: Practice on Drawing Tools</p>
+
+<p>Day 2</p>
+
+<p>: Introduction To Modification Tools<br />
+: Practice on some Basic Drawing &amp; Modifying tools</p>
+
+<p>Day 3</p>
+
+<p>: Introduction To Annotation in AutoCAD<br />
+: Dimension, ext &amp; Leaders<br />
+: Use of Measuring Tools</p>
+
+<p>Day 4</p>
+
+<p>: Study of drawings (Plan , section and elevations )<br />
+: Practice on Plans &amp; Elevations<br />
+: Inserting reusable symbols (blocks) &amp; Attributes</p>
+
+<p>Day 5</p>
+
+<p>: Isometric Drafting in AutoCAD<br />
+: Practice on Isometric Drawings</p>
+
+<p>Day 6</p>
+
+<p>: Introduction to layers in AutoCAD<br />
+: Working on Different layers<br />
+: Advanced editing and construction techniques</p>
+
+<p>Day 7</p>
+
+<p>: External References<br />
+: Use of Existing Drawing in New Drawings<br />
+: Drafting by tracing of an Image &amp; pdf</p>
+
+<p>Day 8</p>
+
+<p>: Use of Hatching , super hatching &amp; Design Centre<br />
+: Practice on Typical Drawings</p>
+
+<p>Day 9</p>
+
+<p>: Plotting and printing techniques in AutoCAD<br />
+: Viewports &amp; 2D Layout<br />
+: Conversion of Drg to Pdf</p>
+
+<p>Day 10</p>
+
+<p>: Test on 2D Drawings &amp; Layout</p>
+
+<p>Day 11 &amp; 12</p>
+
+<p>: A complete 2D project (Plan, Section &amp; Elevations )</p>
+
+<p><strong>AutoCAD 3D</strong></p>
+
+<p>Day 13</p>
+
+<p>: Introduction To 3D User Interface In AutoCAD<br />
+: View cube , Orbits &amp; Visual Styles<br />
+: Introduction To UCS</p>
+
+<p>Day 14</p>
+
+<p>: Introduction To Basic Create Tools &amp; Their Applications<br />
+: Conversion of 2D Dwg to 3D using Extrude Command</p>
+
+<p>Day 15</p>
+
+<p>: Use of Solid editing tools in AutoCAD<br />
+: Practice on Solid editing Tools</p>
+
+<p>Day 16</p>
+
+<p>: Creating Various 3d Models<br />
+: Working on Different Viewports</p>
+
+<p>Day 17</p>
+
+<p>: Assigning Materials &amp; Textures To Models<br />
+: Creating New Materials<br />
+: Use of Lighting in AutoCAD</p>
+
+<p>Day 18</p>
+
+<p>: Rendering &amp; Animation In AutoCAD<br />
+: Camera Views &amp; 3D walk</p>
+
+<p>Day 19</p>
+
+<p>: 3d Plotting &amp; Layout in 3d</p>
+
+<p>Day 20 , 21 &amp; 22</p>
+
+<p>: A complete project on AutoCAD 2d &amp; 3d</p>
+
+<p>Day 23</p>
+
+<p>: Practice &amp; Doubt clearing Session</p>
+
+<p>Day 24</p>
+
+<p>: Certification Exam (3 Hours )</p>                        </div>
+                 
+                        <div id="tab2" class="tab">
+                            <p><strong>ANSYS</strong></p>
+
+<p>Coming Soon....</p>                        </div>
+                 
+                        <div id="tab3" class="tab">
+                            <h2>&nbsp;</h2>
+
+<h2><strong>AUTODESK INVENTOR COURSE OVERVIEW</strong></h2>
+
+<p>&nbsp;</p>
+
+<p><strong>Session 1</strong></p>
+
+<p>Introduction to Autodesk Inventor</p>
+
+<p>Getting Started with Autodesk Inventor</p>
+
+<p>User Interface</p>
+
+<p>Units for Dimensions</p>
+
+<p>Important Terms and their Definitions</p>
+
+<p>Hotkeys</p>
+
+<p>Color Scheme</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Session 2</strong></p>
+
+<p>The Sketching Environment</p>
+
+<p>Introduction to the Sketching Environment</p>
+
+<p>Setting Up the Sketching Environment</p>
+
+<p>Understanding the Drawing Display Tools</p>
+
+<p>Positioning Entities by Using Dynamic Input</p>
+
+<p>Drawing Lines</p>
+
+<p>Drawing Circles</p>
+
+<p>Drawing Ellipses</p>
+
+<p>Drawing Arcs</p>
+
+<p>Drawing Rectangles</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Session 3</strong></p>
+
+<p>Drawing Polygons</p>
+
+<p>Placing Points</p>
+
+<p>Creating Fillets</p>
+
+<p>Creating Chamfers</p>
+
+<p>Drawing Splines</p>
+
+<p>Deleting Sketched Entities</p>
+
+<p>Finishing a Sketch</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Session 4</strong></p>
+
+<p>Adding Geometric Constraints to a Sketch</p>
+
+<p>Perpendicular Constraint</p>
+
+<p>Parallel Constraint</p>
+
+<p>Tangent Constraint</p>
+
+<p>Coincident Constraint</p>
+
+<p>Concentric Constraint</p>
+
+<p>Collinear Constraint</p>
+
+<p>Horizontal &amp; Vertical Constraint</p>
+
+<p>Equal Constraint</p>
+
+<p>Fix Constraint</p>
+
+<p>Symmetric Constraint</p>
+
+<p>Smooth Constraint</p>
+
+<p>Viewing the Constraints Applied to a Sketched entity</p>
+
+<p>Controlling Constraints and applying them automatically while sketching</p>
+
+<p>Selecting Constraints</p>
+
+<p>Applying Constraints</p>
+
+<p>Deleting Geometric Constraints</p>
+
+<p><strong>Session 5</strong></p>
+
+<ul>
+	<li>Adding Dimensions to Sketches</li>
+	<li>Linear Dimensioning</li>
+	<li>Aligned Dimensioning</li>
+	<li>Angular Dimensioning</li>
+	<li>Diameter Dimensioning</li>
+	<li>Radius Dimensioning</li>
+	<li>Linear Diameter Dimensioning</li>
+	<li>Creating Driven Dimensions</li>
+	<li>Understanding the Concept of Fully-Constrained Sketches</li>
+	<li>Measuring Sketched Entities</li>
+	<li>Measuring Distances</li>
+	<li>Measuring Angles</li>
+	<li>Measuring Loops</li>
+	<li>Adding Linear Measurements</li>
+	<li>Clearing Accumulated Dimensions</li>
+	<li>Evaluating Region Properties</li>
+</ul>
+
+<p><strong>Session 6</strong></p>
+
+<ul>
+	<li>Editing Sketched Entities</li>
+	<li>Extending Sketched Entities</li>
+	<li>Trimming Sketched Entities</li>
+	<li>Splitting Sketched Entities</li>
+	<li>Offsetting Sketched Entities</li>
+	<li>Mirroring Sketched Entities</li>
+	<li>Moving Sketched Entities</li>
+	<li>Rotating Sketched Entities</li>
+</ul>
+
+<p><strong>Session 7</strong></p>
+
+<ul>
+	<li>Creating Patterns</li>
+	<li>Creating Rectangular Patterns</li>
+	<li>Creating Circular Patterns</li>
+	<li>Writing Text in the Sketching Environment</li>
+	<li>Writing Regular Text</li>
+	<li>Writing Text Aligned to Geometry</li>
+	<li>Inserting Images and Documents in Sketches</li>
+	<li>Editing Sketched Entities by Dragging</li>
+	<li>Tolerances</li>
+</ul>
+
+<p><strong>Session 8</strong></p>
+
+<ul>
+	<li>Converting the Base Sketch into a Base Feature</li>
+	<li>Extruding the Sketch</li>
+	<li>Revolving the Sketch</li>
+	<li>Direct Manipulation of Features by Using the Mini Toolbar</li>
+	<li>Command Options</li>
+	<li>Manipulators</li>
+	<li>Rotating the View of a Model in 3D Space</li>
+	<li>Rotating the View of a Model Using the Orbit</li>
+	<li>Changing the View Using the ViewCube</li>
+	<li>Navigating the Model</li>
+	<li>Controlling the Display of Models</li>
+	<li>Setting the Visual Styles</li>
+	<li>Setting the Shadow Options</li>
+	<li>Setting the Camera Type</li>
+</ul>
+
+<p><strong>Session 9</strong></p>
+
+<ul>
+	<li>Creating Work Planes</li>
+	<li>Creating Work Axes</li>
+	<li>Creating Work Points</li>
+	<li>Other Extrusion Options</li>
+	<li>Other Revolution Options</li>
+	<li>The Concept of Sketch Sharing</li>
+</ul>
+
+<p><strong>Session 10</strong></p>
+
+<ul>
+	<li>Creating Holes</li>
+	<li>Creating Fillets</li>
+	<li>Creating Edge Fillets</li>
+	<li>Creating Face Fillets</li>
+	<li>Creating Full Round Fillets</li>
+	<li>Creating Chamfers</li>
+	<li>Mirroring Features and Models</li>
+	<li>Creating Rectangular Patterns</li>
+	<li>Creating Circular Pattern</li>
+</ul>
+
+<p><strong>Session 11</strong></p>
+
+<ul>
+	<li>Creating Rib Features</li>
+	<li>Thickening or Offsetting the Faces of Features</li>
+	<li>Creating the Embossed and Engraved Features</li>
+	<li>Applying Images on a Feature</li>
+	<li>Assigning Different Colors/Styles to a Model</li>
+</ul>
+
+<p><strong>Session 12</strong></p>
+
+<ul>
+	<li>Editing Features of a Model</li>
+	<li>Updating Edited Features</li>
+	<li>Editing Features Dynamically by Using 3D Grips</li>
+	<li>Editing the Sketches of Features</li>
+	<li>Redefining the Sketching Plane of a Sketched Feature</li>
+	<li>Suppressing Features</li>
+	<li>Unsuppressing the Suppressed Features</li>
+	<li>Moving the Faces of a Solid</li>
+	<li>Deleting Features</li>
+	<li>Copying and Pasting Features</li>
+</ul>
+
+<p><strong>Session 13</strong></p>
+
+<ul>
+	<li>Adding Automatic Dimensions to Sketches</li>
+	<li>Projecting Entities in the Sketching Environment</li>
+	<li>Projecting Edges or Faces</li>
+	<li>Projecting Cutting Edges</li>
+	<li>Project to 3D Sketch</li>
+</ul>
+
+<p><strong>Session 14</strong></p>
+
+<ul>
+	<li>Creating Sweep Features</li>
+	<li>Sweep along Edge</li>
+	<li>Creating Lofted Features</li>
+	<li>Creating Coil Features</li>
+	<li>Creating Threads</li>
+	<li>Creating Shell Features</li>
+	<li>Applying Drafts</li>
+</ul>
+
+<p><strong>Session 15</strong></p>
+
+<ul>
+	<li>Trimming Surfaces</li>
+	<li>Extending Surfaces</li>
+	<li>Deleting Faces</li>
+	<li>Replacing Faces with Surfaces</li>
+	<li>Creating Planar Boundary Patches</li>
+	<li>Stitching Surfaces</li>
+	<li>Working with the Sculpt Tool</li>
+	<li>Working with the Bend Part Tool</li>
+	<li>Reordering the Features</li>
+	<li>Using the Sketch Doctor</li>
+	<li>Using the Design Doctor</li>
+</ul>
+
+<p><strong>Session 16</strong></p>
+
+<ul>
+	<li>Assembly Modeling</li>
+	<li>Top-down Assemblies</li>
+	<li>Bottom-up Assemblies</li>
+	<li>Creating Top-down Assemblies</li>
+	<li>Creating Components in the Assembly Module</li>
+	<li>Creating Bottom-Up Assemblies</li>
+	<li>Placing Components in the Assembly File</li>
+	<li>Assembling Components by Using the Constrain Tool</li>
+	<li>Assembly Tab</li>
+	<li>Motion Tab</li>
+	<li>Transitional Tab</li>
+	<li>Constraint Set Tab</li>
+	<li>Specifying the Limits for Constraining</li>
+	<li>Assembling Parts by Using the Assemble Tool</li>
+	<li>Using ALT+Drag to Apply Assembly Constraints</li>
+	<li>Moving Individual Components</li>
+	<li>Rotating Individual Components in 3D Space</li>
+</ul>
+
+<p><strong>Session 17</strong></p>
+
+<ul>
+	<li>Editing Assembly Constraints</li>
+	<li>Editing Components</li>
+	<li>Editing Components in the Assembly File</li>
+	<li>Editing Components by Opening their Part Files</li>
+	<li>Creating subassemblies</li>
+	<li>Creating a Subassembly Using the Bottom-up Design Approach</li>
+	<li>Creating a Subassembly Using the Top-down Design Approach</li>
+	<li>Checking Degrees of Freedom of a Component</li>
+	<li>Creating the Pattern of Components in an Assembly</li>
+	<li>Component</li>
+	<li>Associative Tab</li>
+	<li>Rectangular Tab</li>
+	<li>Circular Tab</li>
+</ul>
+
+<p><strong>Session 18</strong></p>
+
+<ul>
+	<li>Replacing a Component from the Assembly File with another Component</li>
+	<li>Replacing a Single Instance of the Selected Component</li>
+	<li>Replacing all Instances of the Selected Component</li>
+	<li>Mirroring Subassemblies or Components of an Assembly</li>
+	<li>Copying Subassemblies or Components of an Assembly</li>
+	<li>Deleting Components</li>
+	<li>Editing the Pattern of Components</li>
+	<li>Making a Pattern Instance Independent</li>
+	<li>Deleting Assembly Constraints</li>
+</ul>
+
+<p><strong>Session 19</strong></p>
+
+<ul>
+	<li>Creating Assembly Section Views in the Assembly File</li>
+	<li>Analyzing Assemblies for Interference</li>
+	<li>Creating Design View Representations</li>
+	<li>Design View Representation Area</li>
+	<li>Positional Representation Area</li>
+	<li>Level of Detail Representation</li>
+	<li>Assembly by Driving Assembly Constraints</li>
+	<li>Creating Positional Representations</li>
+	<li>Viewing the Bill of Material of the Current Assembly</li>
+	<li>Working with Assembly Features</li>
+</ul>
+
+<p><strong>Section 20</strong></p>
+
+<ul>
+	<li>The Drawing Module</li>
+	<li>Generating Drawing Views</li>
+	<li>Generating the Base View</li>
+	<li>Generating Projected Views</li>
+	<li>Generating Auxiliary Views</li>
+	<li>Generating Section Views</li>
+	<li>Generating Detail Views</li>
+	<li>Generating Broken Views</li>
+	<li>Generating Break Out Views</li>
+	<li>Generating Overlay Views</li>
+	<li>Generating Slice Views</li>
+</ul>
+
+<p><strong>Section 21</strong></p>
+
+<ul>
+	<li>Drafting Drawing Views</li>
+	<li>Editing Drawing Views</li>
+	<li>Deleting Drawing Views</li>
+	<li>Moving Drawing Views</li>
+	<li>Copying Drawing Views</li>
+	<li>Rotating Drawing Views</li>
+	<li>Changing the Orientation of Drawing Views</li>
+	<li>Assigning Different Hatch Patterns to Components in Assembly Section Views</li>
+	<li>Editing the Default Hatch Style of the Sectioned Objects</li>
+	<li>Excluding Components from Assembly Section Views</li>
+</ul>
+
+<p><strong>Section 22</strong></p>
+
+<ul>
+	<li>Modifying Drawing Standards</li>
+	<li>Inserting Additional Sheets into Drawing</li>
+	<li>Activating a Drawing Sheet</li>
+	<li>Displaying Dimensions in Drawing Views</li>
+	<li>Retrieving Parametric Dimensions in Drawing Views</li>
+	<li>Adding Reference Dimensions</li>
+	<li>Modifying the Model Dimensions</li>
+	<li>Editing Drawing Sheets</li>
+</ul>
+
+<p><strong>Section 23</strong></p>
+
+<ul>
+	<li>Creating Dimension Styles</li>
+	<li>Applying Dimension Styles</li>
+	<li>Modifying a Dimension and its Appearance Using the Shortcut Menu</li>
+	<li>Adding the Parts List</li>
+	<li>Source Area</li>
+	<li>BOM Settings and Properties Area</li>
+	<li>Table Wrapping Area</li>
+	<li>Editing the Parts List</li>
+	<li>Setting the Standard for the Parts List</li>
+	<li>Adding Balloons to Assembly Drawing Views</li>
+	<li>Adding Text to a Drawing Sheet</li>
+</ul>
+
+<p><strong>Section 24</strong></p>
+
+<ul>
+	<li>The Presentation Module</li>
+	<li>Creating the Presentation View</li>
+	<li>Defining Units for Presentation Files</li>
+	<li>Tweaking Components in the Presentation View</li>
+	<li>Animating an Assembly</li>
+	<li>Rotating the Presentation View Precisely</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><strong>Project I</strong></p>
+
+<p><strong>Project II</strong></p>
+
+<p><strong>Project III</strong></p>
+
+<p><strong>Project IV</strong></p>
+
+<p><strong>Project V</strong></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp; &nbsp; --------------------------------------------------------&nbsp; # # # # # # # &nbsp; --------------------------------------------------------</p>                            
+                        </div>
+                 
+                        <div id="tab4" class="tab">
+                            <h2>&nbsp;</h2>
+
+<h2><strong>REVIT ARCHITECTURE</strong></h2>
+
+<p>&nbsp;</p>
+
+<p><strong>Introduction to Revit</strong><br />
+Building Information Modeling (BIM)<br />
+User Interface<br />
+Working with a&nbsp;Project<br />
+Navigation in between Views</p>
+
+<p><br />
+<strong>Basic Drawing and Editing Tools</strong><br />
+General Drawing Tools<br />
+Editing Revit Elements<br />
+Basic Modifying Tools</p>
+
+<p><br />
+<strong>Setting up Levels and Grids</strong><br />
+Creating Levels<br />
+Importing CAD files<br />
+Creating Structural Grids<br />
+Adding Columns</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Drawing and Modifying Walls</strong><br />
+Creating Exterior Shell<br />
+Adding Interior Walls</p>
+
+<p><br />
+<strong>Creating&nbsp;Doors and Windows</strong><br />
+Adding Doors and Windows<br />
+Loading Families<br />
+Creating Additional Part Sizes</p>
+
+<p><br />
+<strong>Curtain Walls</strong><br />
+Creating Curtain Walls<br />
+Adding Curtain Grids<br />
+Working with Curtain Wall Panels<br />
+Adding Mullions</p>
+
+<p><br />
+<strong>Creating Views</strong><br />
+Duplicating Views<br />
+Adding Callout Views<br />
+Creating Elevations<br />
+Creating Sections</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Creating Floors &amp; Adding Components</strong><br />
+Creating Floors<br />
+Shaft Openings<br />
+Sloped Floors<br />
+Adding Components</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Creating&nbsp;Reflected Ceiling Plans</strong><br />
+Creating Ceilings<br />
+Soffits<br />
+Adding Ceiling Fixtures</p>
+
+<p><br />
+<strong>Creating&nbsp;Roofs</strong><br />
+Creating Roofs<br />
+Roofs by Footprint<br />
+Reference Planes and Work Planes<br />
+Roofs by Extrusion</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Vertical Circulation</strong><br />
+Adding Stairs<br />
+Creating Ramps<br />
+Working with Railings</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Construction Documentation</strong><br />
+Setting up Sheets<br />
+Placing and Modifying Views<br />
+Printing Sheets</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Annotation</strong><br />
+Working with Dimensions<br />
+Working with Text<br />
+Adding Detail Lines and Symbols</p>
+
+<p><br />
+<strong>Tags and Schedules</strong><br />
+Adding Tags<br />
+Rooms and Room Tags<br />
+Working with Schedules<br />
+Creating Legends</p>
+
+<p><br />
+<strong>Detailing in Revit</strong><br />
+Setting up Detail Views<br />
+Creating and Annotating Details<br />
+Keynoting and Keynote Legends<br />
+Patterning</p>                        </div>
+                        <div id="tab5" class="tab">
+                            <h2>&nbsp;</h2>
+
+<h2><strong>CATIA Level I</strong></h2>
+
+<p>This course will introduce the students to basic workbench of CATIA such as Part Design, Assembly Design, and Drafting. After completion of this course the student will be able to create component using sketch based, dress up, and hole features. They will be able to use the bottom up assembly design approach to assemble the components and then generate the drawing views of the components and assembly.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Session 1 - Introduction to CATIA</strong></p>
+
+<p>Understanding the Functions of the mouse buttons<br />
+User Interface<br />
+Starting a Part Design environment<br />
+Invoking the Sketching environment<br />
+Modifying Units<br />
+Specification tree<br />
+Drawing Lines<br />
+Drawing Predefined Profiles<br />
+Drawing Circles<br />
+Drawing Profiles<br />
+Use of Drawing Display Tools</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Session 2</strong></p>
+
+<p>Drawing Conics<br />
+Drawing Splines<br />
+Editing and Modifying Sketches<br />
+Trimming Unwanted Sketched Elements<br />
+Extending Sketched Elements<br />
+Trimming by Using Quick Trim tool<br />
+Filleting Sketched Elements<br />
+Chamfering Sketched Elements<br />
+Mirroring Sketched Elements<br />
+Translating, Rotating, and Scaling the Sketched Elements<br />
+Offsetting the Sketched Elements<br />
+Modifying Sketched Elements<br />
+Deleting Sketched Elements</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Session 3</strong></p>
+
+<p>Constraining Sketches<br />
+Concept of Iso&acirc;&euro;&Acirc;Constrained Sketches<br />
+Adding Geometrical Constraints<br />
+Adding Automatic Constraints<br />
+Applying Additional Constraints to the Sketch<br />
+Applying Dimensional Constraints<br />
+Applying Automatic Constraints<br />
+Editing Multiple Dimensions<br />
+Analyzing and Deleting Over&acirc;&euro;&Acirc;Defining Constraints<br />
+Exiting the Sketcher Workbench<br />
+Creating the Base Feature by Extruding<br />
+Creating the Base Feature by Revolving Sketches<br />
+Dynamically Rotating the View of the Model<br />
+Display Modes of the Model<br />
+Assigning Material to the Model</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Session 4</strong></p>
+
+<p>Importance of sketching planes<br />
+Creating Reference Planes<br />
+Creating Reference Points<br />
+Creating Reference Lines<br />
+Other Sketch&acirc;&euro;&Acirc;Based Features<br />
+Creating Drafted Filleted Pad Features<br />
+Creating Multi&acirc;&euro;&Acirc;Pad Features<br />
+Creating Pocket Features<br />
+Creating Drafted Filleted Pocket Features<br />
+Creating Multi&acirc;&euro;&Acirc;Pocket Features<br />
+Creating Groove Features<br />
+Extruding and Revolving Planar and Nonplanar Faces<br />
+Projecting 3D Elements</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Session 5</strong></p>
+
+<p>Creating Hole Features<br />
+Creating Edge Fillet<br />
+Creating Variable Radius Fillets<br />
+Creating Chordal Fillet<br />
+Creating Face&acirc;&euro;&Acirc;Face Filletes<br />
+Creating Tritangent Fillet<br />
+Creating Chamfers<br />
+Adding a Simple Draft<br />
+Adding Drafts Using the Reflect line<br />
+Adding a variable Angle Draft<br />
+Creating a Shell Features<br />
+Editing Features of a Model<br />
+Managing features and sketches by Cut, Copy, and Paste Functionalities<br />
+Understanding the Concept of Update Diagnosis<br />
+Deleting Unwanted Features<br />
+Deactivating and Activating Features<br />
+Defining Features in Work Object<br />
+Reordering Features<br />
+Understanding Parent Child Relationships<br />
+Measuring Elements</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Session 6</strong></p>
+
+<p>Transformation Features<br />
+Translating Bodies<br />
+Rotating Bodies<br />
+Creating Symmetry Feature<br />
+Transformation through Axis System<br />
+Mirroring Features and Bodies<br />
+Creating Rectangular Patterns<br />
+Creating Circular Patterns<br />
+Creating User Patterns<br />
+Uniform Scaling of Model<br />
+Nonuniform Scaling of Model<br />
+Working with additional bodies<br />
+Inserting a New Body<br />
+Inserting Features in the New Body<br />
+Assembling Bodies<br />
+Adding Bodies<br />
+Subtracting Bodies<br />
+Inserting Bodies<br />
+Trimming Bodies<br />
+Removing Lumps<br />
+Adding Stiffeners to the model<br />
+Generating Solid Combine</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Session 7</strong></p>
+
+<p>Creating Rib Features<br />
+Creating Slot Features<br />
+Creating Multi&acirc;&euro;&Acirc;Sections Solid Features<br />
+Creating Removed Multi&acirc;&euro;&Acirc;Sections Solid Features<br />
+Types of Assembly design approach<br />
+Creating Bottom&acirc;&euro;&Acirc;Up Assemblies<br />
+Inserting Components in a Product File<br />
+Moving Individual Components<br />
+Applying Constraints<br />
+Quick Constraint<br />
+Reuse Pattern</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Session 8</strong></p>
+
+<p>Inserting Existing Components with Positioning<br />
+Creating Top&acirc;&euro;&Acirc;Down Assemblies<br />
+Creating Base Part in the Top&acirc;&euro;&Acirc;Down Assembly<br />
+Creating Subsequent Components in the Top&acirc;&euro;&Acirc;Down Assembly<br />
+Creating Subassemblies in the Top&acirc;&euro;&Acirc;Down Assembly<br />
+Editing Assemblies<br />
+Deleting Components<br />
+Replacing Components<br />
+Editing Components inside an Assembly<br />
+Editing Subassemblies inside an Assembly<br />
+Editing Assembly Constraints<br />
+Replacing a Constraints<br />
+Simplifying the Assembly<br />
+Interference Detection<br />
+Sectioning an Assembly<br />
+Exploding an Assembly</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Session 9</strong></p>
+
+<p>Introduction to the Drafting Workbench<br />
+Types of Views generated in Drafting Workbench<br />
+Generating Drawing Views<br />
+Generating the Base View<br />
+Automatically generating views<br />
+Generating the Front View and Advanced Front Views<br />
+Generating the Projected View<br />
+Generating the Auxiliary View<br />
+Generating the Isometric View<br />
+Generating the Section Views (Offset, Aligned, Aligned Section Cut, Broken&acirc;&euro;&Acirc;Out)<br />
+Generating the Detail Views<br />
+Generating Clipping View Profile<br />
+Generating the Brake Views (Broken, Breakout)<br />
+Generating the Exploded View<br />
+Working with Interactive Drafting<br />
+Editing and Modifying Drawing Views<br />
+Modifying the Properties of Drawing Views</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Session 10</strong></p>
+
+<p>Inserting new sheets in the current file<br />
+Inserting the Frame and the title block automatically<br />
+Inserting the Frame and the title block manually<br />
+Generating dimensions step by step<br />
+Creating reference dimensions<br />
+Creating chamfer dimensions<br />
+Adding datum features<br />
+Adding geometrical tolerance<br />
+Adding surface finish symbols<br />
+Adding welding symbols<br />
+Editing annotations<br />
+Generating the bill of material (BOM)<br />
+Generating balloons</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<h2><strong>CATIA Level II</strong></h2>
+
+<p>This course will introduce the students to advance Workbench of CATIA such as Wireframe and Surface Design, Generative Sheetmetal, and DMU Kinametics. After completion of this course the student will be able to create component using the tools available in the Generative Sheetmetal Workbench and they will able to create SheetMetal components using the tools avilable in the Generative Sheetmetal Workbench. Also, they will be able to create various mechanisms and simulate it using the tools available in the DMU Kinametics Workbench.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Session 1</strong></p>
+
+<p>Introduction to Surface Modeling<br />
+Wireframe and Surface Design Workbench<br />
+Creating Circles<br />
+Creating Splines<br />
+Creating a Helix<br />
+Creating Surfaces<br />
+Creating Extruded Surfaces<br />
+Creating Revolved Surfaces<br />
+Creating Spherical Surfaces<br />
+Creating Cylindrical Surfaces<br />
+Creating Offset Surfaces<br />
+Creating Sweep Surfaces<br />
+Creating Fill Surfaces<br />
+Creating Multi&acirc;&euro;&Acirc;Sections Surfaces<br />
+Creating Blended Surfaces<br />
+Operation on shape geometry<br />
+Joining Surfaces<br />
+Splitting Surfaces<br />
+Trimming Surfaces<br />
+Creating Projection Curves<br />
+Creating Intersection Elements<br />
+Haling Geometries<br />
+Disassembling Elements<br />
+Untrimming a Surface or a Curve<br />
+Creating Boundary Curves<br />
+Extracting Geometry<br />
+Translating Elements<br />
+Rotating Elements<br />
+Symmetry Elements<br />
+Scaling of Elements<br />
+Nonuniform Scaling of Elements<br />
+Transforming an Element from Axis to Axis<br />
+Extrapolating Surfaces and Curves<br />
+Splitting a Solid Body with a Surface<br />
+Solidifying Surface Models<br />
+Adding Thickness to a Surface<br />
+Creating a Solid Body from a Closed Surface Body<br />
+Sewing a Surface with a Solid Body</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Session 2</strong></p>
+
+<p>Introduction to sheet metal components<br />
+Setting the Sheet Metal Parameters<br />
+Introduction to sheet metal walls<br />
+Creating the wall (base wall)<br />
+Creating the wall On Edge<br />
+Creating the Extrusions<br />
+Creating the Swept Walls (Flange, Hem, Tear Drop, User Flange)<br />
+Creating a Bend and Conical Bend<br />
+Folding and unfolding sheet metal parts<br />
+Creating Flat Patterns of sheet metal components<br />
+Stamping Features<br />
+Surface Stamp<br />
+Bead Stamp<br />
+Curve Stamp<br />
+Flange Cut Out Stamp<br />
+Louver Stamp<br />
+Bridge Stamp<br />
+Flanged Hole Stamp<br />
+Stiffening Rib Stamp<br />
+Creating a Dowel Stamp</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Session 3</strong></p>
+
+<p>Introduction to DMU Kinematics<br />
+Designing a Mechanism<br />
+Creating the Revolute Joint<br />
+Creating the Prismatic Joint<br />
+Creating the Cylindrical Joint<br />
+Creating the Screw Joint<br />
+Creating the Rigid Joint<br />
+Creating the Spherical Joint<br />
+Creating the Planar Joint<br />
+Creating the Point Curve Joint<br />
+Creating the Slide Curve Joint<br />
+Creating the Roll Curve Joint<br />
+Creating the Point Surface Joint<br />
+Creating the Universal Joint<br />
+Creating the CV Joint<br />
+Creating the Gear Joint<br />
+Creating the Rack Joint<br />
+Creating the Cable Joint<br />
+Converting Assembly Constraints into Joints</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Project I</strong></p>
+
+<p><strong>Project II</strong></p>
+
+<p><strong>Project III</strong></p>
+
+<p><strong>Project IV</strong></p>
+
+<p><strong>Project V</strong></p>                        </div>
+                        <div id="tab6" class="tab">
+                            <p><strong>CREO</strong></p>
+
+<p>Coming Soon....dfgfdgdfg</p>                        </div>
+                        <div id="tab7" class="tab">
+                            <p><b>Unigraphics NX9</b></p>
+            <p><b>Session 1 Introduction to Unigraphics NX</b></p>
+            <p>
+                Introduction to <br />
+                System Requirements<br />
+                Getting Started with NX<br />
+                Important Terms and Definitions<br />
+                Understanding the Functions of the Mouse Buttons<br />
+                Toolbars<br />
+                Hot Keys<br />
+                Color Scheme<br />
+                Dialog Boxes in NX<br />
+                Selecting Objects<br />
+                Deselecting Objects<br />
+                Selecting Objects Using the QuickPick Dialog Box
+            </p>
+            <p><b>Session 2 Drawing Sketches for Solid Models</b></p>
+            <p>
+                The Sketcher Environment<br />
+                Starting NX<br />
+                Starting a New Document in NX Invoking Different NX Environments<br />
+                Creating Three Fixed Datum Planes (XC-YC, YC-ZC, XC-ZC)<br />
+                Displaying the WCS (Work Coordinate System)<br />
+                Invoking the Sketcher Environment<br />
+                Sketching Tools<br />
+                Drawing Sketches Using the Profile Tool<br />
+                Using Help Lines to Locate Points<br />
+                Drawing Individual Lines<br />
+                Drawing Arcs<br />
+                Drawing Circles<br />
+                Drawing Rectangles<br />
+                Placing Points<br />
+                Drawing Ellipses or Elliptical Arcs<br />
+                Drawing Conics<br />
+                Drawing Studio Splines<br />
+                Filleting Sketched Entities<br />
+                The Drawing Display Tools<br />
+                Fitting Entities in the Current Display<br />
+                Zooming to an Area<br />
+                Dynamic Zooming<br />
+                Panning Drawings<br />
+                Fitting View to Selection<br />
+                Restoring the Original Orientation of the Sketching Plane<br />
+                Setting Selection Filters in the Sketcher Environment Selecting Objects<br />
+                Deselecting Objects<br />
+                Using Snap Points Options While Sketching<br />
+                Deleting Sketched Entities<br />
+                Exiting the Sketcher Environment
+            </p>
+            <p><b>Session 3 Adding Geometric and Dimensional Constraints to Sketches</b></p>
+            <p>
+                Constraining Sketches<br />
+                Concept of Constrained Sketches<br />
+                Under-Constrain<br />
+                Fully-Constrain<br />
+                Over-Constrain<br />
+                Degree of Freedom Arrows<br />
+                Geometric Constraints<br />
+                Applying Additional Constraints Individually<br />
+                Applying Automatic Constraints to a Sketch<br />
+                Controlling Inferred Constraints Settings<br />
+                Showing All Constraints in a Sketch<br />
+                Turning off the Display of All Constraints in a Sketch<br />
+                Showing/Removing Constraints<br />
+                Converting a Sketch Entity into a Reference Entity<br />
+                Dimensional Constraints<br />
+                Applying Horizontal Dimensions<br />
+                Applying Vertical Dimensions<br />
+                Applying Parallel Dimensions<br />
+                Applying Perpendicular Dimensions<br />
+                Applying Angular Dimensions<br />
+                Applying Diameter Dimensions<br />
+                Applying Radius Dimensions<br />
+                Applying Perimeter Dimensions<br />
+                Applying Dimensions by Using the Inferred Dimensions Tool<br />
+                Editing the Dimension Value and Other Parameters<br />
+                Animating a Fully Constrained Sketch<br />
+                Measuring the Distance Value between a Objects in a Sketch<br />
+                Measuring the Distance between Two Objects in a Sketch<br />
+                Measuring the Projected Distance between Two Objects iii<br />
+                Measuring the Screen Distance between Two Objects<br />
+                Measuring the Length of an Arc or a Line<br />
+                Measuring the Angle between Entities<br />
+                Measuring the Angle Value Using the By Objects Option<br />
+                Measuring the Angle Value Using the By 3 Points Option<br />
+                Measuring the Angle Value Using the By Screen Points Option<br />
+                Editing Sketches<br />
+                Trimming Sketched Entities<br />
+                Extending Sketched Entities<br />
+                Creating a Corner between Sketched Entities<br />
+                Mirroring Sketched Entities<br />
+                Copying, Moving, and Rotating Sketched Entities<br />
+                Transforming Sketched Entities<br />
+                Editing Sketched Entities by Dragging<br />
+                Exiting the Sketcher Environment<br />
+                Changing the View of the Sketch<br />
+            </p>
+            <p><b>Session 4 Editing, Extruding, and Revolving Sketches</b></p>
+            <p>
+                Creating Base Features by Extruding<br />
+                Extrude Dialog Box Options<br />
+                Creating Solid Revolved Bodies<br />
+                Hiding Entities<br />
+                Showing Hidden Entities<br />
+                Hiding All Entities Using a Single Tool<br />
+                Rotating the View of a Model in 3D Space<br />
+                Setting Display Modes<br />
+                Some Real-world Models
+            </p>
+
+            <p><b>Session 5 Working with Datum Planes, Coordinate Systems, and Datum Axes</b></p>
+            <p>
+                Additional Sketching and Reference Planes<br />
+                Types of Datum Planes<br />
+                Creating Three Fixed (Principle) Datum Planes<br />
+                Creating Relative Datum Planes Creating Datum Coordinate Systems<br />
+                Creating Fixed and Relative Datum Axes<br />
+                Other Extrusion Options<br />
+                Specifying the Boolean Operation<br />
+                Specifying Other Extrusion Termination Options<br />
+                Projecting External Elements<br />
+                Complex Applications of Datum Planes iv
+            </p>
+            <p><b>Session 6 Advanced Modeling Tools-I</b></p>
+            <p>
+                Advanced Modeling Tools<br />
+                Creating Holes by using the Pre-NX5 Hole Tool<br />
+                Creating Simple Holes<br />
+                Creating Counterbore Holes<br />
+                Creating Countersink Holes<br />
+                Creating Holes by using the Hole Tool<br />
+                Creating General Holes<br />
+                Creating Drill Size Hole<br />
+                Creating Screw Clearance Hole<br />
+                Creating Threaded Hole<br />
+                Creating Hole Series<br />
+                Creating Grooves<br />
+                Creating Rectangular Grooves<br />
+                Creating Ball End Grooves<br />
+                Creating U Grooves<br />
+                Creating Slots<br />
+                Creating Rectangular Slots<br />
+                Creating Ball-End Slots<br />
+                Creating U-Slots<br />
+                Creating T-Slots<br />
+                Creating Dove-Tail Slots<br />
+                Creating Chamfers<br />
+                Creating a Chamfer Feature Using the Symmetric Method<br />
+                Creating a Chamfer Feature Using the Asymmetric Method<br />
+                Creating a Chamfer Feature Using the Offset and Angle Method<br />
+                Creating an Edge Blend
+            </p>
+            <p><b>Session 7 Advanced Modeling Tools-II</b></p>
+            <p>
+                Advanced Modeling Tools<br />
+                Instance Feature Tool<br />
+                Creating Rectangular Arrays Using the Instance Feature Tool<br />
+                Creating Circular Arrays Using the Instance Feature Tool<br />
+                Using the Pattern Face Option of the Instance Feature Tool<br />
+                Mirror Feature Tool<br />
+                Mirror Body Tool<br />
+                Sweeping Sketches Along the Guide Curves<br />
+                Creating Swept Features<br />
+                Creating Tubes or Cables<br />
+                Creating Threads<br />
+                Creating Symbolic Threads<br />
+                Creating Detailed Threads<br />
+                Creating Shell Features<br />
+                Shelling the Entire Solid Body
+            </p>
+            <p><b>Session 8 Assembly Modeling-I</b></p>
+            <p>
+                The Assembly Environment Invoking the Assembly Environment<br />
+                Invoking the Assembly Environment Using the Assembly<br />
+                Template from the New Dialog Box<br />
+                Invoking the Assembly Environment in the Current Part File<br />
+                Types of Assembly Design Approaches<br />
+                Creating Bottom-up Assemblies<br />
+                Placing Components in the Assembly Environment<br />
+                Changing the Reference Set of a Component<br />
+                Applying Assembly Constraints to Components<br />
+                Points to Remember while Assembling Components<br />
+                Creating a Component Array in an Assembly<br />
+                Replacing a Component in an Assembly<br />
+                Moving a Component in an Assembly<br />
+                Repositioning a Component in an Assembly<br />
+                Mirroring a Component in an Assembly<br />
+                Modifying a Component in the Assembly File
+            </p>
+
+            <p><b>Project I</b></p>
+            <p><b>Project II</b></p>
+            <p><b>Project III</b></p>
+            <p><b>Project IY</b></p>
+            <p><b>Project Y</b></p>                            
+                        </div>
+                        <div id="tab8" class="tab">
+                            <p><strong>SolidWorks Module I</strong></p>
+
+<p>This course will introduce the students to basics part modeling, assembly design, and drafting of SolidWorks. After completion of this course, the students will be able to create components usingextrude, revolve, loft, sweep. They will also be able to create fillets, chamfers, holes, ribs, drafts, and shell features in the models. They will be able to use the bottom-up assembly design approach to assemble the components and then generate the drawing views of the components and assemblies.</p>
+
+<p><strong>Session 1</strong></p>
+
+<p>Introduction to the SolidWorks interface<br />
+Starting a New Document<br />
+Drawing Lines<br />
+Drawing Tangent or Normal Arcs Using the Line Tool<br />
+Drawing Construction Lines or Centerlines<br />
+Drawing Circles<br />
+Drawing Arcs<br />
+Drawing Rectangles<br />
+Drawing Parallelograms<br />
+Drawing a Rectangle at an Angle<br />
+Placing Sketched Points<br />
+Drawing Display tools<br />
+Adding Relations Using the Add Relations PropertyManager<br />
+Horizontal/Vertical Dimensioning<br />
+Aligned Dimensioning<br />
+Angular Dimensioning<br />
+Diameter Dimensioning<br />
+Radius Dimensioning<br />
+Linear Diameter Dimensioning<br />
+Trimming Sketched Entities<br />
+Extending Sketched Entities<br />
+Filleting Sketched Entities<br />
+Chamfering Sketched Entities<br />
+Offsetting Sketched Entities<br />
+Mirroring Sketched Entities<br />
+Mirroring While Sketching (Dynamic Mirror Entities)<br />
+Creating Linear Sketched Patterns<br />
+Creating Circular Sketched Patterns<br />
+Two Three Examples that will cover sketching, adding relationships, and dimensioning.</p>
+
+<p><strong>Session 2</strong></p>
+
+<p>Creating Solid Extruded Features<br />
+Creating Thin Extruded Features<br />
+Creating Base Features by Revolving Sketches<br />
+Creating Solid Revolve Features<br />
+Creating Thin Revolved Features<br />
+Dynamically Rotating the View of the Model<br />
+Rotating the View Freely in 3D Space<br />
+Modifying the View Orientation<br />
+Display Modes of the Model<br />
+Examples to create extruded and revolved base features</p>
+
+<p><strong>Session 3</strong></p>
+
+<p>Understanding the importance of Sketching Planes<br />
+Reference Geometry<br />
+Creating New Planes<br />
+Creating Reference Axes<br />
+Creating Reference Points<br />
+Creating Reference Coordinate Systems<br />
+Additional Boss/Base Options<br />
+Modeling using the Contour Selection Method<br />
+Creating Extruded Cuts<br />
+Handling Multiple Bodies in the Cut Feature<br />
+Creating Revolved Cuts<br />
+Examples to cover the topics discussed in this session</p>
+
+<p><strong>Session 4</strong></p>
+
+<p>Creating Simple Holes<br />
+Creating Standard Holes Using the Hole Wizard (Counterbore and Countersink holes)<br />
+Creating Fillets (Basic Options of the Constant Radius Fillets and Variable Radius Fillets)<br />
+Creating Chamfers<br />
+Creating Shell Features<br />
+Examples to cover the topics discussed in this session</p>
+
+<p><strong>Session 5</strong></p>
+
+<p>Creating Mirror Features<br />
+Creating Linear Pattern Features (Basic Options)<br />
+Creating Circular Pattern Features (Basic Options)<br />
+Creating Rib Features<br />
+Displaying the Section View of the Model<br />
+Examples to cover the topics discussed in this session</p>
+
+<p><strong>Session 6</strong></p>
+
+<p>Editing Using the Edit Feature Option<br />
+Editing Sketches of the Sketched Features<br />
+Changing the Sketch Plane of Sketches<br />
+Editing by Double&nbsp;clicking on Entities and Features<br />
+Editing using the Move/Size Features Tool<br />
+Editing Sketches with the Move/Size Features Tool Active<br />
+Editing the Features and Sketches by Cut, Copy, and Paste<br />
+Cutting, Copying, and Pasting Features and Sketches from One Document to the Other<br />
+Copying Features Using Drag and Drop<br />
+Deleting Features<br />
+Deleting Bodies<br />
+Suppressing Features<br />
+Unsuppressing the Suppressed Features<br />
+Reordering Features<br />
+Examples to cover the topics discussed in this session</p>
+
+<p><strong>Session 7</strong></p>
+
+<p>Creating Basic Sweep Features<br />
+Creating Basic Cut Sweep Features<br />
+Creating Basic Loft Features<br />
+Creating 3D Sketches<br />
+Editing 3D Sketches<br />
+Creating Helical and Spiral Curves<br />
+Creating Draft Features<br />
+Examples to cover the topics discussed in this session</p>
+
+<p><strong>Session 8</strong></p>
+
+<p>Understanding Assembly Modeling<br />
+Types of Assembly Design Approaches<br />
+Creating Bottom&nbsp;Up Assemblies<br />
+Placing Components in the Assembly Document<br />
+Assembling Components<br />
+Moving Individual Components<br />
+Rotating Individual Components<br />
+Creating&nbsp;assemblies</p>
+
+<p><strong>Session 9 Working with Blocks</strong></p>
+
+<p>Understanding the Drawing Mode<br />
+Starting a New Drawing Document<br />
+Generating Model Views<br />
+Generating Projected Views<br />
+Generating Section Views<br />
+Generating Aligned Section Views<br />
+Generating Broken&nbsp;out Section Views<br />
+Generating Auxiliary Views<br />
+Generating Detail Views<br />
+Cropping Drawing Views<br />
+Generating Broken Views<br />
+Changing the View Orientation<br />
+Changing the Scale of Drawing Views<br />
+Adding New Sheets to Drawing Views<br />
+Adding the Bill of Material (BOM) to a Drawing<br />
+Adding Balloons to Drawing Views<br />
+Examples of generating drawing views of parts and assemblies</p>
+
+<p><strong>Session 10</strong></p>
+
+<p>Questions and Answers about the Topics Covered in the Training</p>
+
+<p><strong>Project I</strong></p>
+
+<p><strong>Project II</strong></p>
+
+<p><strong>Project III</strong></p>
+
+<p><strong>Project IY</strong></p>
+
+<p><strong>Project Y</strong></p>
+
+<p>&nbsp;</p>
+
+<p><strong>SolidWorks Module II</strong></p>
+
+<p>&nbsp;</p>
+
+<p>This course will teach the students advanced part modeling, top-down assembly design, and advanced drafting of SolidWorks. After completion of this course, the students will be able to create components using advanced modeling tools such as advanced sweeps, advanced lofts, models using 2D and 3D curves. They will also learn the advanced features such as warp, shape, indent, deform, mounting boss, snap hooks, vents, and so on. They will also learn about the topdown assembly design.</p>
+
+<p><strong>Session 1 SolidWorks Tools</strong></p>
+
+<p>Drawing Slots<br />
+Creating a Straight Slot<br />
+Creating a Centerpoint Straight Slot<br />
+Creating a 3 Point Arc Slot<br />
+Creating a Centerpoint Arc Slot<br />
+Fully Defining the Sketches<br />
+Creating Fillets Using the FilletXpert<br />
+Assigning Materials and Textures to the Models<br />
+Assigning Materials to the Model<br />
+Assigning Textures to the Model<br />
+Changing the Orientation Using Reference Triad<br />
+Editing Using the Instant 3D Tool<br />
+Creating Freeform Features</p>
+
+<p><strong>Session 2 Tips to Design Faster</strong></p>
+
+<p>Applying the Path Mate<br />
+Applying the Screw Mate<br />
+Applying the Hinge Mate<br />
+Copying With Mates<br />
+Adding the Bill of Materials (BOM) to a Drawing<br />
+Setting Anchor Point for the BOM<br />
+Changing the orientation using the Reference Triad.<br />
+Changing the Scale of the model.<br />
+Checking the Hole Alignment.<br />
+Checking the Interference between the features.<br />
+Control over the graphic area using the Filter<br />
+Control over the graphic area using the Tags<br />
+Inserting the DWG/DXF files in the part mode.<br />
+Using the Magnifying glass.<br />
+Move the Command Manager and Property Manager.<br />
+Using the Live Section Plane.</p>
+
+<p><strong>Session 3 DimXpert</strong></p>
+
+<p>Dimensioning the Part Using DimXpert<br />
+Specifying the Datum<br />
+Adding Dimensions<br />
+Locating a Feature<br />
+Adding a Geometric Tolerance to the Features<br />
+Collecting a Pattern Features<br />
+Adding Dimensions Automatically</p>
+
+<p><strong>Session 4 Surface Modeling &acirc;&euro;&Acirc; I</strong></p>
+
+<p>Surface Modeling<br />
+Creating an Extruded Surface<br />
+Creating a Revolved Surface<br />
+Creating a Swept Surface<br />
+Creating a Lofted Surface<br />
+Creating a Boundary Surface<br />
+Creating a Planar Surface<br />
+Creating a Fill Surface<br />
+Creating a Radiated Surface</p>
+
+<p><strong>Session 5 Surface Modeling &acirc;&euro;&Acirc; II</strong></p>
+
+<p>Offsetting Surfaces<br />
+Trimming Surfaces<br />
+Untrimming Surfaces<br />
+Extending Surfaces<br />
+Knitting Surfaces<br />
+Filleting Surfaces<br />
+Creating a Mid&acirc;&euro;&Acirc;Surface<br />
+Deleting Holes from Surfaces<br />
+Replacing Faces<br />
+Deleting Faces<br />
+Moving and Coping Surfaces<br />
+Mirroring Surface Bodies<br />
+Adding Thickness to Surface Bodies<br />
+Creating a Thicken Surface Cut<br />
+Creating a Surface Cut</p>
+
+<p><strong>Session 6 Sheet Metal Design &acirc;&euro;&Acirc; I</strong></p>
+
+<p>Designing the Sheet Metal Components by Creating the Base Flange<br />
+Creating the Base Flange<br />
+Understanding the FeatureManager design tree of a Sheet Metal<br />
+Component v Creating the Edge Flange<br />
+Creating Tabs<br />
+Creating the Sketched Bend<br />
+Creating the Miter Flange<br />
+Creating Closed Corners<br />
+Creating Hems<br />
+Creating a Jog Bend<br />
+Breaking the Corners<br />
+Creating Cuts on Planar Faces of the Sheet Metal Components<br />
+Creating Lofted Bends<br />
+Creating a Flat Pattern View of the Sheet Metal Components<br />
+Creating a Sheet Metal Component from a Flat Sheet<br />
+Creating a Sheet Metal Component from a Flat Part<br />
+Converting a Part or Flat Part into Sheet Metal by Adding Bends<br />
+Adding Bends to the Flattened Sheet Metal Component<br />
+Unbending the Sheet Metal Part Using the No Bends Tool</p>
+
+<p><strong>Session 7 Sheet Metal Design &acirc;&euro;&Acirc; II</strong></p>
+
+<p>Creating a Sheet Metal Component by Designing it as a Part<br />
+Understanding the Types of Bends<br />
+Converting a Solid body into a Sheet Metal Part<br />
+Designing a Sheet Metal Part from a Solid Shelled Model<br />
+Ripping the Edges<br />
+Creating Cuts in Sheet Metal Components across the Bends<br />
+Creating Cuts in a Sheet Metal Component Created from a Solid Model<br />
+Creating Cuts in a Sheet Metal Component Created<br />
+Using the Base Flange<br />
+Creating Cylindrical and Conical Sheet Metal Components<br />
+Generating the Drawing View of the Flat Pattern of the<br />
+Sheet Metal Components</p>
+
+<p><strong>Session 8 Equations, Configurations, and Library Features</strong></p>
+
+<p>Working with Equations<br />
+Working with Configurations<br />
+Creating Configurations Using Designed Tables<br />
+Changing the Suppression State Using the Design Table<br />
+Editing the Design Table<br />
+Deleting the Design Table<br />
+Changing the Suppression State of a Component without<br />
+Invoking the Design Table<br />
+Changing the Visibility of the Components in Different<br />
+Configurations of an Assembly<br />
+Creating a Library Feature<br />
+Placing the Library Feature in a Part<br />
+Editing the Library Features<br />
+Dissolving the Library Features</p>
+
+<p><strong>Session 9 Working with Blocks</strong></p>
+
+<p>Introduction to Blocks<br />
+Blocks Toolbar<br />
+Saving a Sketch as a Block in the Design Library<br />
+Creating Mechanisms Using Blocks<br />
+Creating the Rack and Pinion Mechanism<br />
+Creating the Cam and Follower Mechanism<br />
+Applying Motion to Blocks<br />
+Creating Parts from Blocks</p>
+
+<p><strong>Session 10</strong></p>
+
+<p>Questions and Answers about the Topics Covered in the Training</p>
+
+<p><strong>Project I</strong></p>
+
+<p><strong>Project II</strong></p>
+
+<p><strong>Project III</strong></p>
+
+<p><strong>Project IY</strong></p>
+
+<p><strong>Project Y</strong></p>
+
+<p>&nbsp;</p>
+
+<p><strong>SolidWorks Module III</strong></p>
+
+<p>&nbsp;</p>
+
+<p>This module covers the following topics:</p>
+
+<ul>
+	<li>
+	<p>Surfacing</p>
+	</li>
+	<li>
+	<p>Sheetmetal Blocks</p>
+	</li>
+	<li>
+	<p>Equations and Configurations</p>
+	</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>Also, the tools in the latest version of SolidWorks that will help working in SolidWorks effectively will also be covered.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Session 1</strong></p>
+
+<p>Drawing Slots<br />
+Creating a Straight Slot<br />
+Creating a Centerpoint Straight Slot<br />
+Creating a 3 Point Arc Slot<br />
+Creating a Centerpoint Arc Slot<br />
+Fully Defining the Sketches<br />
+Creating Fillets Using the FilletXpert<br />
+Assigning Materials and Textures to the Models<br />
+Assigning Materials to the Model<br />
+Assigning Textures to the Model<br />
+Changing the Orientation Using Reference Triad<br />
+Editing Using the Instant 3D Tool<br />
+Creating Freeform Features</p>
+
+<p><strong>Session 2 Tips to Design Faster</strong></p>
+
+<p>Applying the Path Mate<br />
+Applying the Screw Mate<br />
+Applying the Hinge Mate<br />
+Copying With Mates<br />
+Adding the Bill of Materials (BOM) to a Drawing<br />
+Setting Anchor Point for the BOM<br />
+Changing the orientation using the Reference Triad.<br />
+Changing the Scale of the model.<br />
+Checking the Hole Alignment.<br />
+Checking the Interference between the features.<br />
+Control over the graphic area using the Filter<br />
+Control over the graphic area using the Tags<br />
+Inserting the DWG/DXF files in the part mode.<br />
+Using the Magnifying glass.<br />
+Move the Command Manager and Property Manager.<br />
+Using the Live Section Plane.</p>
+
+<p><strong>Session 3 DimXpert</strong></p>
+
+<p>Dimensioning the Part Using DimXpert<br />
+Specifying the Datum<br />
+Adding Dimensions<br />
+Locating a Feature<br />
+Adding a Geometric Tolerance to the Features<br />
+Collecting a Pattern Features<br />
+Adding Dimensions Automatically</p>
+
+<p><strong>Session 4 Surface Modeling &acirc;&euro;&Acirc; I</strong></p>
+
+<p>Surface Modeling<br />
+Creating an Extruded Surface<br />
+Creating a Revolved Surface<br />
+Creating a Swept Surface<br />
+Creating a Lofted Surface<br />
+Creating a Boundary Surface<br />
+Creating a Planar Surface<br />
+Creating a Fill Surface<br />
+Creating a Radiated Surface</p>
+
+<p><strong>Session 5 Surface Modeling &acirc;&euro;&Acirc; II</strong></p>
+
+<p>Offsetting Surfaces<br />
+Trimming Surfaces<br />
+Untrimming Surfaces<br />
+Extending Surfaces<br />
+Knitting Surfaces<br />
+Filleting Surfaces<br />
+Creating a Mid&acirc;&euro;&Acirc;Surface<br />
+Deleting Holes from Surfaces<br />
+Replacing Faces<br />
+Deleting Faces<br />
+Moving and Coping Surfaces<br />
+Mirroring Surface Bodies<br />
+Adding Thickness to Surface Bodies<br />
+Creating a Thicken Surface Cut<br />
+Creating a Surface Cut</p>
+
+<p><strong>Session 6 Sheet Metal Design &acirc;&euro;&Acirc; I</strong></p>
+
+<p>Designing the Sheet Metal Components by Creating the Base Flange<br />
+Creating the Base Flange<br />
+Understanding the FeatureManager design tree of a Sheet Metal<br />
+Component v Creating the Edge Flange<br />
+Creating Tabs<br />
+Creating the Sketched Bend<br />
+Creating the Miter Flange<br />
+Creating Closed Corners<br />
+Creating Hems<br />
+Creating a Jog Bend<br />
+Breaking the Corners<br />
+Creating Cuts on Planar Faces of the Sheet Metal Components<br />
+Creating Lofted Bends<br />
+Creating a Flat Pattern View of the Sheet Metal Components<br />
+Creating a Sheet Metal Component from a Flat Sheet<br />
+Creating a Sheet Metal Component from a Flat Part<br />
+Converting a Part or Flat Part into Sheet Metal by Adding Bends<br />
+Adding Bends to the Flattened Sheet Metal Component<br />
+Unbending the Sheet Metal Part Using the No Bends Tool</p>
+
+<p><strong>Session 7 Sheet Metal Design &acirc;&euro;&Acirc; II</strong></p>
+
+<p>Creating a Sheet Metal Component by Designing it as a Part<br />
+Understanding the Types of Bends<br />
+Converting a Solid body into a Sheet Metal Part<br />
+Designing a Sheet Metal Part from a Solid Shelled Model<br />
+Ripping the Edges<br />
+Creating Cuts in Sheet Metal Components across the Bends<br />
+Creating Cuts in a Sheet Metal Component Created from a Solid Model<br />
+Creating Cuts in a Sheet Metal Component Created<br />
+Using the Base Flange<br />
+Creating Cylindrical and Conical Sheet Metal Components<br />
+Generating the Drawing View of the Flat Pattern of the<br />
+Sheet Metal Components</p>
+
+<p><strong>Session 8 Equations, Configurations, and Library Features</strong></p>
+
+<p>Working with Equations<br />
+Working with Configurations<br />
+Creating Configurations Using Designed Tables<br />
+Changing the Suppression State Using the Design Table<br />
+Editing the Design Table Deleting the Design Table Changing the Suppression State of a Component without Invoking the Design Table Changing the Visibility of the Components in Different<br />
+Configurations of an Assembly<br />
+Creating a Library Feature<br />
+Placing the Library Feature in a Part<br />
+Editing the Library Features<br />
+Dissolving the Library Features</p>
+
+<p><strong>Session 9 Working with Blocks</strong></p>
+
+<p>Introduction to Blocks Blocks Toolbar Saving a Sketch as a Block in the Design Library<br />
+Creating Mechanisms Using Blocks<br />
+Creating the Rack and Pinion Mechanism<br />
+Creating the Cam and Follower Mechanism<br />
+Applying Motion to Blocks<br />
+Creating Parts from Blocks</p>
+
+<p><strong>Session 10</strong></p>
+
+<p>Questions and Answers about the Topics Covered in the Training</p>
+
+<p><strong>Project I</strong></p>
+
+<p><strong>Project II</strong></p>
+
+<p><strong>Project III</strong></p>
+
+<p><strong>Project IY</strong></p>
+
+<p><strong>Project Y</strong></p>
+
+<p>&nbsp;</p>                        </div>
+                        
+                        <div id="tab9" class="tab">
+                            <p><strong>STAAD PRO</strong></p>                        </div>
+                        
+                        <div id="tab10" class="tab">
+                            <p><strong>SOLID EDGE ST5</strong></p>
+
+<p>&nbsp;</p>
+
+<p><strong>Session 1</strong></p>
+
+<p>Introduction to Solid Edge ST5<br />
+Solid Edge Environments<br />
+System Requirements for Solid Edge ST5<br />
+Important Terms and Definitions<br />
+Getting Started With Solid Edge ST5<br />
+User Interface of Solid Edge<br />
+Radial Menu<br />
+Simulation Express<br />
+Using Intellisketch<br />
+Units for Dimensions<br />
+Automatic Saving Option<br />
+Color Scheme in Solid Edge</p>
+
+<p><strong>Session 2</strong></p>
+
+<p>Sketching in the Part Environment<br />
+Starting a New Document in the Part Environment<br />
+Starting a New Part file by Using the New Dialog Box<br />
+Transition between Part Environments<br />
+Starting a Sketch in the Part Environment<br />
+Sketching Tools<br />
+Drawing Lines<br />
+Drawing Tangent and Normal Arcs<br />
+Placing Sketched Points<br />
+Drawing Curves<br />
+Drawing Circles<br />
+Drawing Ellipses<br />
+Drawing Arcs<br />
+Drawing Rectangles<br />
+Drawing Polygons<br />
+Converting Sketched Entities into Curves<br />
+Filleting Sketched Entities<br />
+Chamfering Sketched Entities<br />
+The Drawing Display Tools<br />
+Selecting Sketched Entities<br />
+Deleting Sketched Entities<br />
+Grid<br />
+Reposition Origin</p>
+
+<p><strong>Session 3</strong></p>
+
+<p>Geometric Relationships<br />
+Connect Relationship<br />
+Concentric Relationship<br />
+Horizontal/Vertical Relationship<br />
+Collinear Relationship<br />
+Parallel Relationship<br />
+Perpendicular Relationship<br />
+Lock Relationship<br />
+Rigid Set Relationship Tangent Relationship<br />
+Equal Relationship<br />
+Symmetric Relationship<br />
+Setting the Symmetry Axis<br />
+Controlling the Display of Relationship Handles<br />
+Conflicts in Relationships<br />
+Deleting Relationships</p>
+
+<p><strong>Session 4</strong></p>
+
+<p>Dimensioning the Sketched Entities<br />
+Adding Linear Dimensions<br />
+Adding Aligned Dimensions<br />
+Adding Angular Dimensions<br />
+Adding Diameter Dimensions<br />
+Adding Radial Dimensions<br />
+Adding Symmetric Diameter Dimensions<br />
+Adding Coordinate Dimensions<br />
+Adding Angular Coordinate Dimensions<br />
+Adding Automatic Dimensions<br />
+Understanding the Concept of Fully Constrained Sketches<br />
+Measuring Sketched Entities<br />
+Measuring Distances<br />
+Measuring the Total Length of a Closed Loop or an Open Sketch<br />
+Measuring an Area<br />
+Calculating the Area Properties</p>
+
+<p><strong>Session 5</strong></p>
+
+<p>Trimming the Sketched Entities<br />
+Extending the Sketched Entities<br />
+Trimming/Extending Entities to a Corner<br />
+Creating Splits in the Sketched Entities<br />
+Creating Offset Copies<br />
+Creating Symmetric Offset Copies<br />
+Moving/Copying the Sketched Entities<br />
+Rotating the Sketched Entities<br />
+Mirroring the Sketched Entities<br />
+Scaling the Sketched Entities<br />
+Stretching the Sketched Entities<br />
+Editing the Sketched Entities by Dragging<br />
+Writing Text in the Sketching Environment<br />
+Inserting Images into Sketches</p>
+
+<p><strong>Session 6</strong></p>
+
+<p>Converting Sketches into Base Features<br />
+Creating Base Features in Synchronous Part Environment<br />
+Creating an Extruded Feature<br />
+Creating Revolved Features<br />
+Creating Ordered Features<br />
+Creating Extruded Features<br />
+Creating Revolved Features<br />
+Rotating the View of a Model in 3D Space<br />
+Restoring Standard Views<br />
+Setting the Display Modes<br />
+Improving the Display Quality of a Model</p>
+
+<p><strong>Session 7</strong></p>
+
+<p>Creating Reference Planes (Synchronous Environment)<br />
+Creating a Coincident Plane<br />
+Modifying Planes Using the Steering Wheel<br />
+Creating a Plane Normal to an Edge or a Sketched Curve<br />
+Creating a Plane Using Three Points<br />
+Creating a Tangent Plane<br />
+Creating a Parallel Plane (Ordered Environment)<br />
+Creating an Angled Plane<br />
+Creating a Perpendicular Plane (Ordered Environment)<br />
+Creating a Plane Using Coincident by Axis (Ordered Environment)<br />
+Displaying the Reference Axes (Ordered Environment)<br />
+Understanding Coordinate Systems<br />
+Creating a Coordinate System</p>
+
+<p><strong>Session 8</strong></p>
+
+<p>Using the Other Options of the Extrude Tool<br />
+Creating Cutout Features<br />
+Creating Extruded Cutouts<br />
+Creating Revolved Cutouts<br />
+Using the Edges of Existing Features<br />
+Projecting Edges<br />
+Advanced Drawing Display Tools<br />
+Creating User-defined Named Views<br />
+Using Common Views</p>
+
+<p><strong>Session 9</strong></p>
+
+<p>Creating Holes<br />
+Creating Rounds<br />
+Creating Chamfers</p>
+
+<p><strong>Session 10</strong></p>
+
+<p>Creating Rectangular and Circular Patterns<br />
+Creating a Pattern along a Curve<br />
+Fill Pattern<br />
+Mirroring Selected Features<br />
+Mirroring Bodies</p>
+
+<p><strong>Session 11</strong></p>
+
+<p>Editing Models in the Synchronous Environment<br />
+Adding Dimensions to the Model<br />
+Dimensioning a Feature<br />
+Dimensioning Holes<br />
+Editing the Round Feature<br />
+Adding Relations<br />
+Aligning Faces<br />
+Live Rules</p>
+
+<p><strong>Session 12</strong></p>
+
+<p>Applying Concentric Relationship<br />
+Applying Tangent Relationship<br />
+Applying Symmetric Relationship<br />
+Applying Parallel Relationship<br />
+Applying Perpendicular Relationship<br />
+Applying Offset Relationship<br />
+Applying Equal Radius Relationship<br />
+Applying Horizontal/Vertical Relationship<br />
+Applying Coplanar Axis Relationship<br />
+Applying Rigid Relationship<br />
+Applying Ground Relationship<br />
+Other Selection Handles<br />
+Reference Plane Handle<br />
+Selection Manager<br />
+Modifying Faces Using the Steering Wheel<br />
+Modifying the Model by Editing Dimensions<br />
+Creating Live Sections<br />
+Modifying the Model by Detaching and Attaching Faces<br />
+Modifying the Model by Isolating Features</p>
+
+<p><strong>Session 13</strong></p>
+
+<p>Editing Features in the Ordered Environment<br />
+Suppressing Features<br />
+Unsuppressing the Suppressed Features<br />
+Deleting Features<br />
+Copying and Pasting Features<br />
+Rolling Back a Model to a Feature<br />
+Converting Ordered Features to Synchronous<br />
+Assigning Color to a Part, Feature, or Face<br />
+Playing Back the Construction of Features<br />
+Checking the Physical Properties of a Model<br />
+Modifying the Display of Construction Entities</p>
+
+<p><strong>Session 14</strong></p>
+
+<p>Creating Threads<br />
+Creating Slots<br />
+Adding Drafts to the Model<br />
+Adding Ribs to the Model<br />
+Adding Thin Wall Features<br />
+Adding Thin Wall to a Particular Region<br />
+Adding a Lip to the Model<br />
+Creating Web Networks<br />
+Creating Vents<br />
+Creating Mounting Bosses<br />
+Reordering Features</p>
+
+<p><strong>Session 15</strong></p>
+
+<p>Creating Swept Protrusions<br />
+Creating Swept Cutouts<br />
+Creating Lofted Protrusions<br />
+Creating Lofted Cutouts</p>
+
+<p><strong>Session 16</strong></p>
+
+<p>Creating Helical Protrusions<br />
+Creating Helical Cutouts<br />
+Creating Normal Protrusions<br />
+Creating Normal Cutouts<br />
+Working with Additional Bodies<br />
+Inserting a New Body<br />
+Applying Boolean Operations to Bodies</p>
+
+<p><strong>Session 17</strong></p>
+
+<p>The Assembly Environment<br />
+Working with the Assembly Environment<br />
+Types of Assembly Design Approaches<br />
+Creating the Bottom-Up Assembly<br />
+Assembling the First Component<br />
+Assembling the Second Component<br />
+Applying Assembly Relationships<br />
+Creating the Top-Down Assembly<br />
+Creating a Component in the Top-Down Assembly<br />
+Creating the Pattern of Components in an Assembly<br />
+Creating a Reference Pattern<br />
+Mirroring a Component in an Assembly<br />
+Creating Material Removal Features in an Assembly<br />
+Assembly Features<br />
+Assembly-driven Part Features<br />
+Create Part Feature Moving the Individual Components Moving Multiple Components</p>
+
+<p><strong>Session 18</strong></p>
+
+<p>Creating Subassemblies<br />
+Editing the Assembly Relationships<br />
+Modifying the Values<br />
+Applying Additional Relationships<br />
+Modifying Assembly Relationships<br />
+Editing the Assembly Components<br />
+Modifying Synchronous Components in the Assembly Environment<br />
+Dispersing Subassemblies<br />
+Replacing Components<br />
+Replace Part<br />
+Replace Part with Standard Part<br />
+Replace Part with New Part<br />
+Replace Part with Copy<br />
+Simplifying Assemblies Using Visibility Options<br />
+Hiding and Displaying the Components<br />
+Changing Transparency Conditions<br />
+Interference Detection in Assemblies<br />
+Interference Options<br />
+Checking for the Interference<br />
+Creating Fastener System<br />
+Creating the Exploded State of Assemblies</p>
+
+<p><strong>Session 19</strong></p>
+
+<p>The Draft Environment<br />
+Types of Views Generated in Solid Edge<br />
+Generating Drawing Views<br />
+Generating the Base View<br />
+Generating the Principal View<br />
+Generating the Auxiliary View<br />
+Generating the Section View<br />
+Revolved Section Views<br />
+Generating the Broken-Out Section View<br />
+Generating the Detail View<br />
+Generating the Broken View</p>
+
+<p><strong>Session 20</strong></p>
+
+<p>Working with Interactive Drafting<br />
+Manipulating Drawing Views<br />
+Aligning Drawing Views<br />
+Modifying the Scale of Drawing Views<br />
+Cropping the Drawing Views<br />
+Moving the Drawing Views<br />
+Rotating the Drawing Views<br />
+Applying the Hatch Pattern<br />
+Modifying the Properties of Drawing Views</p>
+
+<p><strong>Session 21</strong></p>
+
+<p>Adding Annotations to the Drawing Views<br />
+Adding Callouts to Drawing View<br />
+Adding Surface Texture Symbols to a Drawing View<br />
+Specifying Edge Conditions<br />
+Adding a Feature Control Frame to Drawing Views<br />
+Adding Datum Target to Drawing View<br />
+Adding a Datum Frame to Drawing View<br />
+Adding New Drawing Sheets<br />
+Editing the Default Sheet Format<br />
+Evolving a 3D Model from a 2D Drawing<br />
+Generating the Exploded Views of Assemblies<br />
+Creating Associative Balloons and Parts List<br />
+Parts List Properties Dialog Box<br />
+Setting the Text Properties</p>
+
+<p><strong>Project I</strong></p>
+
+<p><strong>Project II</strong></p>
+
+<p><strong>Project III</strong></p>
+
+<p><strong>Project IY</strong></p>
+
+<p><strong>Project Y</strong></p>                        </div>
+                    </div>
+                </div>
+
+                <div class="templatemo-footer" >
+                    <div class="container">
+                        <div class="row">
+                            <div class="text-center">
+                                <div class="footer_container">
+                                    <ul class="list-inline">
+                                        <li>
+                                            <a href="https://www.facebook.com/cadfolk" target="_blank">
+                                                <span class="social-icon-fb"></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.youtube.com/user/cadfolks" target="_blank">
+                                                <span class="social-icon-rss"></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="social-icon-twitter"></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="social-icon-linkedin"></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="http://webmail.cadfolks.com/Mondo/lang/sys/Login.aspx" target="_blank">
+                                                <span class="social-icon-dribbble"></span>
+                                            </a>
+                                        </li>
+        								<li>
+                                        	
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--<div class="social-copyright" style="margin-left:80%;">Copyright © 2014 <B> CADFolks Pvt. Ltd. </B> </div> -->
+                    </div>
+                </div>
+
+                        
+                		<script src="C04574F9.html" type="text/javascript"></script>
+                        <script src="0D962911.html"  type="text/javascript"></script>
+                        <script src="2DCC1D73.html"  type="text/javascript"></script>
+                        <script src="ABF3FA67.html"  type="text/javascript"></script>
+                        <script src="18829F98.html"  type="text/javascript"></script>
+                        <script src="E4BD1E5F.html"  type="text/javascript"></script>
+						
+
+
+
+    </body>
+</html>
+
+<style type="text/css">
+	/*----- Tabs -----*/
+body{
+	background-color:#E9E9E9;
+}
+.tabs {
+    width:100%;
+	background-color:#E9E9E9; /*#FF9900*/
+    display:inline-block;
+	
+}
+ 
+/*----- Tab Links -----*/
+/* Clearfix */
+.tab-links:after {
+	display:block;
+	clear:both;
+	content:'';
+	margin-bottom: -1.3%;
+}
+
+.tab-links li {
+	/*margin:0px 5px;*/
+	margin:0px 1px;
+	float:left;
+	list-style:none;
+}
+
+.tab-links a {
+	/*padding:9px 15px;*/
+	display:inline-block;
+	border-radius:3px 3px 0px 0px;
+	background:#7FB5DA;
+	font-size: 15px;
+	font-weight: 600;
+	 padding: 6px 9px;
+	color:#4c4c4c;
+	text-decoration: none;
+	transition:all linear 0.15s;
+}
+
+.tab-links a:hover {
+	background:#FF9900;
+	text-decoration:none;
+}
+
+li.active a, li.active a:hover {
+	background:#fff;
+	color:#4c4c4c;
+}
+
+/*----- Content of Tabs -----*/
+.tab-content {
+	padding:40px;
+	margin-left: 0px;
+	border-radius:3px;
+	box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+	background:#fff;
+}
+
+.tab {
+	display:none;
+	padding-left:38px
+}
+
+.tab.active {
+	display:block;
+}
+
+p{
+	font-family: Comic Sans MS;
+    font-size: 17px;
+    letter-spacing: 0;
+    text-align: left;
+    word-spacing: 3px;
+}
+</style>
+
+
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

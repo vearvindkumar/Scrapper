@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="CPAM">
+</Property><Property Name="Solution File" Value="D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\CPAM.sln">
+</Property><Property Name="Date" Value="21 October 2015">
+</Property><Property Name="Time" Value="17:34">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="CPAM.sln" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\Backup\CPAM.sln">
+</Event><Event ErrorLevel="0" Project="CPArticleScraper" Source="CPArticleScraper\CPArticleScraper.csproj" Description="Project file successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\Backup\CPArticleScraper\CPArticleScraper.csproj">
+</Event><Event ErrorLevel="0" Project="CPArticleScraper" Source="CPArticleScraper\ArticleData.cs" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\Backup\CPArticleScraper\ArticleData.cs">
+</Event><Event ErrorLevel="0" Project="CPArticleScraper" Source="CPArticleScraper\ArticleScraper.cs" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\Backup\CPArticleScraper\ArticleScraper.cs">
+</Event><Event ErrorLevel="0" Project="CPArticleScraper" Source="CPArticleScraper\ArticleUpdate.cs" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\Backup\CPArticleScraper\ArticleUpdate.cs">
+</Event><Event ErrorLevel="0" Project="CPArticleScraper" Source="CPArticleScraper\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\Backup\CPArticleScraper\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="CPArticleScraper" Source="CPArticleScraper\CPArticleScraper.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="CPArticleScraper" Source="CPArticleScraper\CPArticleScraper.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CPAM" Source="CPAM\CPAM.csproj" Description="Project file successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\Backup\CPAM\CPAM.csproj">
+</Event><Event ErrorLevel="0" Project="CPAM" Source="CPAM\Form1.cs" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\Backup\CPAM\Form1.cs">
+</Event><Event ErrorLevel="0" Project="CPAM" Source="CPAM\Form1.Designer.cs" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\Backup\CPAM\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="CPAM" Source="CPAM\Program.cs" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\Backup\CPAM\Program.cs">
+</Event><Event ErrorLevel="0" Project="CPAM" Source="CPAM\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\Backup\CPAM\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="CPAM" Source="CPAM\Properties\Resources.Designer.cs" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\Backup\CPAM\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="CPAM" Source="CPAM\Properties\Settings.Designer.cs" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\Backup\CPAM\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="CPAM" Source="CPAM\Resource1.Designer.cs" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\Backup\CPAM\Resource1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="CPAM" Source="CPAM\ScheduleTrigger.cs" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\Backup\CPAM\ScheduleTrigger.cs">
+</Event><Event ErrorLevel="0" Project="CPAM" Source="CPAM\Properties\Settings.settings" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\Backup\CPAM\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="CPAM" Source="CPAM\cpam.css" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\Backup\CPAM\cpam.css">
+</Event><Event ErrorLevel="0" Project="CPAM" Source="CPAM\Resources\worstrating.png" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\Backup\CPAM\Resources\worstrating.png">
+</Event><Event ErrorLevel="0" Project="CPAM" Source="CPAM\Resources\up.png" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\Backup\CPAM\Resources\up.png">
+</Event><Event ErrorLevel="0" Project="CPAM" Source="CPAM\Resources\new.png" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\Backup\CPAM\Resources\new.png">
+</Event><Event ErrorLevel="0" Project="CPAM" Source="CPAM\Resources\mostvotes.png" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\Backup\CPAM\Resources\mostvotes.png">
+</Event><Event ErrorLevel="0" Project="CPAM" Source="CPAM\Resources\mostviews.png" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\Backup\CPAM\Resources\mostviews.png">
+</Event><Event ErrorLevel="0" Project="CPAM" Source="CPAM\Resources\mostpopular.png" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\Backup\CPAM\Resources\mostpopular.png">
+</Event><Event ErrorLevel="0" Project="CPAM" Source="CPAM\Resources\mostbookmarks.png" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\Backup\CPAM\Resources\mostbookmarks.png">
+</Event><Event ErrorLevel="0" Project="CPAM" Source="CPAM\Resources\down.png" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\Backup\CPAM\Resources\down.png">
+</Event><Event ErrorLevel="0" Project="CPAM" Source="CPAM\Resources\bestrating.png" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\Backup\CPAM\Resources\bestrating.png">
+</Event><Event ErrorLevel="0" Project="CPAM" Source="CPAM\Form1.resx" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\Backup\CPAM\Form1.resx">
+</Event><Event ErrorLevel="0" Project="CPAM" Source="CPAM\Properties\Resources.resx" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\Backup\CPAM\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="CPAM" Source="CPAM\Resource1.resx" Description="File successfully backed up as D:\Working Folder\Working\ScrapperDemo\sample\CPAM\CPAM\Backup\CPAM\Resource1.resx">
+</Event><Event ErrorLevel="0" Project="CPAM" Source="CPAM\CPAM.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="CPAM" Source="CPAM\CPAM.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="CPAM.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="CPAM.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CPArticleScraper" Source="CPArticleScraper\CPArticleScraper.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="CPAM" Source="CPAM\CPAM.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

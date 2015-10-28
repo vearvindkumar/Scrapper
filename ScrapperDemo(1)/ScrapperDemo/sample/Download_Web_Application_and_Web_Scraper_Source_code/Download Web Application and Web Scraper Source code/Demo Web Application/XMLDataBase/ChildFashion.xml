@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Fashion>
+  <ProductDetail>
+    <ProductID>C10</ProductID>
+    <ProductName>Skinny Boot Cut Jeans in Blue Bell Dark Wash Stretch</ProductName>
+    <ProductPrice>$120.00</ProductPrice>
+    <ColorAvailable>Coffee Green</ColorAvailable>
+    <DeliveryDays>7</DeliveryDays>
+  </ProductDetail>
+  <ProductDetail>
+    <ProductID>C20</ProductID>
+    <ProductName>Bailey Bow Black Girls Winter Boots 3280</ProductName>
+    <ProductPrice>$100.00</ProductPrice>
+    <ColorAvailable>Black</ColorAvailable>
+    <DeliveryDays>10</DeliveryDays>
+  </ProductDetail>
+  <ProductDetail>
+    <ProductID>C30</ProductID>
+    <ProductName>Juicy Couture Addie Sandals - Neon Pink Grosgrain Color/Girls</ProductName>
+    <ProductPrice>$25.00</ProductPrice>
+    <ColorAvailable>Pick and White</ColorAvailable>
+    <DeliveryDays>5</DeliveryDays>
+  </ProductDetail>
+  <ProductDetail>
+    <ProductID>C40</ProductID>
+    <ProductName>High Heels Flower Rhinestones Sandals</ProductName>
+    <ProductPrice>$23.00</ProductPrice>
+    <ColorAvailable>Silver and Pink</ColorAvailable>
+    <DeliveryDays>5</DeliveryDays>
+  </ProductDetail>
+  <ProductDetail>
+    <ProductID>C50</ProductID>
+    <ProductName>Girls Youth Flower Girl Party Shoes</ProductName>
+    <ProductPrice>$22.00</ProductPrice>
+    <ColorAvailable>Silver, White, Pink, Violet, Black</ColorAvailable>
+    <DeliveryDays>7</DeliveryDays>
+  </ProductDetail>
+  <ProductDetail>
+    <ProductID>C60</ProductID>
+    <ProductName>WOMENS SIZE 7 SHOES SHOX TURBO</ProductName>
+    <ProductPrice>$40.00</ProductPrice>
+    <ColorAvailable>Black</ColorAvailable>
+    <DeliveryDays>8</DeliveryDays>
+  </ProductDetail>
+  <ProductDetail>
+    <ProductID>C70</ProductID>
+    <ProductName>North Face Jacket - Black</ProductName>
+    <ProductPrice>$21.00</ProductPrice>
+    <ColorAvailable>Black</ColorAvailable>
+    <DeliveryDays>2</DeliveryDays>
+  </ProductDetail>
+  <ProductDetail>
+    <ProductID>C80</ProductID>
+    <ProductName>Girls clothes size 4 T - 5 T outfit dresses jeans</ProductName>
+    <ProductPrice>$80.00</ProductPrice>
+    <ColorAvailable>White, Grey, Blue, Green</ColorAvailable>
+    <DeliveryDays>6</DeliveryDays>
+  </ProductDetail>
+  <ProductDetail>
+    <ProductID>C90</ProductID>
+    <ProductName>AnnLoren Girl Boutique Damask and Tulle and Legging Capri Outfit</ProductName>
+    <ProductPrice>$24.00</ProductPrice>
+    <ColorAvailable>Pink and Black</ColorAvailable>
+    <DeliveryDays>6</DeliveryDays>
+  </ProductDetail>
+  <ProductDetail>
+    <ProductID>C100</ProductID>
+    <ProductName>Boys Black The North Face Denali Polartec Fleece Jacket Coat</ProductName>
+    <ProductPrice>$27.00</ProductPrice>
+    <ColorAvailable>Grey and Black</ColorAvailable>
+    <DeliveryDays>9</DeliveryDays>
+  </ProductDetail>
+  <ProductDetail>
+    <ProductID>C110</ProductID>
+    <ProductName>girls chestnut snugg boots size 7 childrens</ProductName>
+    <ProductPrice>$4.00</ProductPrice>
+    <ColorAvailable>Brownish Grey</ColorAvailable>
+    <DeliveryDays>4</DeliveryDays>
+  </ProductDetail>
+</Fashion>
